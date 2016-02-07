@@ -1,0 +1,3 @@
+Test: EFI_BOOT_SERVICES_*_illegal_access
+Description: Check for illegal accesses to BOOT_SERVICES_* memory regions
+PASS: No illegal access to BOOT_SERVICES_* memory detected

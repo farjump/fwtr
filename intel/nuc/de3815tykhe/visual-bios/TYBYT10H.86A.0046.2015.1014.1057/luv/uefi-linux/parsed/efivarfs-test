@@ -1,0 +1,16 @@
+1.1 23:00:07:880994402 efivarfs test_create INFO 
+1.1 23:00:07:950876163 efivarfs test_create RESULT 1 0 0 0 
+1.1 23:00:08:008401959 efivarfs test_create_empty INFO 
+1.1 23:00:08:066931857 efivarfs test_create_empty RESULT 1 0 0 0 
+1.1 23:00:08:118746003 efivarfs test_create_read INFO 
+1.1 23:00:08:177447921 efivarfs test_create_read RESULT 1 0 0 0 
+1.1 23:00:08:234184970 efivarfs test_delete INFO 
+1.1 23:00:08:300317985 efivarfs test_delete RESULT 1 0 0 0 
+1.1 23:00:08:355768227 efivarfs test_zero_size_delete INFO 
+1.1 23:00:08:397194733 efivarfs test_zero_size_delete RESULT 1 0 0 0 
+1.1 23:00:08:422764253 efivarfs test_open_unlink INFO 
+1.1 23:00:08:448403425 efivarfs test_open_unlink RESULT 1 0 0 0 
+1.1 23:00:08:473973822 efivarfs test_valid_filenames INFO 
+1.1 23:00:08:499632240 efivarfs test_valid_filenames RESULT 1 0 0 0 
+1.1 23:00:08:525317162 efivarfs test_invalid_filenames INFO 
+1.1 23:00:08:550895982 efivarfs test_invalid_filenames RESULT 1 0 0 0 

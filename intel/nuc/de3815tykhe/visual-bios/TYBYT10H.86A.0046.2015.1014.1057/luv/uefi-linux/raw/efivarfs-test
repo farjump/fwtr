@@ -1,0 +1,32 @@
+--------------------
+running test_create
+--------------------
+  [PASS]
+--------------------
+running test_create_empty
+--------------------
+  [PASS]
+--------------------
+running test_create_read
+--------------------
+  [PASS]
+--------------------
+running test_delete
+--------------------
+  [PASS]
+--------------------
+running test_zero_size_delete
+--------------------
+  [PASS]
+--------------------
+running test_open_unlink
+--------------------
+  [PASS]
+--------------------
+running test_valid_filenames
+--------------------
+  [PASS]
+--------------------
+running test_invalid_filenames
+--------------------
+  [PASS]

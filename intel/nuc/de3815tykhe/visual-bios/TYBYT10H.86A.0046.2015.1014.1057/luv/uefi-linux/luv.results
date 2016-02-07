@@ -1,0 +1,124 @@
+Linux UEFI Validation Distribution 2.0-rc3 
+
+Date and time of the system :2016-02-06--22-59-59
+
+System:  Intel(R) Atom(TM) CPU  E3815  @ 1.46GHz
+
+Test results summary:
+
+    [-] bits
+      [+] ACPI... 8 failures!
+      [+] EFI... passed
+      [+] SMRR... passed
+      [+] SMI... 1 failures!
+      [+] MP... skipped
+      [+] MSR... passed
+    [-] chipsec
+      [+] chipsec.modules.common.smrr... skipped
+      [+] chipsec.modules.common.bios_wp... skipped
+      [+] chipsec.modules.common.spi_desc... skipped
+      [+] chipsec.modules.common.spi_lock... skipped
+      [+] chipsec.modules.common.bios_kbrd_buffer... passed
+      [+] chipsec.modules.common.uefi.access_uefispec... passed
+      [+] chipsec.modules.common.bios_ts... passed
+      [+] chipsec.modules.common.smm... passed
+      [+] chipsec.modules.common.bios_smi... passed
+      [+] chipsec.modules.common.secureboot.variables... passed
+      [+] chipsec.modules.remap... passed
+      [+] chipsec.modules.module_template... passed
+      [+] chipsec.modules.smm_dma... passed
+    [-] efivarfs
+      [+] test_create... passed
+      [+] test_create_empty... passed
+      [+] test_create_read... passed
+      [+] test_delete... passed
+      [+] test_zero_size_delete... passed
+      [+] test_open_unlink... passed
+      [+] test_valid_filenames... passed
+      [+] test_invalid_filenames... passed
+    [-] fwts
+      [+] bios_info... passed
+      [+] version... passed
+      [+] acpiinfo... passed
+      [+] mtrr... passed
+      [+] klog... 1 failures!
+      [+] oops... passed
+      [+] acpitables... passed
+      [+] apicinstance... passed
+      [+] asf... passed
+      [+] bert... passed
+      [+] bgrt... passed
+      [+] boot... passed
+      [+] autobrightness... passed
+      [+] checksum... passed
+      [+] cpep... passed
+      [+] csrt... 2 failures!
+      [+] cstates... passed
+      [+] dbgp... passed
+      [+] dbg2... passed
+      [+] dmar... passed
+      [+] ecdt... passed
+      [+] erst... passed
+      [+] facs... passed
+      [+] fadt... passed
+      [+] fan... passed
+      [+] fpdt... passed
+      [+] gtdt... passed
+      [+] hest... passed
+      [+] hpet... passed
+      [+] iort... passed
+      [+] lpit... passed
+      [+] madt... passed
+      [+] mcfg... passed
+      [+] mchi... passed
+      [+] msdm... passed
+      [+] method... passed
+      [+] osilinux... passed
+      [+] pcc... passed
+      [+] rsdp... passed
+      [+] rsdt... passed
+      [+] sbst... passed
+      [+] slic... passed
+      [+] slit... passed
+      [+] spcr... passed
+      [+] spmi... passed
+      [+] srat... passed
+      [+] stao... passed
+      [+] syntaxcheck... 83 failures!
+      [+] tcpa... passed
+      [+] tpm2... skipped
+      [+] uefi... passed
+      [+] waet... passed
+      [+] wakealarm... passed
+      [+] wdat... passed
+      [+] wmi... passed
+      [+] xsdt... passed
+      [+] xenv... skipped
+      [+] apicedge... 1 failures!
+      [+] bios32... passed
+      [+] ebda... passed
+      [+] hda_audio... passed
+      [+] mpcheck... passed
+      [+] pciirq... passed
+      [+] pnp... passed
+      [+] virt... passed
+      [+] maxfreq... passed
+      [+] cpufreq... passed
+      [+] nx... passed
+      [+] msr... passed
+      [+] microcode... passed
+      [+] dmicheck... 12 failures!
+      [+] aspm... passed
+      [+] crs... passed
+      [+] maxreadreq... passed
+      [+] csm... passed
+      [+] uefirttime... 14 failures!
+      [+] uefirtvariable... 1 failures!
+      [+] uefirtmisc... passed
+      [+] securebootcert... 2 failures!
+      [+] uefibootpath... passed
+      [+] uefirtauthvar... 2 failures!
+    [-] kernel-efi-warnings
+      [+] EFI_BOOT_SERVICES_*_illegal_access... passed
+
+Ran 5 testsuites and 109 unittests, 91 passes, 127 fails, 7 skipped.

@@ -1,0 +1,238 @@
+[*] Ignoring unsupported platform warning and continue execution
+======== Load Helper for linux ===========
+trying to load chipsec.helper.efi.efihelper
+trying to load chipsec.helper.win.win32helper
+trying to load chipsec.helper.linux.helper
+[helper] Importing OS helper: chipsec.helper.linux.helper
+
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+
+[helper] Loaded OS helper: chipsec.helper.linux.helper
+[Chipset] __init__
+################################################################
+##                                                            ##
+##  CHIPSEC: Platform Hardware Security Assessment Framework  ##
+##                                                            ##
+################################################################
+[CHIPSEC] Version 1.2.1
+[CHIPSEC] Arguments: -i -v
+
+****** Chipsec Linux Kernel module is licensed under GPL 2.0
+
+[helper] Linux Helper created
+[helper] Linux Helper started/loaded
+[pci] reading B/D/F: 0/0/0, offset: 0x00, value: 0x0F008086
+[*] Couldn't import chipsec.cfg.byt
+No module named byt
+[CHIPSEC] OS      : Linux 4.1.0-yocto-standard #1 SMP Sun Sep 20 02:11:29 PDT 2015 x86_64
+[CHIPSEC] Platform: Bay Trail
+[CHIPSEC]      VID: 8086
+[CHIPSEC]      DID: 0F00
+ 
+[*] Running from /
+[*] loading common modules from ".usr.lib.python2.7.site-packages.chipsec.modules.common" ..
+[*] Path: /usr/lib/python2.7/site-packages/chipsec/modules/common
+[+] loaded chipsec.modules.common.bios_ts
+[+] loaded chipsec.modules.common.smrr
+[+] loaded chipsec.modules.common.bios_wp
+[+] loaded chipsec.modules.common.spi_desc
+[+] loaded chipsec.modules.common.smm
+[+] loaded chipsec.modules.common.spi_lock
+[+] loaded chipsec.modules.common.bios_kbrd_buffer
+[+] loaded chipsec.modules.common.bios_smi
+[+] loaded chipsec.modules.common.uefi.access_uefispec
+[+] loaded chipsec.modules.common.secureboot.variables
+[*] loading platform specific modules from ".usr.lib.python2.7.site-packages.chipsec.modules.byt" ..
+[*] Path: /usr/lib/python2.7/site-packages/chipsec/modules/byt
+[*] loading modules from ".usr.lib.python2.7.site-packages.chipsec.modules" ..
+[*] Path: /usr/lib/python2.7/site-packages/chipsec/modules
+[+] loaded chipsec.modules.remap
+[+] loaded chipsec.modules.module_template
+[+] loaded chipsec.modules.smm_dma
+[*] running loaded modules ..
+
+[*] running module: chipsec.modules.common.bios_ts
+[+] imported: chipsec.modules.common.bios_ts
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/bios_ts.pyc
+ERROR: Couldn't find definition of required configuration registers (GCS)... skipping
+Skipping module chipsec.modules.common.bios_ts since it is not supported in this platform
+
+[*] running module: chipsec.modules.common.smrr
+[+] imported: chipsec.modules.common.smrr
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/smrr.pyc
+[x][ =======================================================================
+[x][ Module: CPU SMM Cache Poisoning / System Management Range Registers
+[x][ =======================================================================
+ERROR: Couldn't find definition of required configuration registers
+
+[*] running module: chipsec.modules.common.bios_wp
+[+] imported: chipsec.modules.common.bios_wp
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/bios_wp.pyc
+WARNING: 'SPIBAR' MMIO BAR definition not found/correct in XML config
+[pci] reading B/D/F: 0/31/0, offset: 0xF0, value: 0xFED1C001
+[spi] SPI MMIO base: 0x00000000FED1F800 (assuming below 4GB)
+[spi] SPI MMIO base: 0x00000000FED1F800 (assuming below 4GB)
+[-] Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/chipsec_main.py", line 291, in run_module
+    result = modx.run( module_argv )
+  File "/usr/lib/python2.7/site-packages/chipsec/module.py", line 69, in run
+    result = self.get_module_object()
+  File "/usr/lib/python2.7/site-packages/chipsec/module.py", line 101, in get_module_object
+    self.mod_obj = iref()
+  File "/usr/lib/python2.7/site-packages/chipsec/modules/common/bios_wp.py", line 51, in __init__
+    self.spi    = SPI( self.cs )
+  File "/usr/lib/python2.7/site-packages/chipsec/hal/spi.py", line 176, in __init__
+    self.hsfs_off   = int(chipsec.chipset.get_register_def( self.cs, "HSFS" )['offset'],16)
+  File "/usr/lib/python2.7/site-packages/chipsec/chipset.py", line 467, in get_register_def
+    return _cs.Cfg.REGISTERS[ reg_name ]
+KeyError: 'HSFS'
+
+ERROR: Exception occurred during chipsec.modules.common.bios_wp.run(): ''HSFS''
+
+[*] running module: chipsec.modules.common.spi_desc
+[+] imported: chipsec.modules.common.spi_desc
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/spi_desc.pyc
+[x][ =======================================================================
+[x][ Module: SPI Flash Region Access Control
+[x][ =======================================================================
+[-] Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/chipsec_main.py", line 291, in run_module
+    result = modx.run( module_argv )
+  File "/usr/lib/python2.7/site-packages/chipsec/module.py", line 80, in run
+    result = self.mod_obj.run(module_argv)
+  File "/usr/lib/python2.7/site-packages/chipsec/modules/common/spi_desc.py", line 68, in run
+    return self.check_flash_access_permissions()
+  File "/usr/lib/python2.7/site-packages/chipsec/modules/common/spi_desc.py", line 48, in check_flash_access_permissions
+    frap = chipsec.chipset.read_register( self.cs, 'FRAP' )
+  File "/usr/lib/python2.7/site-packages/chipsec/chipset.py", line 470, in read_register
+    reg = _cs.Cfg.REGISTERS[ reg_name ]
+KeyError: 'FRAP'
+
+ERROR: Exception occurred during chipsec.modules.common.spi_desc.run(): ''FRAP''
+
+[*] running module: chipsec.modules.common.smm
+[+] imported: chipsec.modules.common.smm
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/smm.pyc
+Skipping module chipsec.modules.common.smm since it is not supported in this platform
+
+[*] running module: chipsec.modules.common.spi_lock
+[+] imported: chipsec.modules.common.spi_lock
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/spi_lock.pyc
+[x][ =======================================================================
+[x][ Module: SPI Flash Controller Configuration Lock
+[x][ =======================================================================
+[-] Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/chipsec_main.py", line 291, in run_module
+    result = modx.run( module_argv )
+  File "/usr/lib/python2.7/site-packages/chipsec/module.py", line 80, in run
+    result = self.mod_obj.run(module_argv)
+  File "/usr/lib/python2.7/site-packages/chipsec/modules/common/spi_lock.py", line 59, in run
+    return self.check_spi_lock()
+  File "/usr/lib/python2.7/site-packages/chipsec/modules/common/spi_lock.py", line 46, in check_spi_lock
+    hsfs_reg = chipsec.chipset.read_register( self.cs, 'HSFS' )
+  File "/usr/lib/python2.7/site-packages/chipsec/chipset.py", line 470, in read_register
+    reg = _cs.Cfg.REGISTERS[ reg_name ]
+KeyError: 'HSFS'
+
+ERROR: Exception occurred during chipsec.modules.common.spi_lock.run(): ''HSFS''
+
+[*] running module: chipsec.modules.common.bios_kbrd_buffer
+[+] imported: chipsec.modules.common.bios_kbrd_buffer
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/bios_kbrd_buffer.pyc
+[x][ =======================================================================
+[x][ Module: Pre-boot Passwords in the BIOS Keyboard Buffer
+[x][ =======================================================================
+[mem] 0x000000000000041A
+[mem] dword at PA = 0x000000000000041A: 0x00000000
+[mem] 0x000000000000041C
+[mem] dword at PA = 0x000000000000041C: 0x00000000
+[*] Keyboard buffer head pointer = 0x0 (at 0x41A), tail pointer = 0x0 (at 0x41C)
+[mem] 0x000000000000041E
+[*] Keyboard buffer contents (at 0x41E):
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 |                 
+[*] Checking contents of the keyboard buffer..
+
+[+] PASSED: Keyboard buffer looks empty. Pre-boot passwords don't seem to be exposed
+
+[*] running module: chipsec.modules.common.bios_smi
+[+] imported: chipsec.modules.common.bios_smi
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/bios_smi.pyc
+Skipping module chipsec.modules.common.bios_smi since it is not supported in this platform
+
+[*] running module: chipsec.modules.common.uefi.access_uefispec
+[+] imported: chipsec.modules.common.uefi.access_uefispec
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/uefi/access_uefispec.pyc
+[x][ =======================================================================
+[x][ Module: Access Control of EFI Variables
+[x][ =======================================================================
+[*] Testing UEFI variables ..
+[*] Variable MfgMode (NV+BS+RT)
+[*] Variable StdDefaults (NV+BS+RT)
+[*] Variable UUID (NV+BS+RT)
+[*] Variable Guid1394 (NV+BS+RT)
+[*] Variable DmiData (NV+BS+RT)
+[*] Variable UsbSupport (NV+BS+RT)
+[*] Variable Events (NV+BS+RT)
+
+[-] Variables with attributes that differ from UEFI spec:
+
+[+] PASSED: All checked EFI variables are protected according to spec.
+
+[*] running module: chipsec.modules.common.secureboot.variables
+[+] imported: chipsec.modules.common.secureboot.variables
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/common/secureboot/variables.pyc
+[x][ =======================================================================
+[x][ Module: Attributes of Secure Boot EFI Variables
+[x][ =======================================================================
+[!] Secure Boot variable SecureBoot is not found
+[!] Secure Boot variable SetupMode is not found
+[!] Secure Boot variable PK is not found
+[!] Secure Boot variable KEK is not found
+[!] Secure Boot variable db is not found
+[!] Secure Boot variable dbx is not found
+
+[*] SKIPPED: None of required Secure Boot variables found. Secure Boot is not enabled
+
+[*] running module: chipsec.modules.remap
+[+] imported: chipsec.modules.remap
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/remap.pyc
+Skipping module chipsec.modules.remap since it is not supported in this platform
+
+[*] running module: chipsec.modules.module_template
+[+] imported: chipsec.modules.module_template
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/module_template.pyc
+Skipping module chipsec.modules.module_template since it is not supported in this platform
+
+[*] running module: chipsec.modules.smm_dma
+[+] imported: chipsec.modules.smm_dma
+[*] Module path: /usr/lib/python2.7/site-packages/chipsec/modules/smm_dma.pyc
+Skipping module chipsec.modules.smm_dma since it is not supported in this platform
+
+[CHIPSEC] ***************************  SUMMARY  ***************************
+[CHIPSEC] Time elapsed          0.389
+[CHIPSEC] Modules total         13
+[CHIPSEC] Modules failed to run 4:
+ERROR: chipsec.modules.common.smrr
+ERROR: chipsec.modules.common.bios_wp
+ERROR: chipsec.modules.common.spi_desc
+ERROR: chipsec.modules.common.spi_lock
+[CHIPSEC] Modules passed        2:
+[+] PASSED: chipsec.modules.common.bios_kbrd_buffer
+[+] PASSED: chipsec.modules.common.uefi.access_uefispec
+[CHIPSEC] Modules failed        0:
+[CHIPSEC] Modules with warnings 0:
+[CHIPSEC] Modules skipped 7:
+[*] SKIPPED: chipsec.modules.common.bios_ts
+[*] SKIPPED: chipsec.modules.common.smm
+[*] SKIPPED: chipsec.modules.common.bios_smi
+[*] SKIPPED: chipsec.modules.common.secureboot.variables
+[*] SKIPPED: chipsec.modules.remap
+[*] SKIPPED: chipsec.modules.module_template
+[*] SKIPPED: chipsec.modules.smm_dma
+[CHIPSEC] Modules with Exceptions 3:
+ERROR: chipsec.modules.common.bios_wp
+ERROR: chipsec.modules.common.spi_desc
+ERROR: chipsec.modules.common.spi_lock
+[CHIPSEC] *****************************************************************
+[helper] Linux Helper stopped/unloaded
