@@ -1,0 +1,13 @@
+1.1 23:00:07:168585061 chipsec chipsec.modules.common.smrr RESULT 0 0 0 1 0
+1.1 23:00:07:195955986 chipsec chipsec.modules.common.bios_wp RESULT 0 0 0 1 0
+1.1 23:00:07:222398740 chipsec chipsec.modules.common.spi_desc RESULT 0 0 0 1 0
+1.1 23:00:07:248580561 chipsec chipsec.modules.common.spi_lock RESULT 0 0 0 1 0
+1.1 23:00:07:274506241 chipsec chipsec.modules.common.bios_kbrd_buffer RESULT 1 0 0 0 0
+1.1 23:00:07:300590757 chipsec chipsec.modules.common.uefi.access_uefispec RESULT 1 0 0 0 0
+1.1 23:00:07:326461732 chipsec chipsec.modules.common.bios_ts RESULT 0 0 0 0 1
+1.1 23:00:07:352533212 chipsec chipsec.modules.common.smm RESULT 0 0 0 0 1
+1.1 23:00:07:378399140 chipsec chipsec.modules.common.bios_smi RESULT 0 0 0 0 1
+1.1 23:00:07:404520901 chipsec chipsec.modules.common.secureboot.variables RESULT 0 0 0 0 1
+1.1 23:00:07:430430043 chipsec chipsec.modules.remap RESULT 0 0 0 0 1
+1.1 23:00:07:456303111 chipsec chipsec.modules.module_template RESULT 0 0 0 0 1
+1.1 23:00:07:482333882 chipsec chipsec.modules.smm_dma RESULT 0 0 0 0 1

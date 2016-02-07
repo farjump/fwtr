@@ -1,0 +1,1786 @@
+1.1 23:00:08:867658503 fwts bios_info INFO Test 1 of 1: Gather BIOS DMI information
+1.1 23:00:08:925331652 fwts bios_info INFO BIOS Vendor       : Intel Corp.
+1.1 23:00:08:983192684 fwts bios_info INFO BIOS Version      : TYBYT10H.86A.0046.2015.1014.1057
+1.1 23:00:09:039912138 fwts bios_info INFO BIOS Release Date : 10/14/2015
+1.1 23:00:09:093372357 fwts bios_info INFO Board Name        : DE3815TYKH
+1.1 23:00:09:140425546 fwts bios_info INFO Board Serial #    : GETY41500MHY
+1.1 23:00:09:190189878 fwts bios_info INFO Board Version     : H26998-401
+1.1 23:00:09:237369120 fwts bios_info INFO Board Asset Tag   : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:285307026 fwts bios_info INFO Chassis Serial #  : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:333236157 fwts bios_info INFO Chassis Type      : 3
+1.1 23:00:09:381210228 fwts bios_info INFO Chassis Vendor    : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:429332454 fwts bios_info INFO Chassis Version   : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:477410130 fwts bios_info INFO Chassic Asset Tag : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:525344931 fwts bios_info INFO Product Name      : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:573221922 fwts bios_info INFO Product Serial #  : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:621225618 fwts bios_info INFO Product UUID      : 80FCB6F2-7772-E311-B358-C03FD564BE59
+1.1 23:00:09:669243106 fwts bios_info INFO Product Version   : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:717313957 fwts bios_info INFO System Vendor     : ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ
+1.1 23:00:09:780714522 fwts bios_info RESULT 0 0 0 0
+1.1 23:00:09:824619723 fwts version INFO Test 1 of 4: Gather kernel signature.
+1.1 23:00:09:870567867 fwts version INFO Test 2 of 4: Gather kernel system information.
+1.1 23:00:09:918393798 fwts version INFO Kernel Version: Linux version 4.1.0-yocto-standard
+1.1 23:00:09:966325194 fwts version INFO (rneri@luv-build) (gcc version 4.9.2 (GCC) ) #1 SMP Sun Sep
+1.1 23:00:10:014264765 fwts version INFO 20 02:11:29 PDT 2015
+1.1 23:00:10:062304018 fwts version INFO Test 3 of 4: Gather kernel boot command line.
+1.1 23:00:10:110481730 fwts version INFO Kernel boot command line: 
+1.1 23:00:10:158669986 fwts version INFO Test 4 of 4: Gather ACPI driver version.
+1.1 23:00:10:206460134 fwts version INFO ACPI Version: 20150410
+1.1 23:00:10:254486413 fwts version RESULT 0 0 0 0
+1.1 23:00:10:305616580 fwts acpiinfo INFO Test 1 of 3: Determine Kernel ACPI version.
+1.1 23:00:10:357770656 fwts acpiinfo INFO Kernel ACPICA driver version: 20150410, supports ACPI 5.0
+1.1 23:00:10:415473482 fwts acpiinfo INFO Test 2 of 3: Determine machine's ACPI version.
+1.1 23:00:10:460480690 fwts acpiinfo INFO FACP ACPI Version: 5.0 
+1.1 23:00:10:508548151 fwts acpiinfo INFO Test 3 of 3: Determine AML compiler.
+1.1 23:00:10:556433550 fwts acpiinfo INFO Determine the compiler used to generate the ACPI AML in the
+1.1 23:00:10:604615078 fwts acpiinfo INFO DSDT and SSDT.
+1.1 23:00:10:652592614 fwts acpiinfo INFO Table DSDT, OEM INTEL, created with INTL (Intel) compiler.
+1.1 23:00:10:700562148 fwts acpiinfo INFO Table SSDT0, OEM INTEL, created with INTL (Intel) compiler.
+1.1 23:00:10:751861440 fwts acpiinfo INFO Table SSDT1, OEM INTEL, created with INTL (Intel) compiler.
+1.1 23:00:10:799496975 fwts acpiinfo INFO Table SSDT2, OEM INTEL, created with INTL (Intel) compiler.
+1.1 23:00:10:851724086 fwts acpiinfo INFO Table SSDT3, OEM INTEL, created with INTL (Intel) compiler.
+1.1 23:00:10:900838362 fwts acpiinfo INFO Table SSDT4, OEM INTEL, created with INTL (Intel) compiler.
+1.1 23:00:10:977892252 fwts acpiinfo RESULT 0 0 0 0
+1.1 23:00:11:043917866 fwts mtrr INFO MTRR overview
+1.1 23:00:11:117968690 fwts mtrr INFO -------------
+1.1 23:00:11:194368616 fwts mtrr INFO Reg 0: 0x0000000000000000 - 0x0000000080000000 (  2048 MB)   Write-Back
+1.1 23:00:11:267754459 fwts mtrr INFO Reg 1: 0x0000000080000000 - 0x00000000c0000000 (  1024 MB)   Write-Back
+1.1 23:00:11:341406394 fwts mtrr INFO Reg 2: 0x00000000ba800000 - 0x00000000bb000000 (     8 MB)   Uncached
+1.1 23:00:11:411303253 fwts mtrr INFO Reg 3: 0x00000000bb000000 - 0x00000000bc000000 (    16 MB)   Uncached
+1.1 23:00:11:493869840 fwts mtrr INFO Reg 4: 0x00000000bc000000 - 0x00000000c0000000 (    64 MB)   Uncached
+1.1 23:00:11:559342561 fwts mtrr INFO Reg 5: 0x0000000100000000 - 0x0000000140000000 (  1024 MB)   Write-Back
+1.1 23:00:11:640488436 fwts mtrr INFO Test 1 of 3: Validate the kernel MTRR IOMEM setup.
+1.1 23:00:11:713670518 fwts mtrr INFO Test 2 of 3: Validate the MTRR setup across all processors.
+1.1 23:00:11:786646755 fwts mtrr INFO Test 3 of 3: Test for AMD MtrrFixDramModEn being cleared by
+1.1 23:00:11:859725630 fwts mtrr INFO the BIOS.
+1.1 23:00:11:926336028 fwts mtrr RESULT 2 0 0 0
+1.1 23:00:12:005573801 fwts klog INFO Test 1 of 1: Kernel log error check.
+1.1 23:00:12:082661861 fwts klog INFO Kernel message: [ 0.233927] ENERGY_PERF_BIAS: Set to
+1.1 23:00:12:155724348 fwts klog INFO 'normal', was 'performance'
+1.1 23:00:12:229117226 fwts klog INFO Kernel message: [ 1.072583] ACPI Exception: AE_NOT_FOUND,
+1.1 23:00:12:302276853 fwts klog INFO While evaluating Sleep State [\_S1_] (20150410/hwxface-580)
+1.1 23:00:12:375293081 fwts klog INFO Kernel message: [ 1.072696] ACPI Exception: AE_NOT_FOUND,
+1.1 23:00:12:448246803 fwts klog INFO While evaluating Sleep State [\_S2_] (20150410/hwxface-580)
+1.1 23:00:12:525142967 fwts klog INFO Found 1 unique errors in kernel log.
+1.1 23:00:12:566771854 fwts klog RESULT 0 1 0 0
+1.1 23:00:12:592863337 fwts oops INFO Test 1 of 1: Kernel log oops check.
+1.1 23:00:12:618864490 fwts oops RESULT 2 0 0 0
+1.1 23:00:12:644776977 fwts acpitables INFO Test 1 of 1: Test ACPI headers.
+1.1 23:00:12:670767383 fwts acpitables RESULT 20 0 0 0
+1.1 23:00:12:696577248 fwts apicinstance INFO Test 1 of 1: Test for single instance of APIC/MADT table.
+1.1 23:00:12:722499246 fwts apicinstance INFO Found APIC/MADT table APIC @ b95b9a88, length 0x90 
+1.1 23:00:12:747460199 fwts apicinstance RESULT 1 0 0 0
+1.1 23:00:12:773396710 fwts asf RESULT 0 0 0 0
+1.1 23:00:12:799496345 fwts bert RESULT 0 0 0 0
+1.1 23:00:12:825432586 fwts bgrt INFO Test 1 of 1: BGRT Boot Graphics Resource Table test.
+1.1 23:00:12:851153755 fwts bgrt INFO BGRT Boot Graphics Resource Table:
+1.1 23:00:12:875784746 fwts bgrt INFO Version:                  0x0001
+1.1 23:00:12:900776134 fwts bgrt INFO Status:                   0x00
+1.1 23:00:12:925842823 fwts bgrt INFO Image Type:               0x00
+1.1 23:00:12:950613336 fwts bgrt INFO Image Memory Address:     0x00000000b6e12018
+1.1 23:00:12:975599175 fwts bgrt INFO Image Offset X:           0x000002f3
+1.1 23:00:13:000495823 fwts bgrt INFO Image Offset Y:           0x00000127
+1.1 23:00:13:025510049 fwts bgrt RESULT 1 0 0 0
+1.1 23:00:13:051396227 fwts boot RESULT 0 0 0 0
+1.1 23:00:13:077454838 fwts autobrightness INFO Test 1 of 2: Test for maximum and actual brightness.
+1.1 23:00:13:103194750 fwts autobrightness INFO Test 2 of 2: Change actual brightness.
+1.1 23:00:13:127898903 fwts autobrightness RESULT 3 0 0 0
+1.1 23:00:13:153897416 fwts checksum INFO Test 1 of 1: ACPI table checksum test.
+1.1 23:00:13:180174780 fwts checksum RESULT 22 0 0 0
+1.1 23:00:13:206439093 fwts cpep RESULT 0 0 0 0
+1.1 23:00:13:232520339 fwts csrt INFO Test 1 of 1: CSRT Core System Resource Table test.
+1.1 23:00:13:258468376 fwts csrt RESULT 0 2 0 0
+1.1 23:00:13:284444097 fwts cstates INFO Test 1 of 1: Test all CPUs C-states.
+1.1 23:00:13:310296300 fwts cstates INFO This test checks if all processors have the same number of
+1.1 23:00:13:335254898 fwts cstates INFO C-states, if the C-state counter works and if C-state
+1.1 23:00:13:360231939 fwts cstates INFO transitions happen.
+1.1 23:00:14:627595991 fwts cstates RESULT 1 0 0 0
+1.1 23:00:14:674699438 fwts dbgp RESULT 0 0 0 0
+1.1 23:00:14:733746784 fwts dbg2 RESULT 0 0 0 0
+1.1 23:00:14:788326470 fwts dmar INFO Test 1 of 1: DMA Remapping test.
+1.1 23:00:14:835954040 fwts dmar RESULT 0 0 0 0
+1.1 23:00:14:886181505 fwts ecdt RESULT 0 0 0 0
+1.1 23:00:14:935183850 fwts erst RESULT 0 0 0 0
+1.1 23:00:14:983959020 fwts facs INFO Test 1 of 1: FACS Firmware ACPI Control Structure test.
+1.1 23:00:15:029931878 fwts facs INFO FACS Firmware ACPI Control Structure:
+1.1 23:00:15:080243208 fwts facs INFO Signature:                'FACS'
+1.1 23:00:15:127314952 fwts facs INFO Length:                   0x00000040
+1.1 23:00:15:172239608 fwts facs INFO Hardware Signature:       0x000000c6
+1.1 23:00:15:220211788 fwts facs INFO Firmware Waking Vector:   0x00000000
+1.1 23:00:15:268147264 fwts facs INFO Global Lock:              0x00000000
+1.1 23:00:15:316106725 fwts facs INFO Flags:                    0x00000000
+1.1 23:00:15:364189764 fwts facs INFO X-Firmware Waking Vector: 0x0000000000000000
+1.1 23:00:15:409797933 fwts facs INFO Version:                  0x02
+1.1 23:00:15:460246596 fwts facs INFO Reserved:                 0x00 0x00 0x00
+1.1 23:00:15:504943018 fwts facs INFO OSPM Flags:               0x00000000
+1.1 23:00:15:553209627 fwts facs INFO Reserved:                 0x00 0x00 0x00 0x00
+1.1 23:00:15:601164093 fwts facs INFO Reserved:                 0x00 0x00 0x00 0x00
+1.1 23:00:15:648951609 fwts facs INFO Reserved:                 0x00 0x00 0x00 0x00
+1.1 23:00:15:694724246 fwts facs INFO Reserved:                 0x00 0x00 0x00 0x00
+1.1 23:00:15:746359554 fwts facs INFO Reserved:                 0x00 0x00 0x00 0x00
+1.1 23:00:15:795520277 fwts facs INFO Reserved:                 0x00 0x00 0x00 0x00
+1.1 23:00:15:842187800 fwts facs RESULT 1 0 0 0
+1.1 23:00:15:889940178 fwts fadt INFO Test 1 of 3: Test FADT ACPI Description Table tests.
+1.1 23:00:15:939961671 fwts fadt INFO Test 2 of 3: Test FADT SCI_EN bit is enabled.
+1.1 23:00:15:986166181 fwts fadt INFO FADT Preferred PM Profile: 1 (Desktop) 
+1.1 23:00:16:034181862 fwts fadt INFO FADT is greater than ACPI version 1.0
+1.1 23:00:16:082185835 fwts fadt INFO Test 3 of 3: Test FADT reset register.
+1.1 23:00:16:130115566 fwts fadt RESULT 4 0 0 0
+1.1 23:00:16:178216140 fwts fan INFO Test 1 of 2: Test fan status.
+1.1 23:00:16:229225654 fwts fan INFO Test how many fans there are in the system. Check for the
+1.1 23:00:16:275119476 fwts fan INFO current status of the fan(s).
+1.1 23:00:16:323098249 fwts fan INFO Test 2 of 2: Load system, check CPU fan status.
+1.1 23:00:16:371120418 fwts fan INFO Test how many fans there are in the system. Check for the
+1.1 23:00:16:418965069 fwts fan INFO current status of the fan(s).
+1.1 23:00:16:464757183 fwts fan INFO Loading CPUs for 20 seconds to try and get fan speeds to
+1.1 23:00:16:515260086 fwts fan INFO change.
+1.1 23:00:34:985829704 fwts fan INFO Fan cooling_device0 current state did not change from value
+1.1 23:00:35:033367064 fwts fan INFO 0 while CPUs were busy.
+1.1 23:00:35:079718035 fwts fan RESULT 2 0 0 0
+1.1 23:00:35:130726844 fwts fpdt INFO Test 1 of 1: FPDT Firmware Performance Data Table test.
+1.1 23:00:35:181555203 fwts fpdt INFO S3 Performance Table Pointer Record:
+1.1 23:00:35:227745613 fwts fpdt INFO Perf Rec Type:	0x0001
+1.1 23:00:35:278651297 fwts fpdt INFO Rec Length:	0x10
+1.1 23:00:35:324760347 fwts fpdt INFO Revision:	0x01
+1.1 23:00:35:372783130 fwts fpdt INFO Reserved:	0x00000000
+1.1 23:00:35:425246702 fwts fpdt INFO S3PT Pointer:	0x00000000b98f0930
+1.1 23:00:35:472703407 fwts fpdt INFO Note: currently fwts does not check S3PT validity and the
+1.1 23:00:35:520646773 fwts fpdt INFO associated data
+1.1 23:00:35:572214228 fwts fpdt INFO Firmware Basic Boot Performance Pointer Record:
+1.1 23:00:35:619766670 fwts fpdt INFO Perf Rec Type:	0x0000
+1.1 23:00:35:665648545 fwts fpdt INFO Rec Length:	0x10
+1.1 23:00:35:715701905 fwts fpdt INFO Revision:	0x01
+1.1 23:00:35:763856089 fwts fpdt INFO Reserved:	0x00000000
+1.1 23:00:35:814787010 fwts fpdt INFO FBPT Pointer:	0x00000000b98f0950
+1.1 23:00:35:861665592 fwts fpdt INFO Note: currently fwts does not check FBPT validity and the
+1.1 23:00:35:909712495 fwts fpdt INFO associated data
+1.1 23:00:35:960996945 fwts fpdt RESULT 1 0 0 0
+1.1 23:00:36:007651823 fwts gtdt RESULT 0 0 0 0
+1.1 23:00:36:058785470 fwts hest RESULT 0 0 0 0
+1.1 23:00:36:109596481 fwts hpet INFO Test 1 of 4: Test HPET base in kernel log.
+1.1 23:00:36:159359208 fwts hpet INFO This test checks the HPET PCI BAR for each timer block in
+1.1 23:00:36:206721593 fwts hpet INFO the timer. The base address is passed by the firmware via an
+1.1 23:00:36:256539625 fwts hpet INFO ACPI table. IRQ routing and initialization is also verified
+1.1 23:00:36:303824107 fwts hpet INFO by the test.
+1.1 23:00:36:357289365 fwts hpet INFO Test 2 of 4: Test HPET base in HPET table.
+1.1 23:00:36:406778664 fwts hpet INFO Hardware ID of Event Block:
+1.1 23:00:36:453986309 fwts hpet INFO PCI Vendor ID              : 0x8086
+1.1 23:00:36:501537176 fwts hpet INFO Legacy IRQ Routing Capable : 1
+1.1 23:00:36:549646825 fwts hpet INFO COUNT_SIZE_CAP counter size: 1
+1.1 23:00:36:597712876 fwts hpet INFO Number of comparitors      : 2
+1.1 23:00:36:645921832 fwts hpet INFO Hardwre Revision ID        : 0x1
+1.1 23:00:36:703770452 fwts hpet INFO Lower 32 bit base Address    : 0xfed00000
+1.1 23:00:36:748758182 fwts hpet INFO Address Space ID           : 0x0
+1.1 23:00:36:799910961 fwts hpet INFO Register Bit Width         : 0x40
+1.1 23:00:36:850209474 fwts hpet INFO Register Bit Offset        : 0x0
+1.1 23:00:36:897687052 fwts hpet INFO Address Width              : 0x0
+1.1 23:00:36:950342511 fwts hpet INFO HPET sequence number         : 0x0
+1.1 23:00:36:997750856 fwts hpet INFO Minimum clock tick           : 0x80
+1.1 23:00:37:043646141 fwts hpet INFO Page Protection              : 0x0 (No guaranteed protection)
+1.1 23:00:37:091617624 fwts hpet INFO OEM attributes               : 0x0
+1.1 23:00:37:139811446 fwts hpet INFO Test 3 of 4: Test HPET base in DSDT and/or SSDT.
+1.1 23:00:37:506563682 fwts hpet INFO Test 4 of 4: Test HPET configuration.
+1.1 23:00:37:553496293 fwts hpet RESULT 5 0 0 0
+1.1 23:00:37:612106119 fwts iort RESULT 0 0 0 0
+1.1 23:00:37:672320235 fwts lpit INFO Test 1 of 1: LPIT Low Power Idle Table test.
+1.1 23:00:37:719530084 fwts lpit INFO Native C-state based LPI structure:
+1.1 23:00:37:765269376 fwts lpit INFO Type:                     0x00000000
+1.1 23:00:37:813250520 fwts lpit INFO Length:                   0x00000038
+1.1 23:00:37:861292736 fwts lpit INFO ID:                       0x0000
+1.1 23:00:37:909452432 fwts lpit INFO Reserved:                 0x0000
+1.1 23:00:37:957471631 fwts lpit INFO Flags:                    0x00000000
+1.1 23:00:38:005250304 fwts lpit INFO Entry Trigger:
+1.1 23:00:38:053476420 fwts lpit INFO Address Space ID:       0x7f
+1.1 23:00:38:101291956 fwts lpit INFO Register Bit Width      0x01
+1.1 23:00:38:149408662 fwts lpit INFO Register Bit Offset     0x02
+1.1 23:00:38:197330848 fwts lpit INFO Access Size             0x00
+1.1 23:00:38:245276771 fwts lpit INFO Address                 0x0000000000000064
+1.1 23:00:38:293438283 fwts lpit INFO Residency:                0x00003a98
+1.1 23:00:38:341384926 fwts lpit INFO Latency:                  0x00001388
+1.1 23:00:38:389323634 fwts lpit INFO Residency Counter:
+1.1 23:00:38:441469678 fwts lpit INFO Address Space ID:       0x00
+1.1 23:00:38:486209743 fwts lpit INFO Register Bit Width      0x20
+1.1 23:00:38:534326217 fwts lpit INFO Register Bit Offset     0x00
+1.1 23:00:38:582370675 fwts lpit INFO Access Size             0x03
+1.1 23:00:38:630451426 fwts lpit INFO Address                 0x00000000fed03080
+1.1 23:00:38:681940139 fwts lpit INFO Residency Counter Freq:   0x0000000000008000
+1.1 23:00:38:734575581 fwts lpit INFO Native C-state based LPI structure:
+1.1 23:00:38:779325808 fwts lpit INFO Type:                     0x00000000
+1.1 23:00:38:827402945 fwts lpit INFO Length:                   0x00000038
+1.1 23:00:38:875469281 fwts lpit INFO ID:                       0x0001
+1.1 23:00:38:923700070 fwts lpit INFO Reserved:                 0x0000
+1.1 23:00:38:971581658 fwts lpit INFO Flags:                    0x00000000
+1.1 23:00:39:023563121 fwts lpit INFO Entry Trigger:
+1.1 23:00:39:068574612 fwts lpit INFO Address Space ID:       0x7f
+1.1 23:00:39:116557863 fwts lpit INFO Register Bit Width      0x01
+1.1 23:00:39:164633814 fwts lpit INFO Register Bit Offset     0x02
+1.1 23:00:39:212742488 fwts lpit INFO Access Size             0x00
+1.1 23:00:39:260740521 fwts lpit INFO Address                 0x0000000000000064
+1.1 23:00:39:311535025 fwts lpit INFO Residency:                0x00003a98
+1.1 23:00:39:359551801 fwts lpit INFO Latency:                  0x00001388
+1.1 23:00:39:407613929 fwts lpit INFO Residency Counter:
+1.1 23:00:39:455504158 fwts lpit INFO Address Space ID:       0x00
+1.1 23:00:39:503588501 fwts lpit INFO Register Bit Width      0x20
+1.1 23:00:39:551528417 fwts lpit INFO Register Bit Offset     0x00
+1.1 23:00:39:599633701 fwts lpit INFO Access Size             0x03
+1.1 23:00:39:647597729 fwts lpit INFO Address                 0x00000000fed03084
+1.1 23:00:39:695695138 fwts lpit INFO Residency Counter Freq:   0x0000000000008000
+1.1 23:00:39:745692780 fwts lpit INFO Native C-state based LPI structure:
+1.1 23:00:39:795541510 fwts lpit INFO Type:                     0x00000000
+1.1 23:00:39:842579961 fwts lpit INFO Length:                   0x00000038
+1.1 23:00:39:890600420 fwts lpit INFO ID:                       0x0002
+1.1 23:00:39:938589401 fwts lpit INFO Reserved:                 0x0000
+1.1 23:00:39:986421482 fwts lpit INFO Flags:                    0x00000000
+1.1 23:00:40:034466075 fwts lpit INFO Entry Trigger:
+1.1 23:00:40:082674229 fwts lpit INFO Address Space ID:       0x7f
+1.1 23:00:40:130574020 fwts lpit INFO Register Bit Width      0x01
+1.1 23:00:40:178537658 fwts lpit INFO Register Bit Offset     0x02
+1.1 23:00:40:226609859 fwts lpit INFO Access Size             0x00
+1.1 23:00:40:274369520 fwts lpit INFO Address                 0x0000000000000064
+1.1 23:00:40:322506529 fwts lpit INFO Residency:                0x00003a98
+1.1 23:00:40:370308579 fwts lpit INFO Latency:                  0x00001388
+1.1 23:00:40:418514108 fwts lpit INFO Residency Counter:
+1.1 23:00:40:466572052 fwts lpit INFO Address Space ID:       0x00
+1.1 23:00:40:514761096 fwts lpit INFO Register Bit Width      0x20
+1.1 23:00:40:565612959 fwts lpit INFO Register Bit Offset     0x00
+1.1 23:00:40:612510748 fwts lpit INFO Access Size             0x03
+1.1 23:00:40:660553212 fwts lpit INFO Address                 0x00000000fed03088
+1.1 23:00:40:708727166 fwts lpit INFO Residency Counter Freq:   0x0000000000008000
+1.1 23:00:40:759513179 fwts lpit INFO Native C-state based LPI structure:
+1.1 23:00:40:804588705 fwts lpit INFO Type:                     0x00000000
+1.1 23:00:40:856809831 fwts lpit INFO Length:                   0x00000038
+1.1 23:00:40:901691257 fwts lpit INFO ID:                       0x0003
+1.1 23:00:40:949647808 fwts lpit INFO Reserved:                 0x0000
+1.1 23:00:40:997509446 fwts lpit INFO Flags:                    0x00000000
+1.1 23:00:41:045647332 fwts lpit INFO Entry Trigger:
+1.1 23:00:41:093578263 fwts lpit INFO Address Space ID:       0x7f
+1.1 23:00:41:141400099 fwts lpit INFO Register Bit Width      0x01
+1.1 23:00:41:189603242 fwts lpit INFO Register Bit Offset     0x02
+1.1 23:00:41:237719859 fwts lpit INFO Access Size             0x00
+1.1 23:00:41:288511542 fwts lpit INFO Address                 0x0000000000000064
+1.1 23:00:41:335718467 fwts lpit INFO Residency:                0x00003a98
+1.1 23:00:41:381745429 fwts lpit INFO Latency:                  0x00001388
+1.1 23:00:41:432426600 fwts lpit INFO Residency Counter:
+1.1 23:00:41:479644430 fwts lpit INFO Address Space ID:       0x00
+1.1 23:00:41:525559604 fwts lpit INFO Register Bit Width      0x20
+1.1 23:00:41:573707526 fwts lpit INFO Register Bit Offset     0x00
+1.1 23:00:41:621641787 fwts lpit INFO Access Size             0x03
+1.1 23:00:41:673498487 fwts lpit INFO Address                 0x00000000fed0308c
+1.1 23:00:41:722757865 fwts lpit INFO Residency Counter Freq:   0x0000000000008000
+1.1 23:00:41:767632293 fwts lpit RESULT 1 0 0 0
+1.1 23:00:41:818591145 fwts madt INFO Test 1 of 1: MADT Multiple APIC Description Table test.
+1.1 23:00:41:867702548 fwts madt RESULT 1 0 0 0
+1.1 23:00:41:916586633 fwts mcfg INFO Test 1 of 2: Validate MCFG table.
+1.1 23:00:41:965726168 fwts mcfg INFO This test tries to validate the MCFG table by comparing the
+1.1 23:00:42:011605478 fwts mcfg INFO first 16 bytes in the MMIO mapped config space with the
+1.1 23:00:42:059563394 fwts mcfg INFO 'traditional' config space of the first PCI device (root
+1.1 23:00:42:107291164 fwts mcfg INFO bridge). The MCFG data is only trusted if it is marked
+1.1 23:00:42:155264590 fwts mcfg INFO reserved in the UEFI run-time service memory map
+1.1 23:00:42:203360334 fwts mcfg INFO Memory Map Layout
+1.1 23:00:42:251189917 fwts mcfg INFO -----------------
+1.1 23:00:42:299272041 fwts mcfg INFO 0x0000000000000000 - 0x000000000009cfff (System RAM)
+1.1 23:00:42:347228794 fwts mcfg INFO 0x000000000009d000 - 0x000000000009efff (reserved)
+1.1 23:00:42:395463393 fwts mcfg INFO 0x000000000009f000 - 0x000000000009ffff (ACPI Non-volatile Storage)
+1.1 23:00:42:444360483 fwts mcfg INFO 0x0000000000100000 - 0x000000001effffff (System RAM)
+1.1 23:00:42:491213100 fwts mcfg INFO 0x000000001f000000 - 0x000000001f0fffff (reserved)
+1.1 23:00:42:539294211 fwts mcfg INFO 0x000000001f100000 - 0x000000001fffffff (System RAM)
+1.1 23:00:42:587222899 fwts mcfg INFO 0x0000000020000000 - 0x00000000200fffff (reserved)
+1.1 23:00:42:632927841 fwts mcfg INFO 0x0000000020100000 - 0x00000000a8552fff (System RAM)
+1.1 23:00:42:679984720 fwts mcfg INFO 0x00000000a8553000 - 0x00000000a8559fff (reserved)
+1.1 23:00:42:730640001 fwts mcfg INFO 0x00000000a855a000 - 0x00000000b957afff (System RAM)
+1.1 23:00:42:776228438 fwts mcfg INFO 0x00000000b957b000 - 0x00000000b95aafff (reserved)
+1.1 23:00:42:824188589 fwts mcfg INFO 0x00000000b95ab000 - 0x00000000b95bbfff (ACPI Non-volatile Storage)
+1.1 23:00:42:872226402 fwts mcfg INFO 0x00000000b95bc000 - 0x00000000b96edfff (ACPI Non-volatile Storage)
+1.1 23:00:42:920220633 fwts mcfg INFO 0x00000000b96ee000 - 0x00000000b9a04fff (reserved)
+1.1 23:00:42:968177574 fwts mcfg INFO 0x00000000b9a05000 - 0x00000000b9a05fff (System RAM)
+1.1 23:00:43:016431613 fwts mcfg INFO 0x00000000b9a06000 - 0x00000000b9a47fff (reserved)
+1.1 23:00:43:064544239 fwts mcfg INFO 0x00000000b9a48000 - 0x00000000b9bbdfff (System RAM)
+1.1 23:00:43:112267900 fwts mcfg INFO 0x00000000b9bbe000 - 0x00000000b9ff8fff (reserved)
+1.1 23:00:43:160241311 fwts mcfg INFO 0x00000000b9ff9000 - 0x00000000b9ffffff (System RAM)
+1.1 23:00:43:208202624 fwts mcfg INFO 0x00000000e0000000 - 0x00000000efffffff (reserved)
+1.1 23:00:43:258452792 fwts mcfg INFO 0x00000000fec00000 - 0x00000000fec00fff (reserved)
+1.1 23:00:43:303291077 fwts mcfg INFO 0x00000000fed01000 - 0x00000000fed01fff (reserved)
+1.1 23:00:43:351246436 fwts mcfg INFO 0x00000000fed03000 - 0x00000000fed03fff (reserved)
+1.1 23:00:43:399298409 fwts mcfg INFO 0x00000000fed08000 - 0x00000000fed08fff (reserved)
+1.1 23:00:43:447262453 fwts mcfg INFO 0x00000000fed0c000 - 0x00000000fed0ffff (reserved)
+1.1 23:00:43:495240454 fwts mcfg INFO 0x00000000fed1c000 - 0x00000000fed1cfff (reserved)
+1.1 23:00:43:543269732 fwts mcfg INFO 0x00000000fee00000 - 0x00000000fee00fff (reserved)
+1.1 23:00:43:591207398 fwts mcfg INFO 0x00000000fef00000 - 0x00000000feffffff (reserved)
+1.1 23:00:43:639258997 fwts mcfg INFO 0x00000000ff990000 - 0x00000000ffffffff (reserved)
+1.1 23:00:43:695701168 fwts mcfg INFO 0x0000000100000000 - 0x000000013fffffff (System RAM)
+1.1 23:00:43:740357510 fwts mcfg INFO MCFG table found, size is 16 bytes (excluding header) (1
+1.1 23:00:43:788687442 fwts mcfg INFO entries).
+1.1 23:00:43:840294092 fwts mcfg INFO Configuration Entry #0:
+1.1 23:00:43:887331111 fwts mcfg INFO Base Address  : 0xe0000000
+1.1 23:00:43:933176341 fwts mcfg INFO Segment       : 0
+1.1 23:00:43:981260115 fwts mcfg INFO Start bus     : 0
+1.1 23:00:44:029201463 fwts mcfg INFO End bus       : 255
+1.1 23:00:44:077190842 fwts mcfg INFO Test 2 of 2: Validate MCFG PCI config space.
+1.1 23:00:44:125272553 fwts mcfg RESULT 2 0 0 0
+1.1 23:00:44:173293574 fwts mchi RESULT 0 0 0 0
+1.1 23:00:44:224312665 fwts msdm RESULT 0 0 0 0
+1.1 23:00:44:272404644 fwts method INFO FADT Preferred PM profile indicates this is not a Mobile
+1.1 23:00:44:317296959 fwts method INFO Platform.
+1.1 23:00:49:267901534 fwts method INFO Test 1 of 184: Test Method Names.
+1.1 23:00:49:331962220 fwts method INFO Found 2149 Objects 
+1.1 23:00:49:394906019 fwts method INFO Test 2 of 184: Test _AEI.
+1.1 23:00:49:466163823 fwts method INFO Test 3 of 184: Test _EVT (Event Method).
+1.1 23:00:49:526935932 fwts method INFO Test 4 of 184: Test _DLM (Device Lock Mutex).
+1.1 23:00:49:599392328 fwts method INFO Test 5 of 184: Test _PIC (Inform AML of Interrupt Model).
+1.1 23:00:49:667275066 fwts method INFO Test 6 of 184: Test _CID (Compatible ID).
+1.1 23:00:49:728402639 fwts method INFO Test 7 of 184: Test _DDN (DOS Device Name).
+1.1 23:00:49:784796360 fwts method INFO Test 8 of 184: Test _HID (Hardware ID).
+1.1 23:00:49:839378506 fwts method INFO Test 9 of 184: Test _HRV (Hardware Revision Number).
+1.1 23:00:49:905460557 fwts method INFO Test 10 of 184: Test _MLS (Multiple Language String).
+1.1 23:00:49:973542338 fwts method INFO Test 11 of 184: Test _PLD (Physical Device Location).
+1.1 23:00:50:042469483 fwts method INFO Test 12 of 184: Test _SUB (Subsystem ID).
+1.1 23:00:50:107383085 fwts method INFO Test 13 of 184: Test _SUN (Slot User Number).
+1.1 23:00:50:154478424 fwts method INFO Test 14 of 184: Test _STR (String).
+1.1 23:00:50:209093442 fwts method INFO Test 15 of 184: Test _UID (Unique ID).
+1.1 23:00:50:257412041 fwts method INFO Test 16 of 184: Test _CDM (Clock Domain).
+1.1 23:00:50:310595464 fwts method INFO Test 17 of 184: Test _CRS (Current Resource Settings).
+1.1 23:00:50:693427888 fwts method INFO Test 18 of 184: Test _DSD (Device Specific Data).
+1.1 23:00:50:753710734 fwts method INFO Test 19 of 184: Test _DIS (Disable).
+1.1 23:00:50:812865826 fwts method INFO Test 20 of 184: Test _DMA (Direct Memory Access).
+1.1 23:00:50:883778081 fwts method INFO Test 21 of 184: Test _FIX (Fixed Register Resource
+1.1 23:00:50:941422243 fwts method INFO Provider).
+1.1 23:00:50:997940607 fwts method INFO Test 22 of 184: Test _GSB (Global System Interrupt Base).
+1.1 23:00:51:049118616 fwts method INFO Test 23 of 184: Test _HPP (Hot Plug Parameters).
+1.1 23:00:51:099929785 fwts method INFO Test 24 of 184: Test _PRS (Possible Resource Settings).
+1.1 23:00:51:156873025 fwts method INFO Test 25 of 184: Test _PXM (Proximity).
+1.1 23:00:51:207847641 fwts method INFO Test 26 of 184: Test _CCA (Cache Coherency Attribute).
+1.1 23:00:51:260926529 fwts method INFO Test 27 of 184: Test _EDL (Eject Device List).
+1.1 23:00:51:314379218 fwts method INFO Test 28 of 184: Test _EJD (Ejection Dependent Device).
+1.1 23:00:51:364671333 fwts method INFO Test 29 of 184: Test _EJ0 (Eject).
+1.1 23:00:51:416590846 fwts method INFO Test 30 of 184: Test _EJ1 (Eject).
+1.1 23:00:51:468247349 fwts method INFO Test 31 of 184: Test _EJ2 (Eject).
+1.1 23:00:51:525291127 fwts method INFO Test 32 of 184: Test _EJ3 (Eject).
+1.1 23:00:51:576757241 fwts method INFO Test 33 of 184: Test _EJ4 (Eject).
+1.1 23:00:51:628558457 fwts method INFO Test 34 of 184: Test _LCK (Lock).
+1.1 23:00:51:685781117 fwts method INFO Test 35 of 184: Test _RMV (Remove).
+1.1 23:00:51:736824097 fwts method INFO Test 36 of 184: Test _STA (Status).
+1.1 23:00:51:790842121 fwts method INFO Test 37 of 184: Test _DEP (Operational Region Dependencies).
+1.1 23:00:51:903572294 fwts method INFO Test 38 of 184: Test _BDN (BIOS Dock Name).
+1.1 23:00:51:950975516 fwts method INFO Test 39 of 184: Test _BBN (Base Bus Number).
+1.1 23:00:52:001556817 fwts method INFO Test 40 of 184: Test _DCK (Dock).
+1.1 23:00:52:059849887 fwts method INFO Test 41 of 184: Test _INI (Initialize).
+1.1 23:00:52:119770820 fwts method INFO Test 42 of 184: Test _GLK (Global Lock).
+1.1 23:00:52:177736102 fwts method INFO Test 43 of 184: Test _SEG (Segment).
+1.1 23:00:52:222976680 fwts method INFO Test 44 of 184: Test _OFF (Set resource off).
+1.1 23:00:52:280877590 fwts method INFO Test 45 of 184: Test _ON (Set resource on).
+1.1 23:00:52:332770260 fwts method INFO Test 46 of 184: Test _DSW (Device Sleep Wake).
+1.1 23:00:52:382512190 fwts method INFO Test 47 of 184: Test _IRC (In Rush Current).
+1.1 23:00:52:437311483 fwts method INFO Test 48 of 184: Test _PRE (Power Resources for Enumeration).
+1.1 23:00:52:489634122 fwts method INFO Test 49 of 184: Test _PR0 (Power Resources for D0).
+1.1 23:00:52:545704675 fwts method INFO Test 50 of 184: Test _PR1 (Power Resources for D1).
+1.1 23:00:52:599702645 fwts method INFO Test 51 of 184: Test _PR2 (Power Resources for D2).
+1.1 23:00:52:654742187 fwts method INFO Test 52 of 184: Test _PR3 (Power Resources for D3).
+1.1 23:00:52:703948382 fwts method INFO Test 53 of 184: Test _PRW (Power Resources for Wake).
+1.1 23:00:52:758895216 fwts method INFO Test 54 of 184: Test _PS0 (Power State 0).
+1.1 23:00:52:813812305 fwts method INFO Test 55 of 184: Test _PS1 (Power State 1).
+1.1 23:00:52:880948259 fwts method INFO Test 56 of 184: Test _PS2 (Power State 2).
+1.1 23:00:52:949415030 fwts method INFO Test 57 of 184: Test _PS3 (Power State 3).
+1.1 23:00:52:998591443 fwts method INFO Test 58 of 184: Test _PSC (Power State Current).
+1.1 23:00:53:059464210 fwts method INFO Test 59 of 184: Test _PSE (Power State for Enumeration).
+1.1 23:00:53:112909421 fwts method INFO Test 60 of 184: Test _PSW (Power State Wake).
+1.1 23:00:53:159439417 fwts method INFO Test 61 of 184: Test _S1D (S1 Device State).
+1.1 23:00:53:207259798 fwts method INFO Test 62 of 184: Test _S2D (S2 Device State).
+1.1 23:00:53:255442782 fwts method INFO Test 63 of 184: Test _S3D (S3 Device State).
+1.1 23:00:53:303376397 fwts method INFO Test 64 of 184: Test _S4D (S4 Device State).
+1.1 23:00:53:351309128 fwts method INFO Test 65 of 184: Test _S0W (S0 Device Wake State).
+1.1 23:00:53:399377939 fwts method INFO Test 66 of 184: Test _S1W (S1 Device Wake State).
+1.1 23:00:53:447463363 fwts method INFO Test 67 of 184: Test _S2W (S2 Device Wake State).
+1.1 23:00:53:495288379 fwts method INFO Test 68 of 184: Test _S3W (S3 Device Wake State).
+1.1 23:00:53:543453828 fwts method INFO Test 69 of 184: Test _S4W (S4 Device Wake State).
+1.1 23:00:53:591260176 fwts method INFO Test 70 of 184: Test _RST (Device Reset).
+1.1 23:00:53:639331889 fwts method INFO Test 71 of 184: Test _PRR (Power Resource for Reset).
+1.1 23:00:53:693859202 fwts method INFO Test 72 of 184: Test _S0_ (S0 System State).
+1.1 23:00:53:746232444 fwts method INFO \_S0_ PM1a_CNT.SLP_TYP value: 0x00000000
+1.1 23:00:53:792328309 fwts method INFO \_S0_ PM1b_CNT.SLP_TYP value: 0x00000000
+1.1 23:00:53:859802431 fwts method INFO Test 73 of 184: Test _S1_ (S1 System State).
+1.1 23:00:53:920613128 fwts method INFO Test 74 of 184: Test _S2_ (S2 System State).
+1.1 23:00:53:974871888 fwts method INFO Test 75 of 184: Test _S3_ (S3 System State).
+1.1 23:00:54:045330693 fwts method INFO \_S3_ PM1a_CNT.SLP_TYP value: 0x00000005
+1.1 23:00:54:124347524 fwts method INFO \_S3_ PM1b_CNT.SLP_TYP value: 0x00000000
+1.1 23:00:54:201886109 fwts method INFO Test 76 of 184: Test _S4_ (S4 System State).
+1.1 23:00:54:271915013 fwts method INFO \_S4_ PM1a_CNT.SLP_TYP value: 0x00000006
+1.1 23:00:54:317535415 fwts method INFO \_S4_ PM1b_CNT.SLP_TYP value: 0x00000000
+1.1 23:00:54:365495303 fwts method INFO Test 77 of 184: Test _S5_ (S5 System State).
+1.1 23:00:54:416579990 fwts method INFO \_S5_ PM1a_CNT.SLP_TYP value: 0x00000007
+1.1 23:00:54:462478192 fwts method INFO \_S5_ PM1b_CNT.SLP_TYP value: 0x00000000
+1.1 23:00:54:513637984 fwts method INFO Test 78 of 184: Test _SWS (System Wake Source).
+1.1 23:00:54:559539614 fwts method INFO Test 79 of 184: Test _PSS (Performance Supported States).
+1.1 23:00:54:607503634 fwts method INFO \_PR_.CPU0._PSS values:
+1.1 23:00:54:658528381 fwts method INFO P-State  Freq     Power  Latency   Bus Master
+1.1 23:00:54:704417148 fwts method INFO (MHz)    (mW)    (us)    Latency (us)
+1.1 23:00:54:752997460 fwts method INFO 0      1463     2000   110        10
+1.1 23:00:54:803558383 fwts method INFO 1      1330     1800   110        10
+1.1 23:00:54:867627499 fwts method INFO 2      1197     1600   110        10
+1.1 23:00:54:916779485 fwts method INFO 3      1064     1400   110        10
+1.1 23:00:54:964623535 fwts method INFO 4       931     1200   110        10
+1.1 23:00:55:016351551 fwts method INFO 5       798     1000   110        10
+1.1 23:00:55:063463038 fwts method INFO 6       665      800   110        10
+1.1 23:00:55:112705968 fwts method INFO 7       532      600   110        10
+1.1 23:00:55:163243207 fwts method INFO Test 80 of 184: Test _CPC (Continuous Performance Control).
+1.1 23:00:55:208598873 fwts method INFO Test 81 of 184: Test _CSD (C State Dependencies).
+1.1 23:00:55:260481058 fwts method INFO Test 82 of 184: Test _CST (C States).
+1.1 23:00:55:308540292 fwts method INFO \_PR_.CPU0._CST values:
+1.1 23:00:55:356883881 fwts method INFO #   C-State   Latency     Power
+1.1 23:00:55:407562757 fwts method INFO (us)      (mW)
+1.1 23:00:55:455714653 fwts method INFO 1     C1          1      1000
+1.1 23:00:55:509640360 fwts method INFO 2     C2        500       100
+1.1 23:00:55:561394701 fwts method INFO 3     C3       5000        10
+1.1 23:00:55:625751502 fwts method INFO Test 83 of 184: Test _PCT (Performance Control).
+1.1 23:00:55:694355733 fwts method INFO Test 84 of 184: Test _PDL (P-State Depth Limit).
+1.1 23:00:55:765729930 fwts method INFO Test 85 of 184: Test _PPC (Performance Present
+1.1 23:00:55:837248352 fwts method INFO Capabilities).
+1.1 23:00:55:893861486 fwts method INFO Test 86 of 184: Test _PPE (Polling for Platform Error).
+1.1 23:00:55:946905732 fwts method INFO Test 87 of 184: Test _PSD (Power State Dependencies).
+1.1 23:00:56:000494545 fwts method INFO Test 88 of 184: Test _TDL (T-State Depth Limit).
+1.1 23:00:56:050894698 fwts method INFO Test 89 of 184: Test _TPC (Throttling Present Capabilities).
+1.1 23:00:56:107510930 fwts method INFO Test 90 of 184: Test _TSD (Throttling State Dependencies).
+1.1 23:00:56:160458425 fwts method INFO Test 91 of 184: Test _TSS (Throttling Supported States).
+1.1 23:00:56:211981413 fwts method INFO \_PR_.CPU0._TSS values:
+1.1 23:00:56:265972415 fwts method INFO T-State  CPU     Power   Latency  Control  Status
+1.1 23:00:56:316150950 fwts method INFO Freq    (mW)    (usecs)
+1.1 23:00:56:362656233 fwts method INFO 0    100%      600        0      00      00
+1.1 23:00:56:427874966 fwts method INFO 1     88%      525        0      0f      00
+1.1 23:00:56:475188698 fwts method INFO 2     75%      450        0      0e      00
+1.1 23:00:56:523247759 fwts method INFO 3     63%      375        0      0d      00
+1.1 23:00:56:571260778 fwts method INFO 4     50%      300        0      0c      00
+1.1 23:00:56:619243969 fwts method INFO 5     38%      225        0      0b      00
+1.1 23:00:56:667223447 fwts method INFO 6     25%      150        0      0a      00
+1.1 23:00:56:717519132 fwts method INFO 7     13%       75        0      09      00
+1.1 23:00:56:762191345 fwts method INFO Test 92 of 184: Test _PUR (Processor Utilization Request).
+1.1 23:00:56:810213956 fwts method INFO Test 93 of 184: Test _MSG (Message).
+1.1 23:00:56:858311672 fwts method INFO Test 94 of 184: Test _SST (System Status).
+1.1 23:00:56:906237038 fwts method INFO Test 95 of 184: Test _ALC (Ambient Light Colour
+1.1 23:00:56:954240471 fwts method INFO Chromaticity).
+1.1 23:00:57:002247587 fwts method INFO Test 96 of 184: Test _ALI (Ambient Light Illuminance).
+1.1 23:00:57:050216168 fwts method INFO Test 97 of 184: Test _ALT (Ambient Light Temperature).
+1.1 23:00:57:098316029 fwts method INFO Test 98 of 184: Test _ALP (Ambient Light Polling).
+1.1 23:00:57:146275693 fwts method INFO Test 99 of 184: Test _ALR (Ambient Light Response).
+1.1 23:00:57:191967337 fwts method INFO Test 100 of 184: Test _LID (Lid Status).
+1.1 23:00:57:242291140 fwts method INFO Test 101 of 184: Test _GTF (Get Task File).
+1.1 23:00:57:290974795 fwts method INFO Test 102 of 184: Test _GTM (Get Timing Mode).
+1.1 23:00:57:338991391 fwts method INFO Test 103 of 184: Test _MBM (Memory Bandwidth Monitoring
+1.1 23:00:57:389734662 fwts method INFO Data).
+1.1 23:00:57:435838342 fwts method INFO Test 104 of 184: Test _UPC (USB Port Capabilities).
+1.1 23:00:57:486764583 fwts method INFO Test 105 of 184: Test _UPD (User Presence Detect).
+1.1 23:00:57:532926073 fwts method INFO Test 106 of 184: Test _UPP (User Presence Polling).
+1.1 23:00:57:583784552 fwts method INFO Test 107 of 184: Test _GCP (Get Capabilities).
+1.1 23:00:57:629836654 fwts method INFO Test 108 of 184: Test _GRT (Get Real Time).
+1.1 23:00:57:680755846 fwts method INFO Test 109 of 184: Test _GWS (Get Wake Status).
+1.1 23:00:57:730280132 fwts method INFO Test 110 of 184: Test _STP (Set Expired Timer Wake Policy).
+1.1 23:00:57:777746302 fwts method INFO Test 111 of 184: Test _STV (Set Timer Value).
+1.1 23:00:57:823854182 fwts method INFO Test 112 of 184: Test _TIP (Expired Timer Wake Policy).
+1.1 23:00:57:874863291 fwts method INFO Test 113 of 184: Test _TIV (Timer Values).
+1.1 23:00:57:920812471 fwts method INFO Test 114 of 184: Test _SBS (Smart Battery Subsystem).
+1.1 23:00:57:971804832 fwts method INFO Test 115 of 184: Test _BCT (Battery Charge Time).
+1.1 23:00:58:018646221 fwts method INFO Test 116 of 184: Test _BIF (Battery Information).
+1.1 23:00:58:066662142 fwts method INFO Test 117 of 184: Test _BIX (Battery Information Extended).
+1.1 23:00:58:115693168 fwts method INFO Test 118 of 184: Test _BMA (Battery Measurement Averaging).
+1.1 23:00:58:164980281 fwts method INFO Test 119 of 184: Test _BMC (Battery Maintenance Control).
+1.1 23:00:58:215905503 fwts method INFO Test 120 of 184: Test _BMD (Battery Maintenance Data).
+1.1 23:00:58:268966818 fwts method INFO Test 121 of 184: Test _BMS (Battery Measurement Sampling
+1.1 23:00:58:314830085 fwts method INFO Time).
+1.1 23:00:58:362690396 fwts method INFO Test 122 of 184: Test _BST (Battery Status).
+1.1 23:00:58:414559771 fwts method INFO Test 123 of 184: Test _BTP (Battery Trip Point).
+1.1 23:00:58:461711203 fwts method INFO Test 124 of 184: Test _BTM (Battery Time).
+1.1 23:00:58:512608352 fwts method INFO Test 125 of 184: Test _PCL (Power Consumer List).
+1.1 23:00:58:559680666 fwts method INFO Test 126 of 184: Test _PIF (Power Source Information).
+1.1 23:00:58:607924265 fwts method INFO Test 127 of 184: Test _PRL (Power Source Redundancy List).
+1.1 23:00:58:660681508 fwts method INFO Test 128 of 184: Test _PSR (Power Source).
+1.1 23:00:58:712596453 fwts method INFO Test 129 of 184: Test _GAI (Get Averaging Level).
+1.1 23:00:58:764720124 fwts method INFO Test 130 of 184: Test _GHL (Get Harware Limit).
+1.1 23:00:58:812461725 fwts method INFO Test 131 of 184: Test _PMD (Power Meter Devices).
+1.1 23:00:58:860377941 fwts method INFO Test 132 of 184: Test _PMM (Power Meter Measurement).
+1.1 23:00:58:908240697 fwts method INFO Test 133 of 184: Test _FIF (Fan Information).
+1.1 23:00:58:956324193 fwts method INFO Test 134 of 184: Test _FPS (Fan Performance States).
+1.1 23:00:59:004440539 fwts method INFO Test 135 of 184: Test _FSL (Fan Set Level).
+1.1 23:00:59:052661885 fwts method INFO Test 136 of 184: Test _FST (Fan Status).
+1.1 23:00:59:100395686 fwts method INFO Test 137 of 184: Test _ACx (Active Cooling).
+1.1 23:00:59:148560550 fwts method INFO Test 138 of 184: Test _ART (Active Cooling Relationship
+1.1 23:00:59:196373933 fwts method INFO Table).
+1.1 23:00:59:244392764 fwts method INFO Test 139 of 184: Test _CRT (Critical Trip Point).
+1.1 23:00:59:292637630 fwts method INFO Test 140 of 184: Test _CR3 (Warm/Standby Temperature).
+1.1 23:00:59:340516511 fwts method INFO Test 141 of 184: Test _DTI (Device Temperature Indication).
+1.1 23:00:59:388550170 fwts method INFO Test 142 of 184: Test _HOT (Hot Temperature).
+1.1 23:00:59:436658056 fwts method INFO Test 143 of 184: Test _MTL (Minimum Throttle Limit).
+1.1 23:00:59:484421226 fwts method INFO Test 144 of 184: Test _NTT (Notification Temp Threshold).
+1.1 23:00:59:532528970 fwts method INFO Test 145 of 184: Test _PSL (Passive List).
+1.1 23:00:59:580622306 fwts method INFO Test 146 of 184: Test _PSV (Passive Temp).
+1.1 23:00:59:628619830 fwts method INFO Test 147 of 184: Test _RTV (Relative Temp Values).
+1.1 23:00:59:676479855 fwts method INFO Test 148 of 184: Test _SCP (Set Cooling Policy).
+1.1 23:00:59:728767807 fwts method INFO Test 149 of 184: Test _TC1 (Thermal Constant 1).
+1.1 23:00:59:773702370 fwts method INFO Test 150 of 184: Test _TC2 (Thermal Constant 2).
+1.1 23:00:59:824439663 fwts method INFO Test 151 of 184: Test _TMP (Thermal Zone Current Temp).
+1.1 23:00:59:869639457 fwts method INFO Test 152 of 184: Test _TPT (Trip Point Temperature).
+1.1 23:00:59:917739505 fwts method INFO Test 153 of 184: Test _TRT (Thermal Relationship Table).
+1.1 23:00:59:968532981 fwts method INFO Test 154 of 184: Test _TSP (Thermal Sampling Period).
+1.1 23:01:00:015616823 fwts method INFO Test 155 of 184: Test _TST (Temperature Sensor Threshold).
+1.1 23:01:00:061514650 fwts method INFO Test 156 of 184: Test _TZD (Thermal Zone Devices).
+1.1 23:01:00:109606659 fwts method INFO Test 157 of 184: Test _TZM (Thermal Zone member).
+1.1 23:01:00:157515007 fwts method INFO Test 158 of 184: Test _TZP (Thermal Zone Polling).
+1.1 23:01:00:205617501 fwts method INFO Test 159 of 184: Test _PTS (Prepare to Sleep).
+1.1 23:01:00:253671492 fwts method INFO Test _PTS(1).
+1.1 23:01:00:301697373 fwts method INFO Test _PTS(2).
+1.1 23:01:00:353663274 fwts method INFO Test _PTS(3).
+1.1 23:01:00:400539515 fwts method INFO Test _PTS(4).
+1.1 23:01:00:448650837 fwts method INFO Test _PTS(5).
+1.1 23:01:00:496638243 fwts method INFO Test 160 of 184: Test _TTS (Transition to State).
+1.1 23:01:00:544756216 fwts method INFO Test 161 of 184: Test _S0 (System S0 State).
+1.1 23:01:00:592735485 fwts method INFO Test 162 of 184: Test _S1 (System S1 State).
+1.1 23:01:00:641878418 fwts method INFO Test 163 of 184: Test _S2 (System S2 State).
+1.1 23:01:00:692737039 fwts method INFO Test 164 of 184: Test _S3 (System S3 State).
+1.1 23:01:00:739626181 fwts method INFO Test 165 of 184: Test _S4 (System S4 State).
+1.1 23:01:00:787736107 fwts method INFO Test 166 of 184: Test _S5 (System S5 State).
+1.1 23:01:00:835580420 fwts method INFO Test 167 of 184: Test _WAK (System Wake).
+1.1 23:01:00:884640343 fwts method INFO Test _WAK(1) System Wake, State S1.
+1.1 23:01:00:936581914 fwts method INFO Test _WAK(2) System Wake, State S2.
+1.1 23:01:00:981635742 fwts method INFO Test _WAK(3) System Wake, State S3.
+1.1 23:01:01:033636705 fwts method INFO Test _WAK(4) System Wake, State S4.
+1.1 23:01:01:078639938 fwts method INFO Test _WAK(5) System Wake, State S5.
+1.1 23:01:01:126758909 fwts method INFO Test 168 of 184: Test _ADR (Return Unique ID for Device).
+1.1 23:01:01:180560244 fwts method INFO Test 169 of 184: Test _BCL (Query List of Brightness Control
+1.1 23:01:01:225742952 fwts method INFO Levels Supported).
+1.1 23:01:01:273726105 fwts method INFO Brightness levels for \_SB_.PCI0.GFX0.DD1F._BCL:
+1.1 23:01:01:324427061 fwts method INFO Level on full power   : 80
+1.1 23:01:01:369766077 fwts method INFO Level on battery power: 50
+1.1 23:01:01:420570159 fwts method INFO Brightness Levels     : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100
+1.1 23:01:01:467585218 fwts method INFO Test 170 of 184: Test _BCM (Set Brightness Level).
+1.1 23:01:01:513927991 fwts method INFO Test 171 of 184: Test _BQC (Brightness Query Current Level).
+1.1 23:01:01:564569607 fwts method INFO Test 172 of 184: Test _DCS (Return the Status of Output
+1.1 23:01:01:610665284 fwts method INFO Device).
+1.1 23:01:01:658884741 fwts method INFO Test 173 of 184: Test _DDC (Return the EDID for this
+1.1 23:01:01:709775109 fwts method INFO Device).
+1.1 23:01:01:755944235 fwts method INFO Test 174 of 184: Test _DSS (Device Set State).
+1.1 23:01:01:806729933 fwts method INFO Test 175 of 184: Test _DGS (Query Graphics State).
+1.1 23:01:01:852803778 fwts method INFO Test 176 of 184: Test _DOD (Enumerate All Devices Attached
+1.1 23:01:01:903600337 fwts method INFO to Display Adapter).
+1.1 23:01:01:950756981 fwts method INFO Device 0:
+1.1 23:01:01:998642904 fwts method INFO Instance:                0
+1.1 23:01:02:050379230 fwts method INFO Display port attachment: 0
+1.1 23:01:02:097510097 fwts method INFO Type of display:         4 (Internal/Integrated Digital Flat Panel)
+1.1 23:01:02:143367949 fwts method INFO BIOS can detect device:  0
+1.1 23:01:02:191463955 fwts method INFO Non-VGA device:          0
+1.1 23:01:02:239451121 fwts method INFO Head or pipe ID:         0
+1.1 23:01:02:287571300 fwts method INFO Test 177 of 184: Test _DOS (Enable/Disable Output
+1.1 23:01:02:335460096 fwts method INFO Switching).
+1.1 23:01:02:383688154 fwts method INFO Test 178 of 184: Test _GPD (Get POST Device).
+1.1 23:01:02:435680695 fwts method INFO Test 179 of 184: Test _ROM (Get ROM Data).
+1.1 23:01:02:480406105 fwts method INFO Test 180 of 184: Test _SPD (Set POST Device).
+1.1 23:01:02:528381601 fwts method INFO Test 181 of 184: Test _VPO (Video POST Options).
+1.1 23:01:02:576663285 fwts method INFO Test 182 of 184: Test _CBA (Configuration Base Address).
+1.1 23:01:02:624625964 fwts method INFO Test 183 of 184: Test _IFT (IPMI Interface Type).
+1.1 23:01:02:672657717 fwts method INFO Test 184 of 184: Test _SRV (IPMI Interface Revision).
+1.1 23:01:02:720598466 fwts method RESULT 759 0 2 0
+1.1 23:01:02:771617587 fwts osilinux INFO Test 1 of 1: Disassemble DSDT to check for _OSI("Linux").
+1.1 23:01:02:820543155 fwts osilinux INFO This is not strictly a failure mode, it just alerts one that
+1.1 23:01:02:866610617 fwts osilinux INFO this has been defined in the DSDT and probably should be
+1.1 23:01:02:914526413 fwts osilinux INFO avoided since the Linux ACPI driver matches onto the Windows
+1.1 23:01:02:962621984 fwts osilinux INFO _OSI strings
+1.1 23:01:03:010608190 fwts osilinux RESULT 1 0 0 0
+1.1 23:01:09:563393980 fwts pcc INFO Test 1 of 1: Processor Clocking Control (PCC) test.
+1.1 23:01:09:612693363 fwts pcc INFO This test checks the sanity of the Processor Clocking
+1.1 23:01:09:658213009 fwts pcc INFO Control as found on some HP ProLiant machines. Most
+1.1 23:01:09:710546733 fwts pcc INFO computers do not use this interface to control the CPU clock
+1.1 23:01:09:755260008 fwts pcc INFO frequency, so this test will be skipped.
+1.1 23:01:09:803431720 fwts pcc INFO This machine does not use Processor Clocking Control (PCC).
+1.1 23:01:10:128341229 fwts pcc RESULT 0 0 0 0
+1.1 23:01:10:175539048 fwts rsdp INFO Test 1 of 1: RSDP Root System Description Pointer test.
+1.1 23:01:10:223974648 fwts rsdp RESULT 1 0 0 0
+1.1 23:01:10:274743749 fwts rsdt INFO Test 1 of 1: RSDT Root System Description Table test.
+1.1 23:01:10:325766875 fwts rsdt RESULT 1 0 0 0
+1.1 23:01:10:376714409 fwts sbst RESULT 0 0 0 0
+1.1 23:01:10:425859930 fwts slic RESULT 0 0 0 0
+1.1 23:01:10:476800054 fwts slit RESULT 0 0 0 0
+1.1 23:01:10:525760654 fwts spcr RESULT 0 0 0 0
+1.1 23:01:10:576743206 fwts spmi RESULT 0 0 0 0
+1.1 23:01:10:625745738 fwts srat RESULT 0 0 0 0
+1.1 23:01:10:676808893 fwts stao RESULT 0 0 0 0
+1.1 23:01:10:723923064 fwts syntaxcheck INFO Test 1 of 1: Disassemble and reassemble DSDT and SSDTs.
+1.1 23:01:11:926957157 fwts syntaxcheck INFO Checking ACPI table DSDT (#0)
+1.1 23:01:12:021972628 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:12:118305925 fwts syntaxcheck INFO 00146|     Name (FTBL, 0x04)
+1.1 23:01:12:209354788 fwts syntaxcheck INFO 00147|     Scope (\)
+1.1 23:01:12:292850477 fwts syntaxcheck INFO 00148|     {
+1.1 23:01:12:371756450 fwts syntaxcheck INFO 00149|         Method (UXDV, 1, Serialized)
+1.1 23:01:12:421818645 fwts syntaxcheck INFO |                   ^
+1.1 23:01:12:471220568 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:12:518794589 fwts syntaxcheck INFO 00150|         {
+1.1 23:01:12:564773528 fwts syntaxcheck INFO 00151|         }
+1.1 23:01:12:615857795 fwts syntaxcheck INFO 00152| 
+1.1 23:01:12:671409610 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:12:717708253 fwts syntaxcheck INFO 00150|         {
+1.1 23:01:12:765869727 fwts syntaxcheck INFO 00151|         }
+1.1 23:01:12:824856683 fwts syntaxcheck INFO 00152| 
+1.1 23:01:12:870735303 fwts syntaxcheck INFO 00153|         Method (RRIO, 4, Serialized)
+1.1 23:01:12:918885489 fwts syntaxcheck INFO |                   ^
+1.1 23:01:12:969753253 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:13:017726491 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:13:068927586 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:13:117944811 fwts syntaxcheck INFO 00156| 
+1.1 23:01:13:168665702 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:13:214924985 fwts syntaxcheck INFO 00150|         {
+1.1 23:01:13:269674328 fwts syntaxcheck INFO 00151|         }
+1.1 23:01:13:319667965 fwts syntaxcheck INFO 00152| 
+1.1 23:01:13:366757665 fwts syntaxcheck INFO 00153|         Method (RRIO, 4, Serialized)
+1.1 23:01:13:417787324 fwts syntaxcheck INFO |                   ^
+1.1 23:01:13:463816094 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg1)
+1.1 23:01:13:514756203 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:13:570378293 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:13:615764626 fwts syntaxcheck INFO 00156| 
+1.1 23:01:13:666755690 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:13:727980411 fwts syntaxcheck INFO 00150|         {
+1.1 23:01:13:792835775 fwts syntaxcheck INFO 00151|         }
+1.1 23:01:13:843768077 fwts syntaxcheck INFO 00152| 
+1.1 23:01:13:890785131 fwts syntaxcheck INFO 00153|         Method (RRIO, 4, Serialized)
+1.1 23:01:13:942112645 fwts syntaxcheck INFO |                   ^
+1.1 23:01:13:991711609 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg2)
+1.1 23:01:14:038806874 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:14:093895465 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:14:141919344 fwts syntaxcheck INFO 00156| 
+1.1 23:01:14:198380513 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:14:248623901 fwts syntaxcheck INFO 00150|         {
+1.1 23:01:14:295738515 fwts syntaxcheck INFO 00151|         }
+1.1 23:01:14:346717931 fwts syntaxcheck INFO 00152| 
+1.1 23:01:14:396234973 fwts syntaxcheck INFO 00153|         Method (RRIO, 4, Serialized)
+1.1 23:01:14:442761969 fwts syntaxcheck INFO |                   ^
+1.1 23:01:14:493486242 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg3)
+1.1 23:01:14:541336788 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:14:593260134 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:14:648751206 fwts syntaxcheck INFO 00156| 
+1.1 23:01:14:697632681 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:14:722720520 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:14:749411839 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:14:774438043 fwts syntaxcheck INFO 00156| 
+1.1 23:01:14:799346766 fwts syntaxcheck INFO 00157|         Method (RDMA, 3, NotSerialized)
+1.1 23:01:14:824297032 fwts syntaxcheck INFO |                   ^
+1.1 23:01:14:849162945 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:14:873995746 fwts syntaxcheck INFO 00158|         {
+1.1 23:01:14:899219403 fwts syntaxcheck INFO 00159|         }
+1.1 23:01:14:923835146 fwts syntaxcheck INFO 00160|     }
+1.1 23:01:14:948959502 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:14:973742120 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:14:998685906 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:15:023596677 fwts syntaxcheck INFO 00156| 
+1.1 23:01:15:048532820 fwts syntaxcheck INFO 00157|         Method (RDMA, 3, NotSerialized)
+1.1 23:01:15:073327184 fwts syntaxcheck INFO |                   ^
+1.1 23:01:15:098267325 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg1)
+1.1 23:01:15:123305116 fwts syntaxcheck INFO 00158|         {
+1.1 23:01:15:148178537 fwts syntaxcheck INFO 00159|         }
+1.1 23:01:15:172732982 fwts syntaxcheck INFO 00160|     }
+1.1 23:01:15:197724026 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:15:222732199 fwts syntaxcheck INFO 00154|         {
+1.1 23:01:15:247633955 fwts syntaxcheck INFO 00155|         }
+1.1 23:01:15:272527236 fwts syntaxcheck INFO 00156| 
+1.1 23:01:15:297466364 fwts syntaxcheck INFO 00157|         Method (RDMA, 3, NotSerialized)
+1.1 23:01:15:322388625 fwts syntaxcheck INFO |                   ^
+1.1 23:01:15:347184999 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg2)
+1.1 23:01:15:371725029 fwts syntaxcheck INFO 00158|         {
+1.1 23:01:15:396688292 fwts syntaxcheck INFO 00159|         }
+1.1 23:01:15:421793404 fwts syntaxcheck INFO 00160|     }
+1.1 23:01:15:446785640 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:15:471755803 fwts syntaxcheck INFO 00494|     Name (TOPM, 0x00000000)
+1.1 23:01:15:496567439 fwts syntaxcheck INFO 00495|     Name (ROMS, 0xFFE00000)
+1.1 23:01:15:521393077 fwts syntaxcheck INFO 00496|     Name (VGAF, One)
+1.1 23:01:15:546343441 fwts syntaxcheck INFO 00497|     Method (ADBG, 1, Serialized)
+1.1 23:01:15:570967449 fwts syntaxcheck INFO |               ^
+1.1 23:01:15:596168200 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:15:620852163 fwts syntaxcheck INFO 00498|     {
+1.1 23:01:15:645900552 fwts syntaxcheck INFO 00499|         Return (Zero)
+1.1 23:01:15:670563567 fwts syntaxcheck INFO 00500|     }
+1.1 23:01:15:695621699 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:15:720789382 fwts syntaxcheck INFO 01575|                     }
+1.1 23:01:15:745761916 fwts syntaxcheck INFO 01576|                     Else
+1.1 23:01:15:770573859 fwts syntaxcheck INFO 01577|                     {
+1.1 23:01:15:795455238 fwts syntaxcheck INFO 01578|                         Return (Package (0x00) {})
+1.1 23:01:15:820385329 fwts syntaxcheck INFO |                                            ^
+1.1 23:01:15:845263632 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:15:869810240 fwts syntaxcheck INFO 01579|                     }
+1.1 23:01:15:894784138 fwts syntaxcheck INFO 01580|                 }
+1.1 23:01:15:919750612 fwts syntaxcheck INFO 01581| 
+1.1 23:01:15:944681100 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:15:969507834 fwts syntaxcheck INFO 03620|                         Name (BATH, Zero)
+1.1 23:01:15:994337132 fwts syntaxcheck INFO 03621|                         Name (BCLT, Zero)
+1.1 23:01:16:019234605 fwts syntaxcheck INFO 03622|                         Name (PB10, One)
+1.1 23:01:16:044270589 fwts syntaxcheck INFO 03623|                         Method (ECMD, 1, Serialized)
+1.1 23:01:16:068961354 fwts syntaxcheck INFO |                                   ^
+1.1 23:01:16:094195698 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:16:118712186 fwts syntaxcheck INFO 03624|                         {
+1.1 23:01:16:143842992 fwts syntaxcheck INFO 03625|                             Return (0xFF)
+1.1 23:01:16:168850386 fwts syntaxcheck INFO 03626|                         }
+1.1 23:01:16:193590344 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:16:218538503 fwts syntaxcheck INFO 03644|                                 Return (Zero)
+1.1 23:01:16:243382396 fwts syntaxcheck INFO 03645|                             }
+1.1 23:01:16:268290159 fwts syntaxcheck INFO 03646| 
+1.1 23:01:16:292941220 fwts syntaxcheck INFO 03647|                             Method (_BST, 0, NotSerialized)  // _BST: Battery Status
+1.1 23:01:16:317980871 fwts syntaxcheck INFO |                                       ^
+1.1 23:01:16:342752412 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:16:367701260 fwts syntaxcheck INFO 03648|                             {
+1.1 23:01:16:392628606 fwts syntaxcheck INFO 03649|                                 Name (PKG1, Package (0x04)
+1.1 23:01:16:417439109 fwts syntaxcheck INFO 03650|                                 {
+1.1 23:01:16:442364340 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:16:467299531 fwts syntaxcheck INFO 03991|                         {
+1.1 23:01:16:492244615 fwts syntaxcheck INFO 03992|                             Name (BUF0, ResourceTemplate ()
+1.1 23:01:16:516771108 fwts syntaxcheck INFO 03993|                             {
+1.1 23:01:16:541777076 fwts syntaxcheck INFO 03994|                                 IO (Decode16,
+1.1 23:01:16:566665197 fwts syntaxcheck INFO |                                           ^
+1.1 23:01:16:591531350 fwts syntaxcheck INFO | Remark 2089: Object is not referenced    (Name is within method [_CRS])
+1.1 23:01:16:616397151 fwts syntaxcheck INFO 03995|                                     0x03F8,             // Range Minimum
+1.1 23:01:16:641499293 fwts syntaxcheck INFO 03996|                                     0x03F8,             // Range Maximum
+1.1 23:01:16:666380476 fwts syntaxcheck INFO 03997|                                     0x01,               // Alignment
+1.1 23:01:16:691350152 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:16:716448296 fwts syntaxcheck INFO 03994|                                 IO (Decode16,
+1.1 23:01:16:741263696 fwts syntaxcheck INFO 03995|                                     0x03F8,             // Range Minimum
+1.1 23:01:16:765939979 fwts syntaxcheck INFO 03996|                                     0x03F8,             // Range Maximum
+1.1 23:01:16:791142321 fwts syntaxcheck INFO 03997|                                     0x01,               // Alignment
+1.1 23:01:16:815764169 fwts syntaxcheck INFO |                                       ^
+1.1 23:01:16:840755527 fwts syntaxcheck INFO | Remark 2089: Object is not referenced    (Name is within method [_CRS])
+1.1 23:01:16:865700071 fwts syntaxcheck INFO 03998|                                     0x08,               // Length
+1.1 23:01:16:890552514 fwts syntaxcheck INFO 03999|                                     _Y03)
+1.1 23:01:16:915440965 fwts syntaxcheck INFO 04000|                                 IRQNoFlags (_Y04)
+1.1 23:01:16:940369931 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:16:965839341 fwts syntaxcheck INFO 04003|                             Store (0x03, WR07) /* \_SB_.PCI0.SBRG.WPCN.WR07 */
+1.1 23:01:16:990753734 fwts syntaxcheck INFO 04004|                             If (W381)
+1.1 23:01:17:015653090 fwts syntaxcheck INFO 04005|                             {
+1.1 23:01:17:040525588 fwts syntaxcheck INFO 04006|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR5._CRS._Y03._MIN, IOL0)  // _MIN: Minimum Base Address
+1.1 23:01:17:065472599 fwts syntaxcheck INFO |                                                                                             ^
+1.1 23:01:17:090395453 fwts syntaxcheck INFO | Warning 3128: ResourceTag larger than Field    (Size mismatch, Tag: 16 bits, Field: 8 bits)
+1.1 23:01:17:115325491 fwts syntaxcheck INFO 04007|                                 CreateByteField (BUF0, 0x03, IOH0)
+1.1 23:01:17:140216320 fwts syntaxcheck INFO 04008|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR5._CRS._Y03._MAX, IOL1)  // _MAX: Maximum Base Address
+1.1 23:01:17:164743712 fwts syntaxcheck INFO 04009|                                 CreateByteField (BUF0, 0x05, IOH1)
+1.1 23:01:17:189844054 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:17:214604194 fwts syntaxcheck INFO 04005|                             {
+1.1 23:01:17:239660810 fwts syntaxcheck INFO 04006|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR5._CRS._Y03._MIN, IOL0)  // _MIN: Minimum Base Address
+1.1 23:01:17:264527564 fwts syntaxcheck INFO 04007|                                 CreateByteField (BUF0, 0x03, IOH0)
+1.1 23:01:17:289355497 fwts syntaxcheck INFO 04008|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR5._CRS._Y03._MAX, IOL1)  // _MAX: Maximum Base Address
+1.1 23:01:17:314195018 fwts syntaxcheck INFO |                                                                                             ^
+1.1 23:01:17:338781368 fwts syntaxcheck INFO | Warning 3128: ResourceTag larger than Field    (Size mismatch, Tag: 16 bits, Field: 8 bits)
+1.1 23:01:17:363749417 fwts syntaxcheck INFO 04009|                                 CreateByteField (BUF0, 0x05, IOH1)
+1.1 23:01:17:388647220 fwts syntaxcheck INFO 04010|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR5._CRS._Y03._LEN, LEN0)  // _LEN: Length
+1.1 23:01:17:413485541 fwts syntaxcheck INFO 04011|                                 CreateWordField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR5._CRS._Y04._INT, IRQW)  // _INT: Interrupts
+1.1 23:01:17:438384184 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:17:463519333 fwts syntaxcheck INFO 04167|                         {
+1.1 23:01:17:488341116 fwts syntaxcheck INFO 04168|                             Name (BUF0, ResourceTemplate ()
+1.1 23:01:17:513434708 fwts syntaxcheck INFO 04169|                             {
+1.1 23:01:17:538341534 fwts syntaxcheck INFO 04170|                                 IO (Decode16,
+1.1 23:01:17:562869811 fwts syntaxcheck INFO |                                           ^
+1.1 23:01:17:587849170 fwts syntaxcheck INFO | Remark 2089: Object is not referenced    (Name is within method [_CRS])
+1.1 23:01:17:612552963 fwts syntaxcheck INFO 04171|                                     0x02F8,             // Range Minimum
+1.1 23:01:17:637481696 fwts syntaxcheck INFO 04172|                                     0x02F8,             // Range Maximum
+1.1 23:01:17:662432007 fwts syntaxcheck INFO 04173|                                     0x01,               // Alignment
+1.1 23:01:17:687455699 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:17:713311381 fwts syntaxcheck INFO 04170|                                 IO (Decode16,
+1.1 23:01:17:737826241 fwts syntaxcheck INFO 04171|                                     0x02F8,             // Range Minimum
+1.1 23:01:17:762754517 fwts syntaxcheck INFO 04172|                                     0x02F8,             // Range Maximum
+1.1 23:01:17:787771151 fwts syntaxcheck INFO 04173|                                     0x01,               // Alignment
+1.1 23:01:17:812746617 fwts syntaxcheck INFO |                                       ^
+1.1 23:01:17:837691731 fwts syntaxcheck INFO | Remark 2089: Object is not referenced    (Name is within method [_CRS])
+1.1 23:01:17:862527299 fwts syntaxcheck INFO 04174|                                     0x08,               // Length
+1.1 23:01:17:887501985 fwts syntaxcheck INFO 04175|                                     _Y05)
+1.1 23:01:17:912406643 fwts syntaxcheck INFO 04176|                                 IRQNoFlags (_Y06)
+1.1 23:01:17:937327082 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:17:966173065 fwts syntaxcheck INFO 04179|                             Store (0x02, WR07) /* \_SB_.PCI0.SBRG.WPCN.WR07 */
+1.1 23:01:17:990819948 fwts syntaxcheck INFO 04180|                             If (W381)
+1.1 23:01:18:015884964 fwts syntaxcheck INFO 04181|                             {
+1.1 23:01:18:040679762 fwts syntaxcheck INFO 04182|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR8._CRS._Y05._MIN, IOL0)  // _MIN: Minimum Base Address
+1.1 23:01:18:065572533 fwts syntaxcheck INFO |                                                                                             ^
+1.1 23:01:18:090384739 fwts syntaxcheck INFO | Warning 3128: ResourceTag larger than Field    (Size mismatch, Tag: 16 bits, Field: 8 bits)
+1.1 23:01:18:115295937 fwts syntaxcheck INFO 04183|                                 CreateByteField (BUF0, 0x03, IOH0)
+1.1 23:01:18:139944568 fwts syntaxcheck INFO 04184|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR8._CRS._Y05._MAX, IOL1)  // _MAX: Maximum Base Address
+1.1 23:01:18:164895479 fwts syntaxcheck INFO 04185|                                 CreateByteField (BUF0, 0x05, IOH1)
+1.1 23:01:18:189732720 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:18:214668256 fwts syntaxcheck INFO 04181|                             {
+1.1 23:01:18:239465626 fwts syntaxcheck INFO 04182|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR8._CRS._Y05._MIN, IOL0)  // _MIN: Minimum Base Address
+1.1 23:01:18:264548433 fwts syntaxcheck INFO 04183|                                 CreateByteField (BUF0, 0x03, IOH0)
+1.1 23:01:18:289469951 fwts syntaxcheck INFO 04184|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR8._CRS._Y05._MAX, IOL1)  // _MAX: Maximum Base Address
+1.1 23:01:18:314361252 fwts syntaxcheck INFO |                                                                                             ^
+1.1 23:01:18:339136213 fwts syntaxcheck INFO | Warning 3128: ResourceTag larger than Field    (Size mismatch, Tag: 16 bits, Field: 8 bits)
+1.1 23:01:18:363875668 fwts syntaxcheck INFO 04185|                                 CreateByteField (BUF0, 0x05, IOH1)
+1.1 23:01:18:388928332 fwts syntaxcheck INFO 04186|                                 CreateByteField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR8._CRS._Y05._LEN, LEN0)  // _LEN: Length
+1.1 23:01:18:413581042 fwts syntaxcheck INFO 04187|                                 CreateWordField (BUF0, \_SB.PCI0.SBRG.WPCN.UAR8._CRS._Y06._INT, IRQW)  // _INT: Interrupts
+1.1 23:01:18:438735526 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:18:463736050 fwts syntaxcheck INFO 04427|                     Mutex (MUT0, 0x00)
+1.1 23:01:18:488690381 fwts syntaxcheck INFO 04428|                     Method (ENFG, 1, NotSerialized)
+1.1 23:01:18:513455869 fwts syntaxcheck INFO 04429|                     {
+1.1 23:01:18:538315872 fwts syntaxcheck INFO 04430|                         Acquire (MUT0, 0x0FFF)
+1.1 23:01:18:562996730 fwts syntaxcheck INFO |                                            ^
+1.1 23:01:18:588201839 fwts syntaxcheck INFO | Warning 3130: Result is not used, possible operator timeout will be missed  
+1.1 23:01:18:613237935 fwts syntaxcheck INFO 04431|                         Store (0x87, INDX) /* \_SB_.PCI0.SBRG.SIO1.INDX */
+1.1 23:01:18:638149996 fwts syntaxcheck INFO 04432|                         Store (One, INDX) /* \_SB_.PCI0.SBRG.SIO1.INDX */
+1.1 23:01:18:662684402 fwts syntaxcheck INFO 04433|                         Store (0x55, INDX) /* \_SB_.PCI0.SBRG.SIO1.INDX */
+1.1 23:01:18:687820600 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:18:712845214 fwts syntaxcheck INFO 04450|                         Release (MUT0)
+1.1 23:01:18:737943073 fwts syntaxcheck INFO 04451|                     }
+1.1 23:01:18:762648201 fwts syntaxcheck INFO 04452| 
+1.1 23:01:18:787688445 fwts syntaxcheck INFO 04453|                     Method (UHID, 1, NotSerialized)
+1.1 23:01:18:812500395 fwts syntaxcheck INFO |                               ^
+1.1 23:01:18:837406839 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:18:862209902 fwts syntaxcheck INFO 04454|                     {
+1.1 23:01:18:886838770 fwts syntaxcheck INFO 04455|                         Return (0x0105D041)
+1.1 23:01:18:911812691 fwts syntaxcheck INFO 04456|                     }
+1.1 23:01:18:936784572 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:18:961745031 fwts syntaxcheck INFO 04653|                             {}
+1.1 23:01:18:986697382 fwts syntaxcheck INFO 04654|                     })
+1.1 23:01:19:011673253 fwts syntaxcheck INFO 04655|                     CreateWordField (CRS3, \_SB.PCI0.SBRG.SIO1._Y12._INT, IRQT)  // _INT: Interrupts
+1.1 23:01:19:036526303 fwts syntaxcheck INFO 04656|                     CreateByteField (CRS3, \_SB.PCI0.SBRG.SIO1._Y12._HE, IRQS)  // _HE_: High-Edge
+1.1 23:01:19:061355347 fwts syntaxcheck INFO |                                                                      ^
+1.1 23:01:19:086297505 fwts syntaxcheck INFO | Warning 3129: ResourceTag smaller than Field    (Size mismatch, Tag: 1 bit, Field: 8 bits)
+1.1 23:01:19:110939213 fwts syntaxcheck INFO 04657|                     CreateByteField (CRS3, \_SB.PCI0.SBRG.SIO1._Y13._DMA, DMAT)  // _DMA: Direct Memory Access
+1.1 23:01:19:135891602 fwts syntaxcheck INFO 04658|                     CreateWordField (CRS3, \_SB.PCI0.SBRG.SIO1._Y14._MIN, IO41)  // _MIN: Minimum Base Address
+1.1 23:01:19:160581647 fwts syntaxcheck INFO 04659|                     CreateWordField (CRS3, \_SB.PCI0.SBRG.SIO1._Y14._MAX, IO42)  // _MAX: Maximum Base Address
+1.1 23:01:19:185614796 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:19:211268323 fwts syntaxcheck INFO 04833|                     {
+1.1 23:01:19:236315947 fwts syntaxcheck INFO 04834|                         CreateWordField (Arg0, 0x02, IO41)
+1.1 23:01:19:260993662 fwts syntaxcheck INFO 04835|                         CreateWordField (Arg0, 0x09, IRQT)
+1.1 23:01:19:285728588 fwts syntaxcheck INFO 04836|                         CreateByteField (Arg0, 0x0B, IRQS)
+1.1 23:01:19:310780277 fwts syntaxcheck INFO |                                                        ^
+1.1 23:01:19:335706775 fwts syntaxcheck INFO | Remark 2089: Object is not referenced    (Name is within method [DSR3])
+1.1 23:01:19:360573431 fwts syntaxcheck INFO 04837|                         CreateByteField (Arg0, 0x0D, DMAT)
+1.1 23:01:19:385396954 fwts syntaxcheck INFO 04838|                         ENFG (CGLD (Arg1))
+1.1 23:01:19:410267262 fwts syntaxcheck INFO 04839|                         And (IO41, 0xFF, IOAL) /* \_SB_.PCI0.SBRG.SIO1.IOAL */
+1.1 23:01:19:435248894 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:19:460198672 fwts syntaxcheck INFO 04899|                         }
+1.1 23:01:19:484741792 fwts syntaxcheck INFO 04900|                     }
+1.1 23:01:19:509734261 fwts syntaxcheck INFO 04901| 
+1.1 23:01:19:534608252 fwts syntaxcheck INFO 04902|                     Method (SIOW, 1, NotSerialized)
+1.1 23:01:19:559481118 fwts syntaxcheck INFO |                               ^
+1.1 23:01:19:584438876 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:19:609217797 fwts syntaxcheck INFO 04903|                     {
+1.1 23:01:19:634307886 fwts syntaxcheck INFO 04904|                         Store ("SIOW", Debug)
+1.1 23:01:19:659262187 fwts syntaxcheck INFO 04905|                         ENFG (0x04)
+1.1 23:01:19:684288173 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:19:709360614 fwts syntaxcheck INFO 06108|                 }
+1.1 23:01:19:734262325 fwts syntaxcheck INFO 06109|                 Else
+1.1 23:01:19:759231633 fwts syntaxcheck INFO 06110|                 {
+1.1 23:01:19:783752719 fwts syntaxcheck INFO 06111|                     Return (Package (0x00) {})
+1.1 23:01:19:808699490 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:19:833636481 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:19:858497826 fwts syntaxcheck INFO 06112|                 }
+1.1 23:01:19:883428285 fwts syntaxcheck INFO 06113|             }
+1.1 23:01:19:908355151 fwts syntaxcheck INFO 06114| 
+1.1 23:01:19:933249797 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:19:957995462 fwts syntaxcheck INFO 06233|                 }
+1.1 23:01:19:982677768 fwts syntaxcheck INFO 06234|                 Else
+1.1 23:01:20:007587841 fwts syntaxcheck INFO 06235|                 {
+1.1 23:01:20:032376894 fwts syntaxcheck INFO 06236|                     Return (Package (0x00) {})
+1.1 23:01:20:057270138 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:20:081977936 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:20:106975265 fwts syntaxcheck INFO 06237|                 }
+1.1 23:01:20:131755355 fwts syntaxcheck INFO 06238|             }
+1.1 23:01:20:156658814 fwts syntaxcheck INFO 06239| 
+1.1 23:01:20:181676535 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:20:206560073 fwts syntaxcheck INFO 06418|                 }
+1.1 23:01:20:231421674 fwts syntaxcheck INFO 06419|                 Else
+1.1 23:01:20:256355500 fwts syntaxcheck INFO 06420|                 {
+1.1 23:01:20:281426089 fwts syntaxcheck INFO 06421|                     Return (Package (0x00) {})
+1.1 23:01:20:306319790 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:20:330972230 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:20:355955264 fwts syntaxcheck INFO 06422|                 }
+1.1 23:01:20:380629687 fwts syntaxcheck INFO 06423|             }
+1.1 23:01:20:405593055 fwts syntaxcheck INFO 06424| 
+1.1 23:01:20:430526589 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:20:455489275 fwts syntaxcheck INFO 06517|                 }
+1.1 23:01:20:480457533 fwts syntaxcheck INFO 06518|                 Else
+1.1 23:01:20:505460757 fwts syntaxcheck INFO 06519|                 {
+1.1 23:01:20:530320850 fwts syntaxcheck INFO 06520|                     Return (Package (0x00) {})
+1.1 23:01:20:554983078 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:20:579979034 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:20:605177528 fwts syntaxcheck INFO 06521|                 }
+1.1 23:01:20:629776231 fwts syntaxcheck INFO 06522|             }
+1.1 23:01:20:654771490 fwts syntaxcheck INFO 06523| 
+1.1 23:01:20:679732293 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:20:704646049 fwts syntaxcheck INFO 06590|                 Return (Zero)
+1.1 23:01:20:729652663 fwts syntaxcheck INFO 06591|             }
+1.1 23:01:20:754588094 fwts syntaxcheck INFO 06592| 
+1.1 23:01:20:779515200 fwts syntaxcheck INFO 06593|             Method (POSC, 3, Serialized)
+1.1 23:01:20:804357578 fwts syntaxcheck INFO |                       ^
+1.1 23:01:20:829338151 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:20:853913612 fwts syntaxcheck INFO 06594|             {
+1.1 23:01:20:878852073 fwts syntaxcheck INFO 06595|                 CreateDWordField (Arg2, Zero, CDW1)
+1.1 23:01:20:903622091 fwts syntaxcheck INFO 06596|                 CreateDWordField (Arg2, 0x08, CDW3)
+1.1 23:01:20:928560589 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:20:974945197 fwts syntaxcheck INFO 07082|                 }
+1.1 23:01:20:999687533 fwts syntaxcheck INFO 07083|                 Else
+1.1 23:01:21:024771329 fwts syntaxcheck INFO 07084|                 {
+1.1 23:01:21:049635180 fwts syntaxcheck INFO 07085|                     Return (Package (0x00) {})
+1.1 23:01:21:074433968 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:21:099342159 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:21:124318075 fwts syntaxcheck INFO 07086|                 }
+1.1 23:01:21:149266166 fwts syntaxcheck INFO 07087|             }
+1.1 23:01:21:173793349 fwts syntaxcheck INFO 07088| 
+1.1 23:01:21:198864860 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:21:223594176 fwts syntaxcheck INFO 07326|                         })
+1.1 23:01:21:248582774 fwts syntaxcheck INFO 07327|                         Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:21:273410835 fwts syntaxcheck INFO 07328|                         {
+1.1 23:01:21:298385821 fwts syntaxcheck INFO 07329|                             Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:21:323257045 fwts syntaxcheck INFO |                                     ^
+1.1 23:01:21:348711837 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:21:373337314 fwts syntaxcheck INFO 07330|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+1.1 23:01:21:398413738 fwts syntaxcheck INFO 07331|                             {
+1.1 23:01:21:423454702 fwts syntaxcheck INFO 07332|                                 While (One)
+1.1 23:01:21:448358265 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:21:473295024 fwts syntaxcheck INFO 07421|                         })
+1.1 23:01:21:497993199 fwts syntaxcheck INFO 07422|                         Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:21:523199696 fwts syntaxcheck INFO 07423|                         {
+1.1 23:01:21:547751268 fwts syntaxcheck INFO 07424|                             Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:21:572793717 fwts syntaxcheck INFO |                                     ^
+1.1 23:01:21:597785923 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:21:622683419 fwts syntaxcheck INFO 07425|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+1.1 23:01:21:647508322 fwts syntaxcheck INFO 07426|                             {
+1.1 23:01:21:672432353 fwts syntaxcheck INFO 07427|                                 While (One)
+1.1 23:01:21:697413872 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:21:722508206 fwts syntaxcheck INFO 07516|                         })
+1.1 23:01:21:747415414 fwts syntaxcheck INFO 07517|                         Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:21:772520870 fwts syntaxcheck INFO 07518|                         {
+1.1 23:01:21:797423331 fwts syntaxcheck INFO 07519|                             Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:21:822240885 fwts syntaxcheck INFO |                                     ^
+1.1 23:01:21:846858757 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:21:871839136 fwts syntaxcheck INFO 07520|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+1.1 23:01:21:896731742 fwts syntaxcheck INFO 07521|                             {
+1.1 23:01:21:921658675 fwts syntaxcheck INFO 07522|                                 While (One)
+1.1 23:01:21:946691239 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:21:971610395 fwts syntaxcheck INFO 07611|                         })
+1.1 23:01:21:996569729 fwts syntaxcheck INFO 07612|                         Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:22:021430459 fwts syntaxcheck INFO 07613|                         {
+1.1 23:01:22:046410898 fwts syntaxcheck INFO 07614|                             Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:22:071369646 fwts syntaxcheck INFO |                                     ^
+1.1 23:01:22:096298087 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:22:120854303 fwts syntaxcheck INFO 07615|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+1.1 23:01:22:145696793 fwts syntaxcheck INFO 07616|                             {
+1.1 23:01:22:170715265 fwts syntaxcheck INFO 07617|                                 While (One)
+1.1 23:01:22:195627566 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:22:220580419 fwts syntaxcheck INFO 07768|                 }
+1.1 23:01:22:245447465 fwts syntaxcheck INFO 07769|                 Else
+1.1 23:01:22:270310378 fwts syntaxcheck INFO 07770|                 {
+1.1 23:01:22:295275547 fwts syntaxcheck INFO 07771|                     Return (Package (0x00) {})
+1.1 23:01:22:320187675 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:22:344772053 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:22:369717804 fwts syntaxcheck INFO 07772|                 }
+1.1 23:01:22:394693818 fwts syntaxcheck INFO 07773|             }
+1.1 23:01:22:419612006 fwts syntaxcheck INFO 07774| 
+1.1 23:01:22:444549334 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:22:469467800 fwts syntaxcheck INFO 08285| 
+1.1 23:01:22:494411999 fwts syntaxcheck INFO 08286|             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:22:519230115 fwts syntaxcheck INFO 08287|             {
+1.1 23:01:22:543679237 fwts syntaxcheck INFO 08288|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:22:568705981 fwts syntaxcheck INFO |                         ^
+1.1 23:01:22:593640354 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:22:618357347 fwts syntaxcheck INFO 08289|                 If (LEqual (Arg0, ToUUID ("9c355bcb-35fa-44f7-8a67-447359c36a03")))
+1.1 23:01:22:643275281 fwts syntaxcheck INFO 08290|                 {
+1.1 23:01:22:667973066 fwts syntaxcheck INFO 08291|                     If (LEqual (Zero, ToInteger (Arg1)))
+1.1 23:01:22:692911700 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:22:717787491 fwts syntaxcheck INFO 08369|             Method (_INI, 0, NotSerialized)  // _INI: Initialize
+1.1 23:01:22:742759642 fwts syntaxcheck INFO 08370|             {
+1.1 23:01:22:767691158 fwts syntaxcheck INFO 08371|                 Store (0x07D0, OSYS) /* \OSYS */
+1.1 23:01:22:792500641 fwts syntaxcheck INFO 08372|                 If (CondRefOf (\_OSI, Local0))
+1.1 23:01:22:816973824 fwts syntaxcheck INFO |                                           ^
+1.1 23:01:22:842210710 fwts syntaxcheck INFO | Warning 3144: Method Local is set but never used    (Local0)
+1.1 23:01:22:866773840 fwts syntaxcheck INFO 08373|                 {
+1.1 23:01:22:892447310 fwts syntaxcheck INFO 08374|                     If (_OSI ("Windows 2001"))
+1.1 23:01:22:917356274 fwts syntaxcheck INFO 08375|                     {
+1.1 23:01:22:942313335 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:22:966994733 fwts syntaxcheck INFO 09360|                 Return (Zero)
+1.1 23:01:22:992241647 fwts syntaxcheck INFO 09361|             }
+1.1 23:01:23:016730197 fwts syntaxcheck INFO 09362| 
+1.1 23:01:23:041770111 fwts syntaxcheck INFO 09363|             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:23:066726669 fwts syntaxcheck INFO |                       ^
+1.1 23:01:23:091671513 fwts syntaxcheck INFO | Warning 3115: Not all control paths return a value    (_DSM)
+1.1 23:01:23:116491601 fwts syntaxcheck INFO 09364|             {
+1.1 23:01:23:141291544 fwts syntaxcheck INFO 09365|                 If (LEqual (Arg0, ToUUID ("b8febfe0-baf8-454b-aecd-49fb91137b21")))
+1.1 23:01:23:166177602 fwts syntaxcheck INFO 09366|                 {
+1.1 23:01:23:190951228 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:23:216188302 fwts syntaxcheck INFO 09360|                 Return (Zero)
+1.1 23:01:23:240895748 fwts syntaxcheck INFO 09361|             }
+1.1 23:01:23:266338360 fwts syntaxcheck INFO 09362| 
+1.1 23:01:23:290938668 fwts syntaxcheck INFO 09363|             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:23:315893231 fwts syntaxcheck INFO |                       ^
+1.1 23:01:23:340708827 fwts syntaxcheck INFO | Warning 3107: Reserved method must return a value    (Integer/String/Buffer/Package/Reference required for _DSM)
+1.1 23:01:23:365563805 fwts syntaxcheck INFO 09364|             {
+1.1 23:01:23:390416533 fwts syntaxcheck INFO 09365|                 If (LEqual (Arg0, ToUUID ("b8febfe0-baf8-454b-aecd-49fb91137b21")))
+1.1 23:01:23:415292834 fwts syntaxcheck INFO 09366|                 {
+1.1 23:01:23:440346901 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:23:465297114 fwts syntaxcheck INFO 09472|                 }
+1.1 23:01:23:489968237 fwts syntaxcheck INFO 09473|                 Else
+1.1 23:01:23:514962018 fwts syntaxcheck INFO 09474|                 {
+1.1 23:01:23:539650339 fwts syntaxcheck INFO 09475|                     Return (Package (0x00) {})
+1.1 23:01:23:564577850 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:23:589501296 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:23:614385674 fwts syntaxcheck INFO 09476|                 }
+1.1 23:01:23:639354772 fwts syntaxcheck INFO 09477|             }
+1.1 23:01:23:664352446 fwts syntaxcheck INFO 09478| 
+1.1 23:01:23:689234274 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:23:714499953 fwts syntaxcheck INFO 09566|                 }
+1.1 23:01:23:739702595 fwts syntaxcheck INFO 09567|                 Else
+1.1 23:01:23:764565868 fwts syntaxcheck INFO 09568|                 {
+1.1 23:01:23:789355139 fwts syntaxcheck INFO 09569|                     Return (Package (0x00) {})
+1.1 23:01:23:814221315 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:23:838819283 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:23:863912754 fwts syntaxcheck INFO 09570|                 }
+1.1 23:01:23:888585504 fwts syntaxcheck INFO 09571|             }
+1.1 23:01:23:913458153 fwts syntaxcheck INFO 09572| 
+1.1 23:01:23:938442191 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:23:963331805 fwts syntaxcheck INFO 09661|                 }
+1.1 23:01:23:988326621 fwts syntaxcheck INFO 09662|                 Else
+1.1 23:01:24:013270039 fwts syntaxcheck INFO 09663|                 {
+1.1 23:01:24:037909640 fwts syntaxcheck INFO 09664|                     Return (Package (0x00) {})
+1.1 23:01:24:062809933 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:24:087822652 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:24:112677773 fwts syntaxcheck INFO 09665|                 }
+1.1 23:01:24:137600889 fwts syntaxcheck INFO 09666|             }
+1.1 23:01:24:162629995 fwts syntaxcheck INFO 09667| 
+1.1 23:01:24:187608303 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:24:212446429 fwts syntaxcheck INFO 09764|                     }
+1.1 23:01:24:237345387 fwts syntaxcheck INFO 09765|                     Else
+1.1 23:01:24:262309686 fwts syntaxcheck INFO 09766|                     {
+1.1 23:01:24:287219242 fwts syntaxcheck INFO 09767|                         Return (Package (0x00) {})
+1.1 23:01:24:311756302 fwts syntaxcheck INFO |                                            ^
+1.1 23:01:24:336858203 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:24:361761984 fwts syntaxcheck INFO 09768|                     }
+1.1 23:01:24:386609755 fwts syntaxcheck INFO 09769|                 }
+1.1 23:01:24:411402056 fwts syntaxcheck INFO 09770| 
+1.1 23:01:24:436344837 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:24:460948535 fwts syntaxcheck INFO 09856|                     }
+1.1 23:01:24:486145844 fwts syntaxcheck INFO 09857|                     Else
+1.1 23:01:24:510614474 fwts syntaxcheck INFO 09858|                     {
+1.1 23:01:24:535543522 fwts syntaxcheck INFO 09859|                         Return (Package (0x00) {})
+1.1 23:01:24:560324183 fwts syntaxcheck INFO |                                            ^
+1.1 23:01:24:585237406 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:24:609798819 fwts syntaxcheck INFO 09860|                     }
+1.1 23:01:24:634805163 fwts syntaxcheck INFO 09861|                 }
+1.1 23:01:24:659757131 fwts syntaxcheck INFO 09862| 
+1.1 23:01:24:684734802 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:24:709750003 fwts syntaxcheck INFO 09960|                 }
+1.1 23:01:24:734759137 fwts syntaxcheck INFO 09961|                 Else
+1.1 23:01:24:759669668 fwts syntaxcheck INFO 09962|                 {
+1.1 23:01:24:784650624 fwts syntaxcheck INFO 09963|                     Return (Package (0x00) {})
+1.1 23:01:24:809498942 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:24:834398186 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:24:858982834 fwts syntaxcheck INFO 09964|                 }
+1.1 23:01:24:883972475 fwts syntaxcheck INFO 09965|             }
+1.1 23:01:24:908635258 fwts syntaxcheck INFO 09966| 
+1.1 23:01:24:933780239 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:24:980471215 fwts syntaxcheck INFO 10208|                 }
+1.1 23:01:25:005329343 fwts syntaxcheck INFO 10209|                 Else
+1.1 23:01:25:029982076 fwts syntaxcheck INFO 10210|                 {
+1.1 23:01:25:055148125 fwts syntaxcheck INFO 10211|                     Return (Package (0x00) {})
+1.1 23:01:25:079830146 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:25:104773527 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:25:129623975 fwts syntaxcheck INFO 10212|                 }
+1.1 23:01:25:154465183 fwts syntaxcheck INFO 10213|             }
+1.1 23:01:25:179437544 fwts syntaxcheck INFO 10214| 
+1.1 23:01:25:204388650 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:25:228984248 fwts syntaxcheck INFO 10287|                 }
+1.1 23:01:25:253956744 fwts syntaxcheck INFO 10288|                 Else
+1.1 23:01:25:278596817 fwts syntaxcheck INFO 10289|                 {
+1.1 23:01:25:303574398 fwts syntaxcheck INFO 10290|                     Return (Package (0x00) {})
+1.1 23:01:25:328411647 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:25:353300600 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:25:377968693 fwts syntaxcheck INFO 10291|                 }
+1.1 23:01:25:403264012 fwts syntaxcheck INFO 10292|             }
+1.1 23:01:25:427822545 fwts syntaxcheck INFO 10293| 
+1.1 23:01:25:452914674 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:25:477528947 fwts syntaxcheck INFO 10364|                 }
+1.1 23:01:25:502555735 fwts syntaxcheck INFO 10365|                 Else
+1.1 23:01:25:527668669 fwts syntaxcheck INFO 10366|                 {
+1.1 23:01:25:552528042 fwts syntaxcheck INFO 10367|                     Return (Package (0x00) {})
+1.1 23:01:25:577356568 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:25:602319637 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:25:626971702 fwts syntaxcheck INFO 10368|                 }
+1.1 23:01:25:651973988 fwts syntaxcheck INFO 10369|             }
+1.1 23:01:25:676759396 fwts syntaxcheck INFO 10370| 
+1.1 23:01:25:701766220 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:25:726982632 fwts syntaxcheck INFO 10469|                 }
+1.1 23:01:25:751747940 fwts syntaxcheck INFO 10470|                 Else
+1.1 23:01:25:776769441 fwts syntaxcheck INFO 10471|                 {
+1.1 23:01:25:801683279 fwts syntaxcheck INFO 10472|                     Return (Package (0x00) {})
+1.1 23:01:25:826703108 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:25:851649864 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:25:876593852 fwts syntaxcheck INFO 10473|                 }
+1.1 23:01:25:901473738 fwts syntaxcheck INFO 10474|             }
+1.1 23:01:25:926348029 fwts syntaxcheck INFO 10475| 
+1.1 23:01:25:951415948 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:25:976278074 fwts syntaxcheck INFO 10581|                 }
+1.1 23:01:26:001309445 fwts syntaxcheck INFO 10582|                 Else
+1.1 23:01:26:025996055 fwts syntaxcheck INFO 10583|                 {
+1.1 23:01:26:051164324 fwts syntaxcheck INFO 10584|                     Return (Package (0x00) {})
+1.1 23:01:26:075760522 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:26:100775078 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:26:125702499 fwts syntaxcheck INFO 10585|                 }
+1.1 23:01:26:150572583 fwts syntaxcheck INFO 10586|             }
+1.1 23:01:26:175411728 fwts syntaxcheck INFO 10587| 
+1.1 23:01:26:200486772 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:26:225357080 fwts syntaxcheck INFO 10735|                 }
+1.1 23:01:26:250283601 fwts syntaxcheck INFO 10736|                 Else
+1.1 23:01:26:275252760 fwts syntaxcheck INFO 10737|                 {
+1.1 23:01:26:300144098 fwts syntaxcheck INFO 10738|                     Return (Package (0x00) {})
+1.1 23:01:26:324729601 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:26:349641430 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:26:374474470 fwts syntaxcheck INFO 10739|                 }
+1.1 23:01:26:399375701 fwts syntaxcheck INFO 10740|             }
+1.1 23:01:26:424354415 fwts syntaxcheck INFO 10741| 
+1.1 23:01:26:449316928 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:26:473973411 fwts syntaxcheck INFO 10847|                 }
+1.1 23:01:26:499196595 fwts syntaxcheck INFO 10848|                 Else
+1.1 23:01:26:523795651 fwts syntaxcheck INFO 10849|                 {
+1.1 23:01:26:548853294 fwts syntaxcheck INFO 10850|                     Return (Package (0x00) {})
+1.1 23:01:26:573556990 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:26:598566116 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:26:623304087 fwts syntaxcheck INFO 10851|                 }
+1.1 23:01:26:648288553 fwts syntaxcheck INFO 10852|             }
+1.1 23:01:26:672908203 fwts syntaxcheck INFO 10853| 
+1.1 23:01:26:697933274 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:26:722976578 fwts syntaxcheck INFO 11579|                 }
+1.1 23:01:26:748126142 fwts syntaxcheck INFO 11580|                 Else
+1.1 23:01:26:772651749 fwts syntaxcheck INFO 11581|                 {
+1.1 23:01:26:797556723 fwts syntaxcheck INFO 11582|                     Return (Package (0x00) {})
+1.1 23:01:26:822401464 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:26:847344612 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:26:872444391 fwts syntaxcheck INFO 11583|                 }
+1.1 23:01:26:897338174 fwts syntaxcheck INFO 11584|             }
+1.1 23:01:26:921932130 fwts syntaxcheck INFO 11585| 
+1.1 23:01:26:946936898 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:26:971680306 fwts syntaxcheck INFO 11784|                 }
+1.1 23:01:26:996751578 fwts syntaxcheck INFO 11785|                 Else
+1.1 23:01:27:021758559 fwts syntaxcheck INFO 11786|                 {
+1.1 23:01:27:046615817 fwts syntaxcheck INFO 11787|                     Return (Package (0x00) {})
+1.1 23:01:27:071503586 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:27:096622504 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:27:121450318 fwts syntaxcheck INFO 11788|                 }
+1.1 23:01:27:146386394 fwts syntaxcheck INFO 11789|             }
+1.1 23:01:27:171328275 fwts syntaxcheck INFO 11790| 
+1.1 23:01:27:196374886 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:27:221294679 fwts syntaxcheck INFO 11906| 
+1.1 23:01:27:246253960 fwts syntaxcheck INFO 11907|                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:27:271220831 fwts syntaxcheck INFO 11908|                 {
+1.1 23:01:27:295767364 fwts syntaxcheck INFO 11909|                     Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:27:320763178 fwts syntaxcheck INFO |                             ^
+1.1 23:01:27:345703071 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_1)
+1.1 23:01:27:370673760 fwts syntaxcheck INFO 11910|                     Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:27:395557755 fwts syntaxcheck INFO 11911|                     Store ("Method _DSM begin", Debug)
+1.1 23:01:27:420462624 fwts syntaxcheck INFO 11912|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:27:445429472 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:27:470274491 fwts syntaxcheck INFO 11907|                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:27:495303642 fwts syntaxcheck INFO 11908|                 {
+1.1 23:01:27:519971217 fwts syntaxcheck INFO 11909|                     Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:27:544631863 fwts syntaxcheck INFO 11910|                     Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:27:569466209 fwts syntaxcheck INFO |                             ^
+1.1 23:01:27:594453435 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:27:619393433 fwts syntaxcheck INFO 11911|                     Store ("Method _DSM begin", Debug)
+1.1 23:01:27:644409137 fwts syntaxcheck INFO 11912|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:27:669180340 fwts syntaxcheck INFO 11913|                     {
+1.1 23:01:27:694236776 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:27:719347692 fwts syntaxcheck INFO 12003| 
+1.1 23:01:27:743974258 fwts syntaxcheck INFO 12004|                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:27:769135949 fwts syntaxcheck INFO 12005|                 {
+1.1 23:01:27:793753665 fwts syntaxcheck INFO 12006|                     Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:27:818794081 fwts syntaxcheck INFO |                             ^
+1.1 23:01:27:843728537 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_1)
+1.1 23:01:27:868573908 fwts syntaxcheck INFO 12007|                     Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:27:893414141 fwts syntaxcheck INFO 12008|                     Store ("Method _DSM begin", Debug)
+1.1 23:01:27:918265894 fwts syntaxcheck INFO 12009|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:27:942856887 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:27:968205059 fwts syntaxcheck INFO 12004|                 Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:27:992918752 fwts syntaxcheck INFO 12005|                 {
+1.1 23:01:28:017956101 fwts syntaxcheck INFO 12006|                     Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:28:042677699 fwts syntaxcheck INFO 12007|                     Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:28:067753492 fwts syntaxcheck INFO |                             ^
+1.1 23:01:28:092703218 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:28:117557229 fwts syntaxcheck INFO 12008|                     Store ("Method _DSM begin", Debug)
+1.1 23:01:28:142427223 fwts syntaxcheck INFO 12009|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:28:167348831 fwts syntaxcheck INFO 12010|                     {
+1.1 23:01:28:192406827 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:28:217537724 fwts syntaxcheck INFO 12080|                 Name (_CID, "PNP0C50" /* HID Protocol Device (I2C bus) */)  // _CID: Compatible ID
+1.1 23:01:28:242339354 fwts syntaxcheck INFO 12081|                 Name (_UID, One)  // _UID: Unique ID
+1.1 23:01:28:267345330 fwts syntaxcheck INFO 12082|                 Name (_S0W, 0x04)  // _S0W: S0 Device Wake State
+1.1 23:01:28:292455512 fwts syntaxcheck INFO 12083|                 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+1.1 23:01:28:317271100 fwts syntaxcheck INFO |                           ^
+1.1 23:01:28:341922558 fwts syntaxcheck INFO | Warning 3115: Not all control paths return a value    (_DSM)
+1.1 23:01:28:366914644 fwts syntaxcheck INFO 12084|                 {
+1.1 23:01:28:391727405 fwts syntaxcheck INFO 12085|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:28:416772463 fwts syntaxcheck INFO 12086|                     {
+1.1 23:01:28:441533512 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:28:466513110 fwts syntaxcheck INFO 12080|                 Name (_CID, "PNP0C50" /* HID Protocol Device (I2C bus) */)  // _CID: Compatible ID
+1.1 23:01:28:491355706 fwts syntaxcheck INFO 12081|                 Name (_UID, One)  // _UID: Unique ID
+1.1 23:01:28:516237939 fwts syntaxcheck INFO 12082|                 Name (_S0W, 0x04)  // _S0W: S0 Device Wake State
+1.1 23:01:28:540915152 fwts syntaxcheck INFO 12083|                 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+1.1 23:01:28:565911716 fwts syntaxcheck INFO |                           ^
+1.1 23:01:28:590627381 fwts syntaxcheck INFO | Warning 3107: Reserved method must return a value    (Integer/String/Buffer/Package/Reference required for _DSM)
+1.1 23:01:28:615579732 fwts syntaxcheck INFO 12084|                 {
+1.1 23:01:28:640523128 fwts syntaxcheck INFO 12085|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:28:665391052 fwts syntaxcheck INFO 12086|                     {
+1.1 23:01:28:690383753 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:28:715410166 fwts syntaxcheck INFO 12154|                 Name (_ADR, Zero)  // _ADR: Address
+1.1 23:01:28:740406055 fwts syntaxcheck INFO 12155|                 Name (_HID, "MXT3432")  // _HID: Hardware ID
+1.1 23:01:28:765263996 fwts syntaxcheck INFO 12156|                 Name (_CID, "PNP0C50" /* HID Protocol Device (I2C bus) */)  // _CID: Compatible ID
+1.1 23:01:28:790149072 fwts syntaxcheck INFO 12157|                 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+1.1 23:01:28:814941275 fwts syntaxcheck INFO |                           ^
+1.1 23:01:28:839973494 fwts syntaxcheck INFO | Warning 3115: Not all control paths return a value    (_DSM)
+1.1 23:01:28:864738449 fwts syntaxcheck INFO 12158|                 {
+1.1 23:01:28:889799438 fwts syntaxcheck INFO 12159|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:28:914850812 fwts syntaxcheck INFO 12160|                     {
+1.1 23:01:28:939673480 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:28:964741984 fwts syntaxcheck INFO 12154|                 Name (_ADR, Zero)  // _ADR: Address
+1.1 23:01:28:989690127 fwts syntaxcheck INFO 12155|                 Name (_HID, "MXT3432")  // _HID: Hardware ID
+1.1 23:01:29:014594336 fwts syntaxcheck INFO 12156|                 Name (_CID, "PNP0C50" /* HID Protocol Device (I2C bus) */)  // _CID: Compatible ID
+1.1 23:01:29:039416299 fwts syntaxcheck INFO 12157|                 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+1.1 23:01:29:064331157 fwts syntaxcheck INFO |                           ^
+1.1 23:01:29:089241816 fwts syntaxcheck INFO | Warning 3107: Reserved method must return a value    (Integer/String/Buffer/Package/Reference required for _DSM)
+1.1 23:01:29:113939159 fwts syntaxcheck INFO 12158|                 {
+1.1 23:01:29:138746977 fwts syntaxcheck INFO 12159|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:29:163622685 fwts syntaxcheck INFO 12160|                     {
+1.1 23:01:29:188677892 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:29:213659853 fwts syntaxcheck INFO 12280|                 }
+1.1 23:01:29:238525938 fwts syntaxcheck INFO 12281|                 Else
+1.1 23:01:29:263386632 fwts syntaxcheck INFO 12282|                 {
+1.1 23:01:29:288273448 fwts syntaxcheck INFO 12283|                     Return (Package (0x00) {})
+1.1 23:01:29:312959676 fwts syntaxcheck INFO |                                        ^
+1.1 23:01:29:337959194 fwts syntaxcheck INFO | Remark 2095: Effective AML package length is zero  
+1.1 23:01:29:362710275 fwts syntaxcheck INFO 12284|                 }
+1.1 23:01:29:387702084 fwts syntaxcheck INFO 12285|             }
+1.1 23:01:29:412618667 fwts syntaxcheck INFO 12286| 
+1.1 23:01:29:437474395 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:29:462410921 fwts syntaxcheck INFO 12426|                 Name (_CID, "PNP0C50" /* HID Protocol Device (I2C bus) */)  // _CID: Compatible ID
+1.1 23:01:29:487242440 fwts syntaxcheck INFO 12427|                 Name (_UID, One)  // _UID: Unique ID
+1.1 23:01:29:511965613 fwts syntaxcheck INFO 12428|                 Name (_S0W, 0x03)  // _S0W: S0 Device Wake State
+1.1 23:01:29:537238597 fwts syntaxcheck INFO 12429|                 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+1.1 23:01:29:561810960 fwts syntaxcheck INFO |                           ^
+1.1 23:01:29:586726785 fwts syntaxcheck INFO | Warning 3115: Not all control paths return a value    (_DSM)
+1.1 23:01:29:611707179 fwts syntaxcheck INFO 12430|                 {
+1.1 23:01:29:636623125 fwts syntaxcheck INFO 12431|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:29:661461408 fwts syntaxcheck INFO 12432|                     {
+1.1 23:01:29:686432494 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:29:711658161 fwts syntaxcheck INFO 12426|                 Name (_CID, "PNP0C50" /* HID Protocol Device (I2C bus) */)  // _CID: Compatible ID
+1.1 23:01:29:736611569 fwts syntaxcheck INFO 12427|                 Name (_UID, One)  // _UID: Unique ID
+1.1 23:01:29:761481368 fwts syntaxcheck INFO 12428|                 Name (_S0W, 0x03)  // _S0W: S0 Device Wake State
+1.1 23:01:29:786395499 fwts syntaxcheck INFO 12429|                 Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+1.1 23:01:29:811317835 fwts syntaxcheck INFO |                           ^
+1.1 23:01:29:835992003 fwts syntaxcheck INFO | Warning 3107: Reserved method must return a value    (Integer/String/Buffer/Package/Reference required for _DSM)
+1.1 23:01:29:861188277 fwts syntaxcheck INFO 12430|                 {
+1.1 23:01:29:885946827 fwts syntaxcheck INFO 12431|                     If (LEqual (Arg0, ToUUID ("3cdff6f7-4267-4555-ad05-b30a3d8938de") /* HID I2C Device */))
+1.1 23:01:29:910926591 fwts syntaxcheck INFO 12432|                     {
+1.1 23:01:29:935934629 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:29:982735638 fwts syntaxcheck INFO 12606|                     }
+1.1 23:01:30:007751342 fwts syntaxcheck INFO 12607|                 }
+1.1 23:01:30:032666958 fwts syntaxcheck INFO 12608|             })
+1.1 23:01:30:057498071 fwts syntaxcheck INFO 12609|             Method (_IND, 0, Serialized)
+1.1 23:01:30:082397592 fwts syntaxcheck INFO |                       ^
+1.1 23:01:30:107289440 fwts syntaxcheck INFO | Warning 3133: Unknown reserved name    (_IND)
+1.1 23:01:30:131964748 fwts syntaxcheck INFO 12610|             {
+1.1 23:01:30:156946829 fwts syntaxcheck INFO 12611|                 Return (PDAT) /* \_SB_.PIND.PDAT */
+1.1 23:01:30:181676535 fwts syntaxcheck INFO 12612|             }
+1.1 23:01:30:206795131 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:30:231749275 fwts syntaxcheck INFO 12939| 
+1.1 23:01:30:256725348 fwts syntaxcheck INFO 12940|     Scope (_SB.PCI0.SBRG)
+1.1 23:01:30:281558007 fwts syntaxcheck INFO 12941|     {
+1.1 23:01:30:306409332 fwts syntaxcheck INFO 12942|         Method (MWAK, 1, NotSerialized)
+1.1 23:01:30:331377178 fwts syntaxcheck INFO |                   ^
+1.1 23:01:30:355966499 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg0)
+1.1 23:01:30:380930077 fwts syntaxcheck INFO 12943|         {
+1.1 23:01:30:405633218 fwts syntaxcheck INFO 12944|             If (BTNW)
+1.1 23:01:30:430800032 fwts syntaxcheck INFO 12945|             {
+1.1 23:01:30:455694288 fwts syntaxcheck INFO Table DSDT (0) reassembly: Found 0 errors, 16 warnings, 52
+1.1 23:01:30:480558934 fwts syntaxcheck INFO remarks.
+1.1 23:01:30:505497424 fwts syntaxcheck INFO Checking ACPI table SSDT (#1)
+1.1 23:01:30:530456586 fwts syntaxcheck INFO Checking ACPI table SSDT (#2)
+1.1 23:01:30:555386031 fwts syntaxcheck INFO Checking ACPI table SSDT (#3)
+1.1 23:01:30:580375793 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:30:605179606 fwts syntaxcheck INFO 00068|             Return (Local0)
+1.1 23:01:30:629757804 fwts syntaxcheck INFO 00069|         }
+1.1 23:01:30:654799210 fwts syntaxcheck INFO 00070| 
+1.1 23:01:30:679720586 fwts syntaxcheck INFO 00071|         Method (CPDC, 1, NotSerialized)
+1.1 23:01:30:704587309 fwts syntaxcheck INFO |                   ^
+1.1 23:01:30:729516313 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:30:754362546 fwts syntaxcheck INFO 00072|         {
+1.1 23:01:30:779272087 fwts syntaxcheck INFO 00073|             CreateDWordField (Arg0, Zero, REVS)
+1.1 23:01:30:803950935 fwts syntaxcheck INFO 00074|             CreateDWordField (Arg0, 0x04, SIZE)
+1.1 23:01:30:828926558 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:30:853649581 fwts syntaxcheck INFO 00083|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+1.1 23:01:30:878448392 fwts syntaxcheck INFO 00084|         }
+1.1 23:01:30:903482456 fwts syntaxcheck INFO 00085| 
+1.1 23:01:30:928289547 fwts syntaxcheck INFO 00086|         Method (COSC, 4, NotSerialized)
+1.1 23:01:30:953173212 fwts syntaxcheck INFO |                   ^
+1.1 23:01:30:977875603 fwts syntaxcheck INFO | Remark 2146: Method Argument is never used    (Arg2)
+1.1 23:01:31:002915074 fwts syntaxcheck INFO 00087|         {
+1.1 23:01:31:027672560 fwts syntaxcheck INFO 00088|             CreateDWordField (Arg3, Zero, STS0)
+1.1 23:01:31:052735776 fwts syntaxcheck INFO 00089|             CreateDWordField (Arg3, 0x04, CAP0)
+1.1 23:01:31:077627992 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:31:102605333 fwts syntaxcheck INFO 00083|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+1.1 23:01:31:127369936 fwts syntaxcheck INFO 00084|         }
+1.1 23:01:31:152323682 fwts syntaxcheck INFO 00085| 
+1.1 23:01:31:176968810 fwts syntaxcheck INFO 00086|         Method (COSC, 4, NotSerialized)
+1.1 23:01:31:202217382 fwts syntaxcheck INFO |                   ^
+1.1 23:01:31:226806642 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:31:252146594 fwts syntaxcheck INFO 00087|         {
+1.1 23:01:31:276752474 fwts syntaxcheck INFO 00088|             CreateDWordField (Arg3, Zero, STS0)
+1.1 23:01:31:301732838 fwts syntaxcheck INFO 00089|             CreateDWordField (Arg3, 0x04, CAP0)
+1.1 23:01:31:326569876 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:31:351418262 fwts syntaxcheck INFO 00086|         Method (COSC, 4, NotSerialized)
+1.1 23:01:31:376336173 fwts syntaxcheck INFO 00087|         {
+1.1 23:01:31:401262131 fwts syntaxcheck INFO 00088|             CreateDWordField (Arg3, Zero, STS0)
+1.1 23:01:31:425949867 fwts syntaxcheck INFO 00089|             CreateDWordField (Arg3, 0x04, CAP0)
+1.1 23:01:31:450665930 fwts syntaxcheck INFO |                                             ^
+1.1 23:01:31:475462775 fwts syntaxcheck INFO | Remark 2089: Object is not referenced    (Name is within method [COSC])
+1.1 23:01:31:500399751 fwts syntaxcheck INFO 00090|             CreateDWordField (Arg0, Zero, IID0)
+1.1 23:01:31:525255345 fwts syntaxcheck INFO 00091|             CreateDWordField (Arg0, 0x04, IID1)
+1.1 23:01:31:550190183 fwts syntaxcheck INFO 00092|             CreateDWordField (Arg0, 0x08, IID2)
+1.1 23:01:31:574835124 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:31:599832010 fwts syntaxcheck INFO 00112|             Return (Arg3)
+1.1 23:01:31:624769631 fwts syntaxcheck INFO 00113|         }
+1.1 23:01:31:649644792 fwts syntaxcheck INFO 00114| 
+1.1 23:01:31:674530370 fwts syntaxcheck INFO 00115|         Method (GCAP, 1, NotSerialized)
+1.1 23:01:31:699483628 fwts syntaxcheck INFO |                   ^
+1.1 23:01:31:724515592 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:31:749428936 fwts syntaxcheck INFO 00116|         {
+1.1 23:01:31:774363901 fwts syntaxcheck INFO 00117|             CreateDWordField (Arg0, Zero, STS0)
+1.1 23:01:31:798925404 fwts syntaxcheck INFO 00118|             CreateDWordField (Arg0, 0x04, CAP0)
+1.1 23:01:31:824203518 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:31:848890114 fwts syntaxcheck INFO 00200|             Return (Zero)
+1.1 23:01:31:874144318 fwts syntaxcheck INFO 00201|         }
+1.1 23:01:31:898735858 fwts syntaxcheck INFO 00202| 
+1.1 23:01:31:923748202 fwts syntaxcheck INFO 00203|         Method (APCT, 0, NotSerialized)
+1.1 23:01:31:948711870 fwts syntaxcheck INFO |                   ^
+1.1 23:01:31:973590166 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:31:998397602 fwts syntaxcheck INFO 00204|         {
+1.1 23:01:32:023322608 fwts syntaxcheck INFO 00205|             If (LAnd (And (CFGD, 0x82), LNot (And (SDTL, 0x20))))
+1.1 23:01:32:048281769 fwts syntaxcheck INFO 00206|             {
+1.1 23:01:32:073241118 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:32:097753210 fwts syntaxcheck INFO 00210|             }
+1.1 23:01:32:122789989 fwts syntaxcheck INFO 00211|         }
+1.1 23:01:32:147678470 fwts syntaxcheck INFO 00212| 
+1.1 23:01:32:172668366 fwts syntaxcheck INFO 00213|         Method (APPT, 0, NotSerialized)
+1.1 23:01:32:197509544 fwts syntaxcheck INFO |                   ^
+1.1 23:01:32:222418575 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:32:247149773 fwts syntaxcheck INFO 00214|         {
+1.1 23:01:32:271685288 fwts syntaxcheck INFO 00215|             If (LAnd (And (CFGD, One), LNot (And (SDTL, 0x10))))
+1.1 23:01:32:296631939 fwts syntaxcheck INFO 00216|             {
+1.1 23:01:32:321565638 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:32:346515199 fwts syntaxcheck INFO 00267|             Return (Zero)
+1.1 23:01:32:371484215 fwts syntaxcheck INFO 00268|         }
+1.1 23:01:32:396317953 fwts syntaxcheck INFO 00269| 
+1.1 23:01:32:421259707 fwts syntaxcheck INFO 00270|         Method (APCT, 0, NotSerialized)
+1.1 23:01:32:446129018 fwts syntaxcheck INFO |                   ^
+1.1 23:01:32:470767508 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:32:495809537 fwts syntaxcheck INFO 00271|         {
+1.1 23:01:32:520746355 fwts syntaxcheck INFO 00272|             If (LAnd (And (CFGD, 0x82), LNot (And (SDTL, 0x20))))
+1.1 23:01:32:545761579 fwts syntaxcheck INFO 00273|             {
+1.1 23:01:32:570767322 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:32:595627806 fwts syntaxcheck INFO 00277|             }
+1.1 23:01:32:620580352 fwts syntaxcheck INFO 00278|         }
+1.1 23:01:32:645381660 fwts syntaxcheck INFO 00279| 
+1.1 23:01:32:670349536 fwts syntaxcheck INFO 00280|         Method (APPT, 0, NotSerialized)
+1.1 23:01:32:695353465 fwts syntaxcheck INFO |                   ^
+1.1 23:01:32:720362793 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:32:744965824 fwts syntaxcheck INFO 00281|         {
+1.1 23:01:32:769974335 fwts syntaxcheck INFO 00282|             If (LAnd (And (CFGD, One), LNot (And (SDTL, 0x10))))
+1.1 23:01:32:794716385 fwts syntaxcheck INFO 00283|             {
+1.1 23:01:32:819810344 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:32:844716360 fwts syntaxcheck INFO 00334|             Return (Zero)
+1.1 23:01:32:869687521 fwts syntaxcheck INFO 00335|         }
+1.1 23:01:32:894682735 fwts syntaxcheck INFO 00336| 
+1.1 23:01:32:919596986 fwts syntaxcheck INFO 00337|         Method (APCT, 0, NotSerialized)
+1.1 23:01:32:944512766 fwts syntaxcheck INFO |                   ^
+1.1 23:01:32:969318140 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:32:994194178 fwts syntaxcheck INFO 00338|         {
+1.1 23:01:33:018830328 fwts syntaxcheck INFO 00339|             If (LAnd (And (CFGD, 0x82), LNot (And (SDTL, 0x20))))
+1.1 23:01:33:043901120 fwts syntaxcheck INFO 00340|             {
+1.1 23:01:33:068801136 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:33:093825374 fwts syntaxcheck INFO 00344|             }
+1.1 23:01:33:118712295 fwts syntaxcheck INFO 00345|         }
+1.1 23:01:33:143724796 fwts syntaxcheck INFO 00346| 
+1.1 23:01:33:168627812 fwts syntaxcheck INFO 00347|         Method (APPT, 0, NotSerialized)
+1.1 23:01:33:193625681 fwts syntaxcheck INFO |                   ^
+1.1 23:01:33:218453629 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:33:243257315 fwts syntaxcheck INFO 00348|         {
+1.1 23:01:33:268259841 fwts syntaxcheck INFO 00349|             If (LAnd (And (CFGD, One), LNot (And (SDTL, 0x10))))
+1.1 23:01:33:293375565 fwts syntaxcheck INFO 00350|             {
+1.1 23:01:33:318380708 fwts syntaxcheck INFO Table SSDT (3) reassembly: Found 0 errors, 0 warnings, 11
+1.1 23:01:33:343274177 fwts syntaxcheck INFO remarks.
+1.1 23:01:33:367998790 fwts syntaxcheck INFO Checking ACPI table SSDT (#4)
+1.1 23:01:33:393243341 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:33:417953194 fwts syntaxcheck INFO 00255|             Return (TSSI) /* \_PR_.CPU0.TSSI */
+1.1 23:01:33:442887545 fwts syntaxcheck INFO 00256|         }
+1.1 23:01:33:467583591 fwts syntaxcheck INFO 00257| 
+1.1 23:01:33:492767550 fwts syntaxcheck INFO 00258|         Method (_TDL, 0, NotSerialized)  // _TDL: T-State Depth Limit
+1.1 23:01:33:517518248 fwts syntaxcheck INFO |                   ^
+1.1 23:01:33:542462191 fwts syntaxcheck INFO | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
+1.1 23:01:33:567361210 fwts syntaxcheck INFO 00259|         {
+1.1 23:01:33:592320131 fwts syntaxcheck INFO 00260|             Store ("Cpu0: _TDL Called", Debug)
+1.1 23:01:33:616954046 fwts syntaxcheck INFO 00261|             Name (LFMI, Zero)
+1.1 23:01:33:642269338 fwts syntaxcheck INFO Table SSDT (4) reassembly: Found 0 errors, 0 warnings, 1
+1.1 23:01:33:666885523 fwts syntaxcheck INFO remarks.
+1.1 23:01:33:691884614 fwts syntaxcheck INFO Checking ACPI table SSDT (#5)
+1.1 23:01:33:717281259 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:33:742219277 fwts syntaxcheck INFO 00103| 
+1.1 23:01:33:771702724 fwts syntaxcheck INFO 00104|             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:33:796362132 fwts syntaxcheck INFO 00105|             {
+1.1 23:01:33:821384916 fwts syntaxcheck INFO 00106|                 Name (_T_2, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:33:846323482 fwts syntaxcheck INFO |                         ^
+1.1 23:01:33:870983595 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_2)
+1.1 23:01:33:896141814 fwts syntaxcheck INFO 00107|                 Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:33:920731216 fwts syntaxcheck INFO 00108|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:33:945768490 fwts syntaxcheck INFO 00109|                 If (LEqual (Arg0, ToUUID ("3dddfaa6-361b-4eb4-a424-8d10089d1653") /* Physical Presence Interface */))
+1.1 23:01:33:970702436 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:33:995676110 fwts syntaxcheck INFO 00104|             Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method
+1.1 23:01:34:020483103 fwts syntaxcheck INFO 00105|             {
+1.1 23:01:34:045293659 fwts syntaxcheck INFO 00106|                 Name (_T_2, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:34:069971224 fwts syntaxcheck INFO 00107|                 Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:34:094744910 fwts syntaxcheck INFO |                         ^
+1.1 23:01:34:119729413 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_1)
+1.1 23:01:34:144610747 fwts syntaxcheck INFO 00108|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:34:169390320 fwts syntaxcheck INFO 00109|                 If (LEqual (Arg0, ToUUID ("3dddfaa6-361b-4eb4-a424-8d10089d1653") /* Physical Presence Interface */))
+1.1 23:01:34:194265518 fwts syntaxcheck INFO 00110|                 {
+1.1 23:01:34:219264092 fwts syntaxcheck INFO Line | AML source
+1.1 23:01:34:244220320 fwts syntaxcheck INFO 00105|             {
+1.1 23:01:34:268775216 fwts syntaxcheck INFO 00106|                 Name (_T_2, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:34:293883109 fwts syntaxcheck INFO 00107|                 Name (_T_1, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:34:318638938 fwts syntaxcheck INFO 00108|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
+1.1 23:01:34:343686036 fwts syntaxcheck INFO |                         ^
+1.1 23:01:34:368607540 fwts syntaxcheck INFO | Remark 2011: Use of compiler reserved name    (_T_0)
+1.1 23:01:34:393485401 fwts syntaxcheck INFO 00109|                 If (LEqual (Arg0, ToUUID ("3dddfaa6-361b-4eb4-a424-8d10089d1653") /* Physical Presence Interface */))
+1.1 23:01:34:418364596 fwts syntaxcheck INFO 00110|                 {
+1.1 23:01:34:443314060 fwts syntaxcheck INFO 00111|                     While (One)
+1.1 23:01:34:468375004 fwts syntaxcheck INFO Table SSDT (5) reassembly: Found 0 errors, 0 warnings, 3
+1.1 23:01:34:493255767 fwts syntaxcheck INFO remarks.
+1.1 23:01:34:517866567 fwts syntaxcheck RESULT 2 83 0 0
+1.1 23:01:34:544137338 fwts tcpa INFO Test 1 of 1: Validate TCPA table.
+1.1 23:01:34:570200539 fwts tcpa INFO TCPA Table:
+1.1 23:01:34:594727527 fwts tcpa INFO Platform Class:                  0x0000
+1.1 23:01:34:619686500 fwts tcpa INFO Log Area Minimum Length:         0x00010000
+1.1 23:01:34:644547336 fwts tcpa INFO Log Area Start Address:          0x00000000b96dd010
+1.1 23:01:34:669397807 fwts tcpa RESULT 1 0 0 0
+1.1 23:01:34:695369650 fwts tpm2 RESULT 0 0 0 1
+1.1 23:01:34:721845366 fwts uefi INFO Test 1 of 1: UEFI Data Table test.
+1.1 23:01:34:747712869 fwts uefi INFO UEFI ACPI Data Table:
+1.1 23:01:34:772559072 fwts uefi INFO Identifier: C68ED8E2-9DC6-4CBD-9D94-DB65ACC5C332
+1.1 23:01:34:797469925 fwts uefi INFO DataOffset: 0x0036
+1.1 23:01:34:822287381 fwts uefi INFO SW SMI Number: 0x00000001
+1.1 23:01:34:846801439 fwts uefi INFO Buffer Ptr Address: 0x0000000000000000
+1.1 23:01:34:872147578 fwts uefi RESULT 1 0 0 0
+1.1 23:01:34:897876713 fwts waet RESULT 0 0 0 0
+1.1 23:01:34:923892768 fwts wakealarm INFO Test 1 of 4: Test existence of RTC with alarm interface.
+1.1 23:01:34:949619593 fwts wakealarm INFO Test 2 of 4: Trigger wakealarm for 1 seconds in the future.
+1.1 23:01:34:974481689 fwts wakealarm INFO Trigger wakealarm for 1 seconds in the future.
+1.1 23:01:34:999382830 fwts wakealarm INFO Test 3 of 4: Test if wakealarm is fired.
+1.1 23:01:35:024369584 fwts wakealarm INFO Test 4 of 4: Multiple wakealarm firing tests.
+1.1 23:01:35:049316482 fwts wakealarm INFO Trigger wakealarm for 1 seconds in the future.
+1.1 23:01:35:074256023 fwts wakealarm INFO Trigger wakealarm for 2 seconds in the future.
+1.1 23:01:35:098755876 fwts wakealarm INFO Trigger wakealarm for 3 seconds in the future.
+1.1 23:01:35:123787937 fwts wakealarm INFO Trigger wakealarm for 4 seconds in the future.
+1.1 23:01:35:987493182 fwts wakealarm RESULT 4 0 0 0
+1.1 23:01:36:038383731 fwts wdat RESULT 0 0 0 0
+1.1 23:01:44:173465153 fwts wmi INFO Test 1 of 1: Windows Management Instrumentation test.
+1.1 23:01:44:224456884 fwts wmi INFO No ACPI _WDG WMI data found.
+1.1 23:01:44:634180209 fwts wmi RESULT 0 0 0 0
+1.1 23:01:44:683255845 fwts xsdt INFO Test 1 of 1: XSDT Extended System Description Table test.
+1.1 23:01:44:734596140 fwts xsdt RESULT 1 0 0 0
+1.1 23:01:44:782418583 fwts xenv RESULT 0 0 0 1
+1.1 23:01:44:829474052 fwts apicedge INFO Test 1 of 1: Legacy and PCI Interrupt Edge/Level trigger
+1.1 23:01:44:895538944 fwts apicedge INFO tests.
+1.1 23:01:44:958482307 fwts apicedge RESULT 0 1 0 0
+1.1 23:01:45:008182372 fwts bios32 INFO Machine is not using traditional BIOS firmware, skipping
+1.1 23:01:45:055184118 fwts bios32 INFO test.
+1.1 23:01:45:101080798 fwts bios32 RESULT 0 0 0 0
+1.1 23:01:45:151966539 fwts ebda INFO Machine is not using traditional BIOS firmware, skipping
+1.1 23:01:45:197172243 fwts ebda INFO test.
+1.1 23:01:45:245166871 fwts ebda RESULT 0 0 0 0
+1.1 23:01:45:296241365 fwts hda_audio INFO Test 1 of 1: HDA Audio Pin Configuration test.
+1.1 23:01:45:340973068 fwts hda_audio RESULT 0 0 0 0
+1.1 23:01:45:391228103 fwts mpcheck INFO Failed to find the Multiprocessor Table data, skipping
+1.1 23:01:45:440182853 fwts mpcheck INFO mpcheck        ;INF mpcheck test.
+1.1 23:01:45:486151428 fwts mpcheck RESULT 0 0 0 0
+1.1 23:01:45:533878096 fwts pciirq INFO Test 1 of 1: PCI IRQ Routing Table test.
+1.1 23:01:45:584229206 fwts pciirq INFO This test tries to find and sanity check the PCI IRQ Routing
+1.1 23:01:45:630163521 fwts pciirq INFO Table, as defined by http://www.microsoft.com/taiwan/whdc
+1.1 23:01:45:678188427 fwts pciirq INFO /archive/pciirq.mspx and described in pages 233-238 of PCI
+1.1 23:01:45:726404006 fwts pciirq INFO System Architecture, Fourth Edition, Mindshare, Inc. (1999).
+1.1 23:01:45:774189586 fwts pciirq INFO NOTE: The PCI IRQ Routing Table only really knows about ISA
+1.1 23:01:45:821957287 fwts pciirq INFO IRQs and is generally not used with APIC. 
+1.1 23:01:45:869976696 fwts pciirq INFO Could not find PCI IRQ Routing Table. Since this table is
+1.1 23:01:45:915698460 fwts pciirq INFO for legacy BIOS systems which don't have ACPI support this
+1.1 23:01:45:965846867 fwts pciirq INFO is generally not a problem.
+1.1 23:01:46:002778608 fwts pciirq RESULT 0 0 0 0
+1.1 23:01:46:041569969 fwts pnp INFO Test 1 of 1: PnP BIOS Support Installation structure test.
+1.1 23:01:46:080532211 fwts pnp INFO This test tries to find and sanity check the Plug and Play
+1.1 23:01:46:116800748 fwts pnp INFO BIOS Support Installation Check structure. 
+1.1 23:01:46:155816930 fwts pnp INFO Could not find PnP BIOS Support Installation Check
+1.1 23:01:46:192817506 fwts pnp INFO structure. This is not necessarily a failure.
+1.1 23:01:46:231781945 fwts pnp RESULT 0 0 0 0
+1.1 23:01:46:268817171 fwts virt INFO Test 1 of 1: CPU Virtualisation Configuration test.
+1.1 23:01:46:307722150 fwts virt INFO Check VT/VMX Virtualization extensions are set up correctly.
+1.1 23:01:46:346779545 fwts virt RESULT 1 0 0 0
+1.1 23:01:46:383791183 fwts maxfreq INFO Test 1 of 1: Maximum CPU frequency test.
+1.1 23:01:46:421858763 fwts maxfreq INFO This test checks the maximum CPU frequency as detected by
+1.1 23:01:46:462619733 fwts maxfreq INFO the kernel for each CPU against maxiumum frequency as
+1.1 23:01:46:498804225 fwts maxfreq INFO specified by the BIOS frequency scaling settings.
+1.1 23:01:46:537733467 fwts maxfreq INFO CPU 0 maximum frequency 1.463000 GHz is sane.
+1.1 23:01:46:574820833 fwts maxfreq RESULT 1 0 0 0
+1.1 23:01:46:613758767 fwts cpufreq INFO Test 1 of 7: CPU frequency table consistency
+1.1 23:01:46:652838714 fwts cpufreq INFO Test 2 of 7: CPU frequency table duplicates
+1.1 23:01:46:689883067 fwts cpufreq INFO Test 3 of 7: CPU frequency firmware limits
+1.1 23:01:46:726886890 fwts cpufreq INFO Test 4 of 7: CPU frequency claimed maximum
+1.1 23:01:46:764712288 fwts cpufreq INFO Test 5 of 7: CPU frequency SW_ANY control
+1.1 23:01:46:804579616 fwts cpufreq INFO Test 6 of 7: CPU frequency SW_ALL control
+1.1 23:01:46:840763823 fwts cpufreq INFO Test 7 of 7: CPU frequency performance tests.
+1.1 23:01:53:051418466 fwts cpufreq INFO CPU 0: 8 CPU frequency steps supported.
+1.1 23:01:53:139732344 fwts cpufreq INFO Frequency | Relative Speed |  Cycles    | Bogo loops
+1.1 23:01:53:207622244 fwts cpufreq INFO -----------+----------------+------------+-----------
+1.1 23:01:53:294680050 fwts cpufreq INFO 532.000 MHz |      36.4 %    |  533363127 |     13564
+1.1 23:01:53:353520088 fwts cpufreq INFO 665.000 MHz |      45.5 %    |  666684592 |     20435
+1.1 23:01:53:407674658 fwts cpufreq INFO 798.000 MHz |      54.5 %    |  800019175 |     47396
+1.1 23:01:53:454292629 fwts cpufreq INFO 931.000 MHz |      63.6 %    |  933349087 |     55619
+1.1 23:01:53:502271590 fwts cpufreq INFO 1.064 GHz |      72.7 %    | 1066681162 |     63838
+1.1 23:01:53:550272046 fwts cpufreq INFO 1.197 GHz |      81.8 %    | 1200015104 |     72032
+1.1 23:01:53:598307422 fwts cpufreq INFO 1.330 GHz |      90.9 %    | 1333347667 |     80228
+1.1 23:01:53:646220473 fwts cpufreq INFO 1.463 GHz |     100.0 %    | 1466680777 |     88421
+1.1 23:01:53:694227904 fwts cpufreq INFO CPU 0 performance scaling OK
+1.1 23:01:53:743558045 fwts cpufreq RESULT 4 0 0 0
+1.1 23:01:53:791466978 fwts nx INFO Test 1 of 3: Test CPU NX capability.
+1.1 23:01:53:846367852 fwts nx INFO Test 2 of 3: Test all CPUs have same BIOS set NX flag.
+1.1 23:01:53:902955396 fwts nx INFO This test verifies that all CPUs have the same NX flag
+1.1 23:01:53:948683363 fwts nx INFO setting. Although rare, BIOS may set the NX flag differently
+1.1 23:01:54:008544326 fwts nx INFO per CPU. 
+1.1 23:01:54:033599600 fwts nx INFO Only one CPU, no need to run test.
+1.1 23:01:54:058407741 fwts nx INFO Test 3 of 3: Test all CPUs have same msr setting in MSR
+1.1 23:01:54:083262434 fwts nx INFO 0x1a0.
+1.1 23:01:54:107994134 fwts nx INFO This test verifies that all CPUs have the same NX flag
+1.1 23:01:54:133147516 fwts nx INFO setting by examining the per CPU MSR register 0x1a0.
+1.1 23:01:54:157729194 fwts nx RESULT 2 0 0 0
+1.1 23:01:54:183734622 fwts msr INFO Test 1 of 5: Test CPU generic MSRs.
+1.1 23:01:54:210521754 fwts msr INFO Test 2 of 5: Test CPU specific model MSRs.
+1.1 23:01:54:235385169 fwts msr INFO CPU family: 0x6, model: 0x37 (Atom)
+1.1 23:01:54:260260195 fwts msr INFO Test 3 of 5: Test all P State Ratios.
+1.1 23:01:54:284990358 fwts msr INFO Test 4 of 5: Test C1 and C3 autodemotion.
+1.1 23:01:54:309658391 fwts msr INFO C1 and C3 Autodemotion disabled.
+1.1 23:01:54:334594287 fwts msr INFO Test 5 of 5: Test SMRR MSR registers.
+1.1 23:01:54:359512153 fwts msr RESULT 77 0 0 0
+1.1 23:01:54:385583506 fwts microcode INFO Test 1 of 1: Test for most recent microcode being loaded.
+1.1 23:01:54:411404959 fwts microcode INFO This test verifies if the firmware has put a recent revision
+1.1 23:01:54:436290627 fwts microcode INFO of the microcode into the processor at boot time. Recent
+1.1 23:01:54:460939888 fwts microcode INFO microcode      ;INF microcode is important to have all the required features and
+1.1 23:01:54:485998836 fwts microcode INFO errata updates for the processor.
+1.1 23:01:54:510763680 fwts microcode INFO The kernel did not report that CPU 0 has had a microcode
+1.1 23:01:54:535775423 fwts microcode INFO update. The current firmware is revision 0x324 and probably
+1.1 23:01:54:560593636 fwts microcode INFO has not been updated.
+1.1 23:01:54:585372527 fwts microcode RESULT 0 0 0 0
+1.1 23:01:54:611302310 fwts dmicheck INFO Test 1 of 2: Find and test SMBIOS Table Entry Points.
+1.1 23:01:54:636972037 fwts dmicheck INFO This test tries to find and sanity check the SMBIOS data
+1.1 23:01:54:661746488 fwts dmicheck INFO structures.
+1.1 23:01:54:686739699 fwts dmicheck INFO SMBIOS Entry Point Structure:
+1.1 23:01:54:711848980 fwts dmicheck INFO Anchor String          : _SM_
+1.1 23:01:54:736648624 fwts dmicheck INFO Checksum               : 0x91
+1.1 23:01:54:761712972 fwts dmicheck INFO Entry Point Length     : 0x1f
+1.1 23:01:54:786499093 fwts dmicheck INFO Major Version          : 0x02
+1.1 23:01:54:811409714 fwts dmicheck INFO Minor Version          : 0x08
+1.1 23:01:54:836247037 fwts dmicheck INFO Maximum Struct Size    : 0xe8
+1.1 23:01:54:860755095 fwts dmicheck INFO Entry Point Revision   : 0x00
+1.1 23:01:54:885771204 fwts dmicheck INFO Formatted Area         : 0x00 0x00 0x00 0x00 0x00
+1.1 23:01:54:910669359 fwts dmicheck INFO Intermediate Anchor    : _DMI_
+1.1 23:01:54:935707751 fwts dmicheck INFO Intermediate Checksum  : 0x75
+1.1 23:01:54:960506059 fwts dmicheck INFO Structure Table Length : 0x08bc
+1.1 23:01:54:985314282 fwts dmicheck INFO Structure Table Address: 0xb98c9000
+1.1 23:01:55:049729336 fwts dmicheck INFO # of SMBIOS Structures : 0x0033
+1.1 23:01:55:088997331 fwts dmicheck INFO SBMIOS BCD Revision    : 27
+1.1 23:01:55:113743926 fwts dmicheck INFO Test 2 of 2: Test DMI/SMBIOS tables for errors.
+1.1 23:01:55:140437518 fwts dmicheck RESULT 49 12 0 0
+1.1 23:01:55:166556886 fwts aspm INFO Test 1 of 2: PCIe ASPM ACPI test.
+1.1 23:01:55:192324219 fwts aspm INFO PCIe ASPM is controlled by Linux kernel.
+1.1 23:01:55:217235237 fwts aspm INFO Test 2 of 2: PCIe ASPM registers test.
+1.1 23:01:55:241974025 fwts aspm RESULT 1 0 2 0
+1.1 23:01:55:268130811 fwts crs INFO Test 1 of 1: Test PCI host bridge configuration using _CRS.
+1.1 23:01:55:293924881 fwts crs RESULT 0 0 0 0
+1.1 23:01:55:319793854 fwts maxreadreq INFO Test 1 of 1: Test firmware settings MaxReadReq for PCI
+1.1 23:01:55:345602324 fwts maxreadreq INFO Express devices.
+1.1 23:01:55:370482022 fwts maxreadreq RESULT 1 0 0 0
+1.1 23:01:55:396402370 fwts csm INFO Test 1 of 1: UEFI Compatibility Support Module test.
+1.1 23:01:55:422220815 fwts csm INFO Checking for UEFI Compatibility Support Module (CSM)
+1.1 23:01:55:446864398 fwts csm INFO No CSM: UEFI firmware seems to have no CSM support.
+1.1 23:01:55:471560909 fwts csm RESULT 0 0 0 0
+1.1 23:01:55:497542884 fwts uefirttime INFO Test 1 of 35: Test UEFI RT service get time interface.
+1.1 23:01:55:523347627 fwts uefirttime INFO Test 2 of 35: Test UEFI RT service get time interface, NULL
+1.1 23:01:55:548229500 fwts uefirttime INFO time     ;INF time parameter.
+1.1 23:01:55:572953213 fwts uefirttime INFO Test 3 of 35: Test UEFI RT service get time interface, NULL
+1.1 23:01:55:597960082 fwts uefirttime INFO time     ;INF time and NULL capabilties parameters.
+1.1 23:01:55:622688947 fwts uefirttime INFO Test 4 of 35: Test UEFI RT service set time interface.
+1.1 23:01:55:647577211 fwts uefirttime INFO Test 5 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:672474954 fwts uefirttime INFO invalid year 1899.
+1.1 23:01:55:697332010 fwts uefirttime INFO Test 6 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:722395256 fwts uefirttime INFO invalid year 10000.
+1.1 23:01:55:746992789 fwts uefirttime INFO Test 7 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:771986435 fwts uefirttime INFO invalid month 0.
+1.1 23:01:55:796702521 fwts uefirttime INFO Test 8 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:821628742 fwts uefirttime INFO invalid month 13.
+1.1 23:01:55:846556252 fwts uefirttime INFO Test 9 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:871700109 fwts uefirttime INFO invalid day 0.
+1.1 23:01:55:896630485 fwts uefirttime INFO Test 10 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:921344553 fwts uefirttime INFO invalid day 32.
+1.1 23:01:55:945967548 fwts uefirttime INFO Test 11 of 35: Test UEFI RT service set time interface,
+1.1 23:01:55:970795549 fwts uefirttime INFO invalid hour 24.
+1.1 23:01:55:995850155 fwts uefirttime INFO Test 12 of 35: Test UEFI RT service set time interface,
+1.1 23:01:56:020708164 fwts uefirttime INFO invalid minute 60.
+1.1 23:01:56:045678027 fwts uefirttime INFO Test 13 of 35: Test UEFI RT service set time interface,
+1.1 23:01:56:077291725 fwts uefirttime INFO invalid second 60.
+1.1 23:01:56:147584218 fwts uefirttime INFO Test 14 of 35: Test UEFI RT service set time interface,
+1.1 23:01:56:193785045 fwts uefirttime INFO invalid nanosecond 1000000000.
+1.1 23:01:56:258956048 fwts uefirttime INFO Test 15 of 35: Test UEFI RT service set time interface,
+1.1 23:01:56:320555341 fwts uefirttime INFO invalid timezone -1441.
+1.1 23:01:56:373946642 fwts uefirttime INFO Test 16 of 35: Test UEFI RT service set time interface,
+1.1 23:01:56:431577281 fwts uefirttime INFO invalid timezone 1441.
+1.1 23:01:56:492888694 fwts uefirttime INFO Test 17 of 35: Test UEFI RT service get wakeup time
+1.1 23:01:56:552117728 fwts uefirttime INFO interface.
+1.1 23:01:56:604456380 fwts uefirttime INFO Test 18 of 35: Test UEFI RT service get wakeup time
+1.1 23:01:56:650858748 fwts uefirttime INFO interface, NULL enabled parameter.
+1.1 23:01:56:698971907 fwts uefirttime INFO Test 19 of 35: Test UEFI RT service get wakeup time
+1.1 23:01:56:749844005 fwts uefirttime INFO interface, NULL pending parameter.
+1.1 23:01:56:795936390 fwts uefirttime INFO Test 20 of 35: Test UEFI RT service get wakeup time
+1.1 23:01:56:846815269 fwts uefirttime INFO interface, NULL time parameter.
+1.1 23:01:56:896307178 fwts uefirttime INFO Test 21 of 35: Test UEFI RT service get wakeup time
+1.1 23:01:56:940703885 fwts uefirttime INFO interface, NULL enabled, pending and time parameters.
+1.1 23:01:56:996404755 fwts uefirttime INFO Test 22 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:57:040504026 fwts uefirttime INFO interface.
+1.1 23:01:57:088473455 fwts uefirttime INFO Test 23 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:57:136416108 fwts uefirttime INFO interface, NULL time parameter.
+1.1 23:01:57:184475994 fwts uefirttime INFO Test 24 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:57:232395165 fwts uefirttime INFO interface, invalid year 1899.
+1.1 23:01:57:295278101 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:57:357579613 fwts uefirttime INFO incorrect.
+1.1 23:01:57:417928790 fwts uefirttime INFO Test 25 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:57:481523409 fwts uefirttime INFO interface, invalid year 10000.
+1.1 23:01:57:542309529 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:57:597516583 fwts uefirttime INFO incorrect.
+1.1 23:01:57:652416557 fwts uefirttime INFO Test 26 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:57:714481092 fwts uefirttime INFO interface, invalid month 0.
+1.1 23:01:57:770450522 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:57:827588163 fwts uefirttime INFO incorrect.
+1.1 23:01:57:889615939 fwts uefirttime INFO Test 27 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:57:944867499 fwts uefirttime INFO interface, invalid month 13.
+1.1 23:01:58:005346493 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:58:062913156 fwts uefirttime INFO incorrect.
+1.1 23:01:58:115817196 fwts uefirttime INFO Test 28 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:58:171635479 fwts uefirttime INFO interface, invalid day 0.
+1.1 23:01:58:236635542 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:58:292335639 fwts uefirttime INFO incorrect.
+1.1 23:01:58:351320053 fwts uefirttime INFO Test 29 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:58:410719533 fwts uefirttime INFO interface, invalid day 32.
+1.1 23:01:58:469364608 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:58:528372107 fwts uefirttime INFO incorrect.
+1.1 23:01:58:591523484 fwts uefirttime INFO Test 30 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:58:650713698 fwts uefirttime INFO interface, invalid hour 24.
+1.1 23:01:58:707573403 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:58:765418362 fwts uefirttime INFO incorrect.
+1.1 23:01:58:822350097 fwts uefirttime INFO Test 31 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:58:883255016 fwts uefirttime INFO interface, invalid minute 60.
+1.1 23:01:58:943216232 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:59:000892808 fwts uefirttime INFO incorrect.
+1.1 23:01:59:048235596 fwts uefirttime INFO Test 32 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:59:105367543 fwts uefirttime INFO interface, invalid second 60.
+1.1 23:01:59:151628866 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:59:211797502 fwts uefirttime INFO incorrect.
+1.1 23:01:59:290490985 fwts uefirttime INFO Test 33 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:59:349987365 fwts uefirttime INFO interface, invalid nanosecond 1000000000.
+1.1 23:01:59:406672544 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:59:463771649 fwts uefirttime INFO incorrect.
+1.1 23:01:59:526439027 fwts uefirttime INFO Test 34 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:59:586475663 fwts uefirttime INFO interface, invalid timezone -1441.
+1.1 23:01:59:643504966 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:59:700415806 fwts uefirttime INFO incorrect.
+1.1 23:01:59:758412948 fwts uefirttime INFO Test 35 of 35: Test UEFI RT service set wakeup time
+1.1 23:01:59:815924614 fwts uefirttime INFO interface, invalid timezone 1441.
+1.1 23:01:59:875934864 fwts uefirttime INFO Return status: EFI_INVALID_PARAMETER. A parameter was
+1.1 23:01:59:933848831 fwts uefirttime INFO incorrect.
+1.1 23:01:59:995496485 fwts uefirttime RESULT 33 14 0 0
+1.1 23:02:00:054463693 fwts uefirtvariable INFO Test 1 of 8: Test UEFI RT service get variable interface.
+1.1 23:02:00:112600388 fwts uefirtvariable INFO Test 2 of 8: Test UEFI RT service get next variable name
+1.1 23:02:00:173222887 fwts uefirtvariable INFO interface.
+1.1 23:02:00:231343510 fwts uefirtvariable INFO The runtime service GetNextVariableName interface function
+1.1 23:02:00:285958085 fwts uefirtvariable INFO test.
+1.1 23:02:00:347310336 fwts uefirtvariable INFO Check the GetNextVariableName returned value of
+1.1 23:02:00:401914794 fwts uefirtvariable INFO VariableNameSize is equal to the length of VariableName.
+1.1 23:02:00:462827844 fwts uefirtvariable INFO Test GetNextVariableName interface returns unique variables.
+1.1 23:02:00:520500858 fwts uefirtvariable INFO Test 3 of 8: Test UEFI RT service set variable interface.
+1.1 23:02:00:578674182 fwts uefirtvariable INFO Testing SetVariable on two different GUIDs and the same
+1.1 23:02:00:636608887 fwts uefirtvariable INFO variable ;INF variable name.
+1.1 23:02:00:691460080 fwts uefirtvariable INFO Testing SetVariable on the same and different variable data.
+1.1 23:02:00:746825790 fwts uefirtvariable INFO Testing SetVariable on similar variable name.
+1.1 23:02:00:804660167 fwts uefirtvariable INFO Testing SetVariable on DataSize is 0.
+1.1 23:02:00:862741286 fwts uefirtvariable INFO Testing SetVariable on Attributes is 0.
+1.1 23:02:00:920793328 fwts uefirtvariable INFO Testing SetVariable on Invalid Attributes.
+1.1 23:02:00:984365298 fwts uefirtvariable INFO Testing SetVariable with both Authenticated Attributes set.
+1.1 23:02:01:039633117 fwts uefirtvariable INFO Test 4 of 8: Test UEFI RT service query variable info
+1.1 23:02:01:094937784 fwts uefirtvariable INFO interface.
+1.1 23:02:01:153732215 fwts uefirtvariable INFO Test 5 of 8: Test UEFI RT service variable interface stress
+1.1 23:02:01:211794225 fwts uefirtvariable INFO test.
+1.1 23:02:01:269744552 fwts uefirtvariable INFO Testing GetVariable on getting the variable 1024 times.
+1.1 23:02:01:324759036 fwts uefirtvariable INFO Testing GetNextVariableName on getting the variable multiple
+1.1 23:02:01:386704455 fwts uefirtvariable INFO times.
+1.1 23:02:01:445533116 fwts uefirtvariable INFO Test 6 of 8: Test UEFI RT service set variable interface
+1.1 23:02:01:500883345 fwts uefirtvariable INFO stress test.
+1.1 23:02:01:556931954 fwts uefirtvariable INFO Testing SetVariable on setting the variable with the same
+1.1 23:02:01:618222697 fwts uefirtvariable INFO data 40 times.
+1.1 23:02:01:676807465 fwts uefirtvariable INFO Testing SetVariable on setting the variable with different
+1.1 23:02:01:735808656 fwts uefirtvariable INFO data 40 times.
+1.1 23:02:01:794879417 fwts uefirtvariable INFO Testing SetVariable on setting the variable with different
+1.1 23:02:01:850558852 fwts uefirtvariable INFO name 40 times.
+1.1 23:02:01:909602246 fwts uefirtvariable INFO Testing SetVariable on setting the variable with different
+1.1 23:02:01:965449532 fwts uefirtvariable INFO name and data 40 times.
+1.1 23:02:02:015941680 fwts uefirtvariable INFO Test 7 of 8: Test UEFI RT service query variable info
+1.1 23:02:02:063698318 fwts uefirtvariable INFO interface stress test.
+1.1 23:02:02:115315873 fwts uefirtvariable INFO Testing QueryVariableInfo on querying the variable 1024
+1.1 23:02:02:163328022 fwts uefirtvariable INFO times.
+1.1 23:02:02:211836949 fwts uefirtvariable INFO Test 8 of 8: Test UEFI RT service get variable interface,
+1.1 23:02:02:278312166 fwts uefirtvariable INFO invalid parameters.
+1.1 23:02:02:325816856 fwts uefirtvariable INFO Testing GetVariable with NULL variable name.
+1.1 23:02:02:396402051 fwts uefirtvariable INFO Testing GetVariable with NULL vendor GUID.
+1.1 23:02:02:457640999 fwts uefirtvariable INFO Testing GetVariable with NULL datasize.
+1.1 23:02:02:513734630 fwts uefirtvariable INFO Testing GetVariable with NULL data.
+1.1 23:02:02:558238595 fwts uefirtvariable INFO Testing GetVariable with NULL variable name, vendor GUID,
+1.1 23:02:02:625705854 fwts uefirtvariable INFO datasize and data.
+1.1 23:02:02:704376387 fwts uefirtvariable RESULT 23 1 0 0
+1.1 23:02:02:731211144 fwts uefirtmisc INFO Test 1 of 3: Test for UEFI miscellaneous runtime service
+1.1 23:02:02:756973616 fwts uefirtmisc INFO interfaces.
+1.1 23:02:02:781722042 fwts uefirtmisc INFO Testing UEFI runtime service GetNextHighMonotonicCount
+1.1 23:02:02:806769103 fwts uefirtmisc INFO interface.
+1.1 23:02:02:831620136 fwts uefirtmisc INFO Testing UEFI runtime service QueryCapsuleCapabilities
+1.1 23:02:02:856521922 fwts uefirtmisc INFO interface.
+1.1 23:02:02:881418608 fwts uefirtmisc INFO Test 2 of 3: Stress test for UEFI miscellaneous runtime
+1.1 23:02:02:906325494 fwts uefirtmisc INFO service interfaces.
+1.1 23:02:02:931289755 fwts uefirtmisc INFO Stress testing for UEFI runtime service
+1.1 23:02:02:956183936 fwts uefirtmisc INFO GetNextHighMonotonicCount interface.
+1.1 23:02:02:980783104 fwts uefirtmisc INFO Stress testing UEFI runtime service QueryCapsuleCapabilities
+1.1 23:02:03:005772025 fwts uefirtmisc INFO interface.
+1.1 23:02:03:030733743 fwts uefirtmisc INFO Test 3 of 3: Test GetNextHighMonotonicCount with invalid
+1.1 23:02:03:055677597 fwts uefirtmisc INFO NULL parameter.
+1.1 23:02:03:080632003 fwts uefirtmisc RESULT 13 0 0 0
+1.1 23:02:03:106510133 fwts securebootcert INFO Test 1 of 1: UEFI secure boot test.
+1.1 23:02:03:132360131 fwts securebootcert INFO Not in readiness for secureboot, variable DB not found.
+1.1 23:02:03:157148487 fwts securebootcert INFO Not in readiness for secureboot, variable KEK not found.
+1.1 23:02:03:181657647 fwts securebootcert RESULT 0 2 0 0
+1.1 23:02:03:207653940 fwts uefibootpath INFO Test 1 of 1: Test UEFI Boot Path Boot####.
+1.1 23:02:03:233496047 fwts uefibootpath RESULT 0 0 0 0
+1.1 23:02:03:259381235 fwts uefirtauthvar INFO Test 1 of 12: Create authenticated variable test.
+1.1 23:02:03:285312105 fwts uefirtauthvar INFO Return status: EFI_SECURITY_VIOLATION. The function was not
+1.1 23:02:03:310352544 fwts uefirtauthvar INFO performed due to a security violation.
+1.1 23:02:03:335162627 fwts uefirtauthvar INFO Test 2 of 12: Authenticated variable test with the same
+1.1 23:02:03:359672770 fwts uefirtauthvar INFO authenticated variable.
+1.1 23:02:03:384690131 fwts uefirtauthvar INFO Test 3 of 12: Authenticated variable test with another valid
+1.1 23:02:03:409559772 fwts uefirtauthvar INFO authenticated variable.
+1.1 23:02:03:434346350 fwts uefirtauthvar INFO Test 4 of 12: Append authenticated variable test.
+1.1 23:02:03:459316844 fwts uefirtauthvar INFO Test 5 of 12: Update authenticated variable test.
+1.1 23:02:03:484374810 fwts uefirtauthvar INFO Test 6 of 12: Authenticated variable test with old
+1.1 23:02:03:509202413 fwts uefirtauthvar INFO authenticated variable.
+1.1 23:02:03:533842809 fwts uefirtauthvar INFO Test 7 of 12: Delete authenticated variable test.
+1.1 23:02:03:558746514 fwts uefirtauthvar INFO Test 8 of 12: Authenticated variable test with invalid
+1.1 23:02:03:583585930 fwts uefirtauthvar INFO modified data.
+1.1 23:02:03:608456291 fwts uefirtauthvar INFO Test 9 of 12: Authenticated variable test with invalid
+1.1 23:02:03:633299134 fwts uefirtauthvar INFO modified timestamp.
+1.1 23:02:03:657904167 fwts uefirtauthvar INFO Test 10 of 12: Authenticated variable test with different
+1.1 23:02:03:682888566 fwts uefirtauthvar INFO guid.
+1.1 23:02:03:707865637 fwts uefirtauthvar INFO Test 11 of 12: Authenticated variable test with invalid
+1.1 23:02:03:732851145 fwts uefirtauthvar INFO attributes.
+1.1 23:02:03:757584294 fwts uefirtauthvar INFO Test 12 of 12: Set and delete authenticated variable created
+1.1 23:02:03:782519620 fwts uefirtauthvar INFO by different key test.
+1.1 23:02:03:807617973 fwts uefirtauthvar INFO Return status: EFI_SECURITY_VIOLATION. The function was not
+1.1 23:02:03:832376149 fwts uefirtauthvar INFO performed due to a security violation.
+1.1 23:02:03:857252232 fwts uefirtauthvar RESULT 4 2 0 0

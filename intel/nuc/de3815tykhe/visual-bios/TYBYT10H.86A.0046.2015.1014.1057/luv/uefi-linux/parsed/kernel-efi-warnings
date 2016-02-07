@@ -1,0 +1,2 @@
+1.0 kernel-efi-warnings EFI_BOOT_SERVICES_*_illegal_access INFO
+1.0 kernel-efi-warnings EFI_BOOT_SERVICES_*_illegal_access RESULT 1 0 0 0
