@@ -1,6 +1,6 @@
 # About
 
-An open place to share compliance results of board's firmwares such as BIOS, UEFI, ACPI,
+An open place to share compliance results of board's firmwares with BIOS, UEFI, ACPI,
 Multiboot... Anything your software (bootloader, OS...) may rely on.
 
 Every non ad hoc OSes highly rely on standardized interfaces the firmware and the bootloader(s)
