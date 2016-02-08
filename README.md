@@ -3,17 +3,19 @@
 An open place to share compliance results of board's firmwares with BIOS, UEFI, ACPI,
 Multiboot... Anything your software (bootloader, OS...) may rely on.
 
-Every non ad hoc OSes highly rely on standardized interfaces the firmware and the bootloader(s)
-are largely responsible of (e.g. the physical memory mapping, EFI services...). Non compliant
-firmwares are likely to cause serious problems and undefined behaviours (bootloader errors, power
-management issues...). Since firmwares of proprietary boards cannot be replaced with better ones,
-you could end up with an unusable board. So far, you can only hope and cross your fingers to
-purchase a board with a firmware correctly implementing the features your OS expect.
+Every non ad hoc operating system relies highly on standardized interfaces that
+the firmware and the bootloader(s) are largely responsible for (e.g., the
+physical memory mapping, EFI services). Non compliant firmwares are likely to
+cause serious problems and undefined behaviours (e.g., bootloader errors, power
+management issues). Since firmwares of proprietary boards cannot be replaced
+with better ones, you could end up with an unusable board. So far, you can only
+hope and cross your fingers to purchase a board with a firmware correctly
+implementing the features your OS expects.
 
-Every firmware developper should provide these results. Until then, feel free to share with the
+Every firmware developer should provide these results. Until then, feel free to share with the
 community, especially if your results show important errors... Standard testing tools such as
 Firmware Test Suite ([FWTS]) or Linux UEFI Validation ([LUV]) are freely available and allow you to
-test your firmware with a live cd/usb very simply.
+test your firmware with a live CD/USB very simply.
 
 # Consulting Results
 
