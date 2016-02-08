@@ -50,17 +50,16 @@ Usage example:
 ```sh
 # root privileges required
 $ mkdir my-test && cd my-test
-$ fwts -d -f --log-type html --batch
-# asks fwts to run every non-interactive tests available (--batch), dump firmware log files (-d),
+$ fwts -d -f --log-type plaintext,html --batch
+# ask fwts to run every non-interactive tests available (--batch), dump firmware log files (-d),
 # log the results in HTML (--log-type), and recreate new logs (-f).
 $ ls
-results.html acpi.log lspcidump.log dmes.log ...
+results.html acpi.log lspcidump.log dmesg.log ...
 ```
 
 Refer to [the reference]([https://wiki.ubuntu.com/FirmwareTestSuite/Reference]) for more details about
 available test suites.
 
-Note: `--log-type` can take a comma-separated list of log types such as `--log-type plaintext,html`
 
 ## Intel's Linux UEFI Validation (LUV)
 
@@ -76,6 +75,8 @@ You can then send the resulting directory with a pull request ;)
 
 This repository is meant to be very simple and as straightforward as possible. Results are
 classified by vendor, board, firmware version, test suite/tool, firmware configuration variants:
+
+## Result folder location
 
 ```text
 <vendor>/<board-tree>/<firmware>/<version>/<testing-tool>/<test-variant>/<test-outputs>
@@ -135,8 +136,14 @@ intel
 └── README.md
 ```
 
-If the location is unclear to you, place your result folder wherever you think it should
+If the location is still unclear, place your result folder wherever you think it should
 be and create a pull request that will be reviewed before merging.
+
+## Expected Results
+
+Include at least HTML results for easier reading and plain text results to allow diffing
+between test variants. Optionaly as much logs as you want, especially if you are reporting
+bugs to firmware teams.
 
 [FWTS]: https://wiki.ubuntu.com/FirmwareTestSuite
 [Firmware Test Suite]: https://wiki.ubuntu.com/FirmwareTestSuite
