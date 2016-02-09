@@ -1,0 +1,1917 @@
+<6>[    0.000000] Initializing cgroup subsys cpuset
+<6>[    0.000000] Initializing cgroup subsys cpu
+<6>[    0.000000] Initializing cgroup subsys cpuacct
+<5>[    0.000000] Linux version 3.13.0-74-generic (buildd@lcy01-07) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #118-Ubuntu SMP Thu Dec 17 22:52:10 UTC 2015 (Ubuntu 3.13.0-74.118-generic 3.13.11-ckt30)
+<6>[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.13.0-74-generic.efi.signed root=UUID=530ffabd-21ac-4b18-b72c-3f8439217358 ro rootflags=subvol=@
+<6>[    0.000000] KERNEL supported cpus:
+<6>[    0.000000]   Intel GenuineIntel
+<6>[    0.000000]   AMD AuthenticAMD
+<6>[    0.000000]   Centaur CentaurHauls
+<6>[    0.000000] e820: BIOS-provided physical RAM map:
+<6>[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x0000000000057fff] usable
+<6>[    0.000000] BIOS-e820: [mem 0x0000000000058000-0x0000000000058fff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x0000000000059000-0x000000000009efff] usable
+<6>[    0.000000] BIOS-e820: [mem 0x000000000009f000-0x000000000009ffff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000c5d67fff] usable
+<6>[    0.000000] BIOS-e820: [mem 0x00000000c5d68000-0x00000000c5d6efff] ACPI NVS
+<6>[    0.000000] BIOS-e820: [mem 0x00000000c5d6f000-0x00000000d9a73fff] usable
+<6>[    0.000000] BIOS-e820: [mem 0x00000000d9a74000-0x00000000d9b0bfff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000d9b0c000-0x00000000d9b25fff] ACPI data
+<6>[    0.000000] BIOS-e820: [mem 0x00000000d9b26000-0x00000000d9c8efff] ACPI NVS
+<6>[    0.000000] BIOS-e820: [mem 0x00000000d9c8f000-0x00000000d9f6bfff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000d9f6c000-0x00000000d9ffefff] type 20
+<6>[    0.000000] BIOS-e820: [mem 0x00000000d9fff000-0x00000000d9ffffff] usable
+<6>[    0.000000] BIOS-e820: [mem 0x00000000db000000-0x00000000df1fffff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000fed00000-0x00000000fed03fff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+<6>[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000021fdfffff] usable
+<6>[    0.000000] NX (Execute Disable) protection: active
+<6>[    0.000000] efi: EFI v2.31 by American Megatrends
+<6>[    0.000000] efi:  ACPI=0xd9b11000  ACPI 2.0=0xd9b11000  SMBIOS=0xf04d0  MPS=0xfd530 
+<6>[    0.000000] efi: mem00: type=3, attr=0xf, range=[0x0000000000000000-0x0000000000008000) (0MB)
+<6>[    0.000000] efi: mem01: type=7, attr=0xf, range=[0x0000000000008000-0x0000000000058000) (0MB)
+<6>[    0.000000] efi: mem02: type=0, attr=0xf, range=[0x0000000000058000-0x0000000000059000) (0MB)
+<6>[    0.000000] efi: mem03: type=7, attr=0xf, range=[0x0000000000059000-0x000000000005f000) (0MB)
+<6>[    0.000000] efi: mem04: type=4, attr=0xf, range=[0x000000000005f000-0x0000000000060000) (0MB)
+<6>[    0.000000] efi: mem05: type=3, attr=0xf, range=[0x0000000000060000-0x000000000009f000) (0MB)
+<6>[    0.000000] efi: mem06: type=0, attr=0xf, range=[0x000000000009f000-0x00000000000a0000) (0MB)
+<6>[    0.000000] efi: mem07: type=2, attr=0xf, range=[0x0000000000100000-0x0000000001504000) (20MB)
+<6>[    0.000000] efi: mem08: type=7, attr=0xf, range=[0x0000000001504000-0x0000000002000000) (10MB)
+<6>[    0.000000] efi: mem09: type=2, attr=0xf, range=[0x0000000002000000-0x0000000003404000) (20MB)
+<6>[    0.000000] efi: mem10: type=7, attr=0xf, range=[0x0000000003404000-0x0000000035a7a000) (806MB)
+<6>[    0.000000] efi: mem11: type=2, attr=0xf, range=[0x0000000035a7a000-0x0000000036d35000) (18MB)
+<6>[    0.000000] efi: mem12: type=7, attr=0xf, range=[0x0000000036d35000-0x000000008450f000) (1239MB)
+<6>[    0.000000] efi: mem13: type=2, attr=0xf, range=[0x000000008450f000-0x00000000b7286000) (813MB)
+<6>[    0.000000] efi: mem14: type=7, attr=0xf, range=[0x00000000b7286000-0x00000000c5a6e000) (231MB)
+<6>[    0.000000] efi: mem15: type=2, attr=0xf, range=[0x00000000c5a6e000-0x00000000c5c42000) (1MB)
+<6>[    0.000000] efi: mem16: type=1, attr=0xf, range=[0x00000000c5c42000-0x00000000c5d68000) (1MB)
+<6>[    0.000000] efi: mem17: type=10, attr=0xf, range=[0x00000000c5d68000-0x00000000c5d6f000) (0MB)
+<6>[    0.000000] efi: mem18: type=4, attr=0xf, range=[0x00000000c5d6f000-0x00000000c6424000) (6MB)
+<6>[    0.000000] efi: mem19: type=3, attr=0xf, range=[0x00000000c6424000-0x00000000c7132000) (13MB)
+<6>[    0.000000] efi: mem20: type=4, attr=0xf, range=[0x00000000c7132000-0x00000000c714b000) (0MB)
+<6>[    0.000000] efi: mem21: type=3, attr=0xf, range=[0x00000000c714b000-0x00000000c715d000) (0MB)
+<6>[    0.000000] efi: mem22: type=4, attr=0xf, range=[0x00000000c715d000-0x00000000c7176000) (0MB)
+<6>[    0.000000] efi: mem23: type=7, attr=0xf, range=[0x00000000c7176000-0x00000000c7183000) (0MB)
+<6>[    0.000000] efi: mem24: type=2, attr=0xf, range=[0x00000000c7183000-0x00000000c7185000) (0MB)
+<6>[    0.000000] efi: mem25: type=7, attr=0xf, range=[0x00000000c7185000-0x00000000cb57b000) (67MB)
+<6>[    0.000000] efi: mem26: type=4, attr=0xf, range=[0x00000000cb57b000-0x00000000cb827000) (2MB)
+<6>[    0.000000] efi: mem27: type=7, attr=0xf, range=[0x00000000cb827000-0x00000000cb8aa000) (0MB)
+<6>[    0.000000] efi: mem28: type=4, attr=0xf, range=[0x00000000cb8aa000-0x00000000cb94b000) (0MB)
+<6>[    0.000000] efi: mem29: type=7, attr=0xf, range=[0x00000000cb94b000-0x00000000cb958000) (0MB)
+<6>[    0.000000] efi: mem30: type=4, attr=0xf, range=[0x00000000cb958000-0x00000000cb95e000) (0MB)
+<6>[    0.000000] efi: mem31: type=7, attr=0xf, range=[0x00000000cb95e000-0x00000000cb963000) (0MB)
+<6>[    0.000000] efi: mem32: type=4, attr=0xf, range=[0x00000000cb963000-0x00000000cb96c000) (0MB)
+<6>[    0.000000] efi: mem33: type=7, attr=0xf, range=[0x00000000cb96c000-0x00000000cb971000) (0MB)
+<6>[    0.000000] efi: mem34: type=4, attr=0xf, range=[0x00000000cb971000-0x00000000cbc84000) (3MB)
+<6>[    0.000000] efi: mem35: type=7, attr=0xf, range=[0x00000000cbc84000-0x00000000cbc86000) (0MB)
+<6>[    0.000000] efi: mem36: type=4, attr=0xf, range=[0x00000000cbc86000-0x00000000cbccf000) (0MB)
+<6>[    0.000000] efi: mem37: type=7, attr=0xf, range=[0x00000000cbccf000-0x00000000cbcda000) (0MB)
+<6>[    0.000000] efi: mem38: type=4, attr=0xf, range=[0x00000000cbcda000-0x00000000cbce1000) (0MB)
+<6>[    0.000000] efi: mem39: type=7, attr=0xf, range=[0x00000000cbce1000-0x00000000cbce9000) (0MB)
+<6>[    0.000000] efi: mem40: type=4, attr=0xf, range=[0x00000000cbce9000-0x00000000cbcea000) (0MB)
+<6>[    0.000000] efi: mem41: type=7, attr=0xf, range=[0x00000000cbcea000-0x00000000cbcf0000) (0MB)
+<6>[    0.000000] efi: mem42: type=4, attr=0xf, range=[0x00000000cbcf0000-0x00000000cbcf1000) (0MB)
+<6>[    0.000000] efi: mem43: type=7, attr=0xf, range=[0x00000000cbcf1000-0x00000000cbcf3000) (0MB)
+<6>[    0.000000] efi: mem44: type=4, attr=0xf, range=[0x00000000cbcf3000-0x00000000cbcf4000) (0MB)
+<6>[    0.000000] efi: mem45: type=7, attr=0xf, range=[0x00000000cbcf4000-0x00000000cbcf8000) (0MB)
+<6>[    0.000000] efi: mem46: type=4, attr=0xf, range=[0x00000000cbcf8000-0x00000000cbcf9000) (0MB)
+<6>[    0.000000] efi: mem47: type=7, attr=0xf, range=[0x00000000cbcf9000-0x00000000cbd04000) (0MB)
+<6>[    0.000000] efi: mem48: type=4, attr=0xf, range=[0x00000000cbd04000-0x00000000cbd05000) (0MB)
+<6>[    0.000000] efi: mem49: type=7, attr=0xf, range=[0x00000000cbd05000-0x00000000cbd0a000) (0MB)
+<6>[    0.000000] efi: mem50: type=4, attr=0xf, range=[0x00000000cbd0a000-0x00000000cbd7e000) (0MB)
+<6>[    0.000000] efi: mem51: type=7, attr=0xf, range=[0x00000000cbd7e000-0x00000000cbd88000) (0MB)
+<6>[    0.000000] efi: mem52: type=4, attr=0xf, range=[0x00000000cbd88000-0x00000000cbd99000) (0MB)
+<6>[    0.000000] efi: mem53: type=7, attr=0xf, range=[0x00000000cbd99000-0x00000000cbd9a000) (0MB)
+<6>[    0.000000] efi: mem54: type=4, attr=0xf, range=[0x00000000cbd9a000-0x00000000cbd9b000) (0MB)
+<6>[    0.000000] efi: mem55: type=7, attr=0xf, range=[0x00000000cbd9b000-0x00000000cbd9d000) (0MB)
+<6>[    0.000000] efi: mem56: type=4, attr=0xf, range=[0x00000000cbd9d000-0x00000000cbd9e000) (0MB)
+<6>[    0.000000] efi: mem57: type=7, attr=0xf, range=[0x00000000cbd9e000-0x00000000cbda4000) (0MB)
+<6>[    0.000000] efi: mem58: type=4, attr=0xf, range=[0x00000000cbda4000-0x00000000d7f2e000) (193MB)
+<6>[    0.000000] efi: mem59: type=7, attr=0xf, range=[0x00000000d7f2e000-0x00000000d93b9000) (20MB)
+<6>[    0.000000] efi: mem60: type=2, attr=0xf, range=[0x00000000d93b9000-0x00000000d93c3000) (0MB)
+<6>[    0.000000] efi: mem61: type=3, attr=0xf, range=[0x00000000d93c3000-0x00000000d9a74000) (6MB)
+<6>[    0.000000] efi: mem62: type=0, attr=0xf, range=[0x00000000d9a74000-0x00000000d9a98000) (0MB)
+<6>[    0.000000] efi: mem63: type=0, attr=0xf, range=[0x00000000d9a98000-0x00000000d9b0c000) (0MB)
+<6>[    0.000000] efi: mem64: type=9, attr=0xf, range=[0x00000000d9b0c000-0x00000000d9b11000) (0MB)
+<6>[    0.000000] efi: mem65: type=9, attr=0xf, range=[0x00000000d9b11000-0x00000000d9b26000) (0MB)
+<6>[    0.000000] efi: mem66: type=10, attr=0xf, range=[0x00000000d9b26000-0x00000000d9b80000) (0MB)
+<6>[    0.000000] efi: mem67: type=10, attr=0xf, range=[0x00000000d9b80000-0x00000000d9c8f000) (1MB)
+<6>[    0.000000] efi: mem68: type=6, attr=0x800000000000000f, range=[0x00000000d9c8f000-0x00000000d9d1f000) (0MB)
+<6>[    0.000000] efi: mem69: type=6, attr=0x800000000000000f, range=[0x00000000d9d1f000-0x00000000d9ecc000) (1MB)
+<6>[    0.000000] efi: mem70: type=6, attr=0x800000000000000f, range=[0x00000000d9ecc000-0x00000000d9ece000) (0MB)
+<6>[    0.000000] efi: mem71: type=6, attr=0x800000000000000f, range=[0x00000000d9ece000-0x00000000d9f6c000) (0MB)
+<6>[    0.000000] efi: mem72: type=5, attr=0x800000000000000f, range=[0x00000000d9f6c000-0x00000000d9f89000) (0MB)
+<6>[    0.000000] efi: mem73: type=5, attr=0x800000000000000f, range=[0x00000000d9f89000-0x00000000d9fff000) (0MB)
+<6>[    0.000000] efi: mem74: type=4, attr=0xf, range=[0x00000000d9fff000-0x00000000da000000) (0MB)
+<6>[    0.000000] efi: mem75: type=7, attr=0xf, range=[0x0000000100000000-0x000000021fe00000) (4606MB)
+<6>[    0.000000] efi: mem76: type=0, attr=0x0, range=[0x00000000db000000-0x00000000df200000) (66MB)
+<6>[    0.000000] efi: mem77: type=11, attr=0x8000000000000001, range=[0x00000000f8000000-0x00000000fc000000) (64MB)
+<6>[    0.000000] efi: mem78: type=11, attr=0x8000000000000001, range=[0x00000000fec00000-0x00000000fec01000) (0MB)
+<6>[    0.000000] efi: mem79: type=11, attr=0x8000000000000001, range=[0x00000000fed00000-0x00000000fed04000) (0MB)
+<6>[    0.000000] efi: mem80: type=11, attr=0x8000000000000001, range=[0x00000000fed1c000-0x00000000fed20000) (0MB)
+<6>[    0.000000] efi: mem81: type=11, attr=0x8000000000000001, range=[0x00000000fee00000-0x00000000fee01000) (0MB)
+<6>[    0.000000] efi: mem82: type=11, attr=0x8000000000000001, range=[0x00000000ff000000-0x0000000100000000) (16MB)
+<6>[    0.000000] SMBIOS 2.8 present.
+<7>[    0.000000] DMI:                  /D54250WYK, BIOS WYLPT10H.86A.0041.2015.0720.1108 07/20/2015
+<7>[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+<7>[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+<6>[    0.000000] No AGP bridge found
+<6>[    0.000000] e820: last_pfn = 0x21fe00 max_arch_pfn = 0x400000000
+<7>[    0.000000] MTRR default type: uncachable
+<7>[    0.000000] MTRR fixed ranges enabled:
+<7>[    0.000000]   00000-9FFFF write-back
+<7>[    0.000000]   A0000-BFFFF uncachable
+<7>[    0.000000]   C0000-CFFFF write-protect
+<7>[    0.000000]   D0000-DFFFF uncachable
+<7>[    0.000000]   E0000-FFFFF write-protect
+<7>[    0.000000] MTRR variable ranges enabled:
+<7>[    0.000000]   0 base 0000000000 mask 7E00000000 write-back
+<7>[    0.000000]   1 base 0200000000 mask 7FE0000000 write-back
+<7>[    0.000000]   2 base 00E0000000 mask 7FE0000000 uncachable
+<7>[    0.000000]   3 base 00DC000000 mask 7FFC000000 uncachable
+<7>[    0.000000]   4 base 00DB000000 mask 7FFF000000 uncachable
+<7>[    0.000000]   5 base 021FE00000 mask 7FFFE00000 uncachable
+<7>[    0.000000]   6 disabled
+<7>[    0.000000]   7 disabled
+<7>[    0.000000]   8 disabled
+<7>[    0.000000]   9 disabled
+<6>[    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+<7>[    0.000000] original variable MTRRs
+<7>[    0.000000] reg 0, base: 0GB, range: 8GB, type WB
+<7>[    0.000000] reg 1, base: 8GB, range: 512MB, type WB
+<7>[    0.000000] reg 2, base: 3584MB, range: 512MB, type UC
+<7>[    0.000000] reg 3, base: 3520MB, range: 64MB, type UC
+<7>[    0.000000] reg 4, base: 3504MB, range: 16MB, type UC
+<7>[    0.000000] reg 5, base: 8702MB, range: 2MB, type UC
+<6>[    0.000000] total RAM covered: 8110M
+<6>[    0.000000] Found optimal setting for mtrr clean up
+<6>[    0.000000]  gran_size: 64K 	chunk_size: 128M 	num_reg: 8  	lose cover RAM: 0G
+<7>[    0.000000] New variable MTRRs
+<7>[    0.000000] reg 0, base: 0GB, range: 2GB, type WB
+<7>[    0.000000] reg 1, base: 2GB, range: 1GB, type WB
+<7>[    0.000000] reg 2, base: 3GB, range: 512MB, type WB
+<7>[    0.000000] reg 3, base: 3504MB, range: 16MB, type UC
+<7>[    0.000000] reg 4, base: 3520MB, range: 64MB, type UC
+<7>[    0.000000] reg 5, base: 4GB, range: 4GB, type WB
+<7>[    0.000000] reg 6, base: 8GB, range: 512MB, type WB
+<7>[    0.000000] reg 7, base: 8702MB, range: 2MB, type UC
+<7>[    0.000000] e820: update [mem 0xdb000000-0xffffffff] usable ==> reserved
+<6>[    0.000000] e820: last_pfn = 0xda000 max_arch_pfn = 0x400000000
+<6>[    0.000000] found SMP MP-table at [mem 0x000fd770-0x000fd77f] mapped at [ffff8800000fd770]
+<6>[    0.000000] Scanning 1 areas for low memory corruption
+<7>[    0.000000] Base memory trampoline at [ffff880000097000] 97000 size 24576
+<6>[    0.000000] Using GB pages for direct mapping
+<6>[    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+<7>[    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+<7>[    0.000000] BRK [0x02fe2000, 0x02fe2fff] PGTABLE
+<7>[    0.000000] BRK [0x02fe3000, 0x02fe3fff] PGTABLE
+<7>[    0.000000] BRK [0x02fe4000, 0x02fe4fff] PGTABLE
+<6>[    0.000000] init_memory_mapping: [mem 0x21fc00000-0x21fdfffff]
+<7>[    0.000000]  [mem 0x21fc00000-0x21fdfffff] page 2M
+<7>[    0.000000] BRK [0x02fe5000, 0x02fe5fff] PGTABLE
+<6>[    0.000000] init_memory_mapping: [mem 0x21c000000-0x21fbfffff]
+<7>[    0.000000]  [mem 0x21c000000-0x21fbfffff] page 2M
+<6>[    0.000000] init_memory_mapping: [mem 0x200000000-0x21bffffff]
+<7>[    0.000000]  [mem 0x200000000-0x21bffffff] page 2M
+<6>[    0.000000] init_memory_mapping: [mem 0x00100000-0xc5d67fff]
+<7>[    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+<7>[    0.000000]  [mem 0x00200000-0x3fffffff] page 2M
+<7>[    0.000000]  [mem 0x40000000-0xbfffffff] page 1G
+<7>[    0.000000]  [mem 0xc0000000-0xc5bfffff] page 2M
+<7>[    0.000000]  [mem 0xc5c00000-0xc5d67fff] page 4k
+<6>[    0.000000] init_memory_mapping: [mem 0xc5d6f000-0xd9a73fff]
+<7>[    0.000000]  [mem 0xc5d6f000-0xc5dfffff] page 4k
+<7>[    0.000000]  [mem 0xc5e00000-0xd99fffff] page 2M
+<7>[    0.000000]  [mem 0xd9a00000-0xd9a73fff] page 4k
+<7>[    0.000000] BRK [0x02fe6000, 0x02fe6fff] PGTABLE
+<6>[    0.000000] init_memory_mapping: [mem 0xd9fff000-0xd9ffffff]
+<7>[    0.000000]  [mem 0xd9fff000-0xd9ffffff] page 4k
+<7>[    0.000000] BRK [0x02fe7000, 0x02fe7fff] PGTABLE
+<6>[    0.000000] init_memory_mapping: [mem 0x100000000-0x1ffffffff]
+<7>[    0.000000]  [mem 0x100000000-0x1ffffffff] page 1G
+<6>[    0.000000] RAMDISK: [mem 0x35a7a000-0x36d34fff]
+<4>[    0.000000] ACPI: RSDP 00000000d9b11000 000024 (v02  INTEL)
+<4>[    0.000000] ACPI: XSDT 00000000d9b11088 00008C (v01 INTEL  D54250WY 00000029 AMI  00010013)
+<4>[    0.000000] ACPI: FACP 00000000d9b209c0 00010C (v05 INTEL  D54250WY 00000029 AMI  00010013)
+<4>[    0.000000] ACPI Error: Gpe0Block - 32-bit FADT register is too long (32 bytes, 256 bits) to convert to GAS struct - 255 bits max, truncating (20131115/tbfadt-202)
+<4>[    0.000000] ACPI: DSDT 00000000d9b111a0 00F81B (v02 INTEL  D54250WY 00000029 INTL 20120711)
+<4>[    0.000000] ACPI: FACS 00000000d9c8ef80 000040
+<4>[    0.000000] ACPI: APIC 00000000d9b20ad0 000072 (v03 INTEL  D54250WY 00000029 AMI  00010013)
+<4>[    0.000000] ACPI: FPDT 00000000d9b20b48 000044 (v01 INTEL  D54250WY 00000029 AMI  00010013)
+<4>[    0.000000] ACPI: FIDT 00000000d9b20b90 00009C (v01 INTEL  D54250WY 00000029 AMI  00010013)
+<4>[    0.000000] ACPI: SSDT 00000000d9b20c30 0004F7 (v01 INTEL  D54250WY 00000029 INTL 20120711)
+<4>[    0.000000] ACPI: SSDT 00000000d9b21128 000AD8 (v01 INTEL  D54250WY 00000029 INTL 20120711)
+<4>[    0.000000] ACPI: MCFG 00000000d9b21c00 00003C (v01 INTEL  D54250WY 00000029 MSFT 00000097)
+<4>[    0.000000] ACPI: HPET 00000000d9b21c40 000038 (v01 INTEL  D54250WY 00000029 AMI. 00000005)
+<4>[    0.000000] ACPI: SSDT 00000000d9b21c78 000315 (v01 INTEL  D54250WY 00000029 INTL 20120711)
+<4>[    0.000000] ACPI: SSDT 00000000d9b21f90 0030DF (v01 INTEL  D54250WY 00000029 INTL 20091112)
+<4>[    0.000000] ACPI: BGRT 00000000d9b25070 000038 (v00 INTEL  D54250WY 00000029 AMI  00010013)
+<4>[    0.000000] ACPI: DMAR 00000000d9b250a8 0001AC (v01 INTEL  D54250WY 00000029 INTL 00000001)
+<4>[    0.000000] ACPI: CSRT 00000000d9b25258 0000C4 (v01 INTEL  D54250WY 00000029 INTL 20100528)
+<7>[    0.000000] ACPI: Local APIC address 0xfee00000
+<6>[    0.000000] No NUMA configuration found
+<6>[    0.000000] Faking a node at [mem 0x0000000000000000-0x000000021fdfffff]
+<6>[    0.000000] Initmem setup node 0 [mem 0x00000000-0x21fdfffff]
+<6>[    0.000000]   NODE_DATA [mem 0x21fdf9000-0x21fdfdfff]
+<7>[    0.000000]  [ffffea0000000000-ffffea00087fffff] PMD -> [ffff880217400000-ffff88021f3fffff] on node 0
+<4>[    0.000000] Zone ranges:
+<4>[    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+<4>[    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+<4>[    0.000000]   Normal   [mem 0x100000000-0x21fdfffff]
+<4>[    0.000000] Movable zone start for each node
+<4>[    0.000000] Early memory node ranges
+<4>[    0.000000]   node   0: [mem 0x00001000-0x00057fff]
+<4>[    0.000000]   node   0: [mem 0x00059000-0x0009efff]
+<4>[    0.000000]   node   0: [mem 0x00100000-0xc5d67fff]
+<4>[    0.000000]   node   0: [mem 0xc5d6f000-0xd9a73fff]
+<4>[    0.000000]   node   0: [mem 0xd9fff000-0xd9ffffff]
+<4>[    0.000000]   node   0: [mem 0x100000000-0x21fdfffff]
+<7>[    0.000000] On node 0 totalpages: 2070539
+<7>[    0.000000]   DMA zone: 64 pages used for memmap
+<7>[    0.000000]   DMA zone: 25 pages reserved
+<7>[    0.000000]   DMA zone: 3997 pages, LIFO batch:0
+<7>[    0.000000]   DMA32 zone: 13866 pages used for memmap
+<7>[    0.000000]   DMA32 zone: 887406 pages, LIFO batch:31
+<7>[    0.000000]   Normal zone: 18424 pages used for memmap
+<7>[    0.000000]   Normal zone: 1179136 pages, LIFO batch:31
+<6>[    0.000000] ACPI: PM-Timer IO Port: 0x1808
+<7>[    0.000000] ACPI: Local APIC address 0xfee00000
+<6>[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+<6>[    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+<6>[    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x01] enabled)
+<6>[    0.000000] ACPI: LAPIC (acpi_id[0x04] lapic_id[0x03] enabled)
+<6>[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+<6>[    0.000000] ACPI: IOAPIC (id[0x08] address[0xfec00000] gsi_base[0])
+<6>[    0.000000] IOAPIC[0]: apic_id 8, version 32, address 0xfec00000, GSI 0-39
+<6>[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+<6>[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+<7>[    0.000000] ACPI: IRQ0 used by override.
+<7>[    0.000000] ACPI: IRQ2 used by override.
+<7>[    0.000000] ACPI: IRQ9 used by override.
+<6>[    0.000000] Using ACPI (MADT) for SMP configuration information
+<6>[    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+<6>[    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+<7>[    0.000000] nr_irqs_gsi: 56
+<6>[    0.000000] PM: Registered nosave memory: [mem 0x00058000-0x00058fff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xc5d68000-0xc5d6efff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xd9a74000-0xd9b0bfff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xd9b0c000-0xd9b25fff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xd9b26000-0xd9c8efff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xd9c8f000-0xd9f6bfff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xd9f6c000-0xd9ffefff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xda000000-0xdaffffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xdb000000-0xdf1fffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xdf200000-0xf7ffffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfc000000-0xfebfffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfec01000-0xfecfffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfed00000-0xfed03fff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfed04000-0xfed1bfff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfed20000-0xfedfffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+<6>[    0.000000] PM: Registered nosave memory: [mem 0xff000000-0xffffffff]
+<6>[    0.000000] e820: [mem 0xdf200000-0xf7ffffff] available for PCI devices
+<6>[    0.000000] Booting paravirtualized kernel on bare hardware
+<6>[    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:4 nr_node_ids:1
+<6>[    0.000000] PERCPU: Embedded 27 pages/cpu @ffff88021fa00000 s81536 r8192 d20864 u524288
+<7>[    0.000000] pcpu-alloc: s81536 r8192 d20864 u524288 alloc=1*2097152
+<7>[    0.000000] pcpu-alloc: [0] 0 1 2 3 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 2038160
+<4>[    0.000000] Policy zone: Normal
+<5>[    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.13.0-74-generic.efi.signed root=UUID=530ffabd-21ac-4b18-b72c-3f8439217358 ro rootflags=subvol=@
+<6>[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+<6>[    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+<6>[    0.000000] Checking aperture...
+<6>[    0.000000] No AGP bridge found
+<7>[    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+<7>[    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+<4>[    0.000000] Memory: 7815736K/8282156K available (7399K kernel code, 1146K rwdata, 3416K rodata, 1336K init, 1448K bss, 466420K reserved)
+<6>[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+<6>[    0.000000] Hierarchical RCU implementation.
+<6>[    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+<6>[    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+<6>[    0.000000] 	Offload RCU callbacks from all CPUs
+<6>[    0.000000] 	Offload RCU callbacks from CPUs: 0-3.
+<6>[    0.000000] NR_IRQS:16640 nr_irqs:984 16
+<6>[    0.000000] Console: colour dummy device 80x25
+<6>[    0.000000] console [tty0] enabled
+<6>[    0.000000] allocated 33554432 bytes of page_cgroup
+<6>[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+<7>[    0.000000] hpet clockevent registered
+<6>[    0.000000] tsc: Fast TSC calibration using PIT
+<7>[    0.004000] spurious 8259A interrupt: IRQ7.
+<6>[    0.004000] tsc: Detected 1895.628 MHz processor
+<6>[    0.000002] Calibrating delay loop (skipped), value calculated using timer frequency.. 3791.25 BogoMIPS (lpj=7582512)
+<6>[    0.000007] pid_max: default: 32768 minimum: 301
+<6>[    0.000917] Security Framework initialized
+<6>[    0.000932] AppArmor: AppArmor initialized
+<6>[    0.000934] Yama: becoming mindful.
+<6>[    0.001452] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+<6>[    0.003164] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+<6>[    0.003910] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes)
+<6>[    0.003922] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes)
+<6>[    0.004123] Initializing cgroup subsys memory
+<6>[    0.004130] Initializing cgroup subsys devices
+<6>[    0.004132] Initializing cgroup subsys freezer
+<6>[    0.004135] Initializing cgroup subsys blkio
+<6>[    0.004137] Initializing cgroup subsys perf_event
+<6>[    0.004140] Initializing cgroup subsys hugetlb
+<6>[    0.004163] CPU: Physical Processor ID: 0
+<6>[    0.004164] CPU: Processor Core ID: 0
+<4>[    0.004170] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+<4>[    0.004170] ENERGY_PERF_BIAS: View and update with x86_energy_perf_policy(8)
+<6>[    0.005140] mce: CPU supports 7 MCE banks
+<6>[    0.005153] CPU0: Thermal monitoring enabled (TM1)
+<6>[    0.005162] process: using mwait in idle threads
+<6>[    0.005166] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+<6>[    0.005166] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0
+<6>[    0.005166] tlb_flushall_shift: 6
+<6>[    0.005273] Freeing SMP alternatives memory: 32K (ffffffff81e6e000 - ffffffff81e76000)
+<6>[    0.006219] ACPI: Core revision 20131115
+<4>[    0.014713] ACPI: All ACPI Tables successfully acquired
+<6>[    0.021686] ftrace: allocating 28598 entries in 112 pages
+<6>[    0.033525] dmar: Host address width 39
+<6>[    0.033529] dmar: DRHD base: 0x000000fed90000 flags: 0x0
+<6>[    0.033539] dmar: IOMMU 0: reg_base_addr fed90000 ver 1:0 cap c0000020660462 ecap f0101a
+<6>[    0.033542] dmar: DRHD base: 0x000000fed91000 flags: 0x1
+<6>[    0.033547] dmar: IOMMU 1: reg_base_addr fed91000 ver 1:0 cap d2008020660462 ecap f010da
+<6>[    0.033550] dmar: RMRR base: 0x000000d9eb0000 end: 0x000000d9ebefff
+<6>[    0.033552] dmar: RMRR base: 0x000000db000000 end: 0x000000df1fffff
+<4>[    0.033553] dmar: Unknown DMAR structure type 4
+<4>[    0.033555] dmar: Unknown DMAR structure type 4
+<4>[    0.033556] dmar: Unknown DMAR structure type 4
+<4>[    0.033558] dmar: Unknown DMAR structure type 4
+<4>[    0.033559] dmar: Unknown DMAR structure type 4
+<4>[    0.033560] dmar: Unknown DMAR structure type 4
+<4>[    0.033562] dmar: Unknown DMAR structure type 4
+<6>[    0.033686] IOAPIC id 8 under DRHD base  0xfed91000 IOMMU 1
+<6>[    0.033687] HPET id 0 under DRHD base 0xfed91000
+<6>[    0.033879] Enabled IRQ remapping in x2apic mode
+<6>[    0.033882] Enabling x2apic
+<6>[    0.033883] Enabled x2apic
+<6>[    0.033890] Switched APIC routing to cluster x2apic.
+<6>[    0.034508] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+<6>[    0.074179] smpboot: CPU0: Intel(R) Core(TM) i5-4250U CPU @ 1.30GHz (fam: 06, model: 45, stepping: 01)
+<7>[    0.074188] TSC deadline timer enabled
+<6>[    0.074197] Performance Events: PEBS fmt2+, 16-deep LBR, Haswell events, full-width counters, Intel PMU driver.
+<6>[    0.074205] ... version:                3
+<6>[    0.074206] ... bit width:              48
+<6>[    0.074208] ... generic registers:      4
+<6>[    0.074209] ... value mask:             0000ffffffffffff
+<6>[    0.074210] ... max period:             0000ffffffffffff
+<6>[    0.074212] ... fixed-purpose events:   3
+<6>[    0.074213] ... event mask:             000000070000000f
+<6>[    0.075766] x86: Booting SMP configuration:
+<6>[    0.089846] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+<6>[    0.075769] .... node  #0, CPUs:      #1 #2 #3
+<6>[    0.118064] x86: Booted up 1 node, 4 CPUs
+<6>[    0.118069] smpboot: Total of 4 processors activated (15165.02 BogoMIPS)
+<6>[    0.121746] devtmpfs: initialized
+<6>[    0.123846] EVM: security.selinux
+<6>[    0.123848] EVM: security.SMACK64
+<6>[    0.123849] EVM: security.ima
+<6>[    0.123851] EVM: security.capability
+<6>[    0.123884] PM: Registering ACPI NVS region [mem 0xc5d68000-0xc5d6efff] (28672 bytes)
+<6>[    0.123887] PM: Registering ACPI NVS region [mem 0xd9b26000-0xd9c8efff] (1478656 bytes)
+<6>[    0.124559] pinctrl core: initialized pinctrl subsystem
+<6>[    0.124608] regulator-dummy: no parameters
+<6>[    0.124640] RTC time: 18:46:37, date: 01/19/16
+<6>[    0.124668] NET: Registered protocol family 16
+<6>[    0.124748] cpuidle: using governor ladder
+<6>[    0.124750] cpuidle: using governor menu
+<6>[    0.124778] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+<6>[    0.124781] ACPI: bus type PCI registered
+<6>[    0.124783] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+<6>[    0.124827] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+<6>[    0.124830] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+<6>[    0.131353] PCI: Using configuration type 1 for base access
+<6>[    0.132104] bio: create slab <bio-0> at 0
+<6>[    0.132234] ACPI: Added _OSI(Module Device)
+<6>[    0.132236] ACPI: Added _OSI(Processor Device)
+<6>[    0.132238] ACPI: Added _OSI(3.0 _SCP Extensions)
+<6>[    0.132239] ACPI: Added _OSI(Processor Aggregator Device)
+<4>[    0.136475] ACPI: Executed 1 blocks of module-level executable AML code
+<5>[    0.141646] [Firmware Bug]: ACPI: BIOS _OSI(Linux) query ignored
+<4>[    0.145759] ACPI: SSDT 00000000d9ab7c18 0003D3 (v01  PmRef  Cpu0Cst 00003001 INTL 20120711)
+<4>[    0.146585] ACPI: Dynamic OEM Table Load:
+<4>[    0.146589] ACPI: SSDT           (null) 0003D3 (v01  PmRef  Cpu0Cst 00003001 INTL 20120711)
+<4>[    0.149964] ACPI: SSDT 00000000d9ab7618 0005AA (v01  PmRef    ApIst 00003000 INTL 20120711)
+<4>[    0.150903] ACPI: Dynamic OEM Table Load:
+<4>[    0.150907] ACPI: SSDT           (null) 0005AA (v01  PmRef    ApIst 00003000 INTL 20120711)
+<4>[    0.153761] ACPI: SSDT 00000000d9ab6d98 000119 (v01  PmRef    ApCst 00003000 INTL 20120711)
+<4>[    0.154578] ACPI: Dynamic OEM Table Load:
+<4>[    0.154582] ACPI: SSDT           (null) 000119 (v01  PmRef    ApCst 00003000 INTL 20120711)
+<6>[    0.158661] ACPI: Interpreter enabled
+<4>[    0.158674] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S1_] (20131115/hwxface-580)
+<4>[    0.158685] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20131115/hwxface-580)
+<6>[    0.158714] ACPI: (supports S0 S3 S4 S5)
+<6>[    0.158717] ACPI: Using IOAPIC for interrupt routing
+<6>[    0.158760] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+<6>[    0.159107] ACPI: No dock devices found.
+<6>[    0.165638] ACPI: Power Resource [FN00] (off)
+<6>[    0.165706] ACPI: Power Resource [FN01] (off)
+<6>[    0.165765] ACPI: Power Resource [FN02] (off)
+<6>[    0.165823] ACPI: Power Resource [FN03] (off)
+<6>[    0.165880] ACPI: Power Resource [FN04] (off)
+<6>[    0.166562] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-3e])
+<6>[    0.166568] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+<6>[    0.166756] acpi PNP0A08:00: _OSC: platform does not support [PCIeHotplug PME]
+<6>[    0.166865] acpi PNP0A08:00: _OSC: OS now controls [AER PCIeCapability]
+<6>[    0.166867] acpi PNP0A08:00: FADT indicates ASPM is unsupported, using BIOS configuration
+<6>[    0.167405] PCI host bridge to bus 0000:00
+<6>[    0.167408] pci_bus 0000:00: root bus resource [bus 00-3e]
+<6>[    0.167410] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+<6>[    0.167413] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+<6>[    0.167415] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+<6>[    0.167417] pci_bus 0000:00: root bus resource [mem 0x000d0000-0x000d3fff]
+<6>[    0.167419] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff]
+<6>[    0.167421] pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff]
+<6>[    0.167424] pci_bus 0000:00: root bus resource [mem 0x000dc000-0x000dffff]
+<6>[    0.167427] pci_bus 0000:00: root bus resource [mem 0xdf200000-0xfeafffff]
+<7>[    0.167435] pci 0000:00:00.0: [8086:0a04] type 00 class 0x060000
+<7>[    0.167519] pci 0000:00:02.0: [8086:0a26] type 00 class 0x030000
+<7>[    0.167530] pci 0000:00:02.0: reg 0x10: [mem 0xf7800000-0xf7bfffff 64bit]
+<7>[    0.167536] pci 0000:00:02.0: reg 0x18: [mem 0xe0000000-0xefffffff 64bit pref]
+<7>[    0.167540] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+<7>[    0.167615] pci 0000:00:03.0: [8086:0a0c] type 00 class 0x040300
+<7>[    0.167621] pci 0000:00:03.0: reg 0x10: [mem 0xf7c34000-0xf7c37fff 64bit]
+<7>[    0.167715] pci 0000:00:14.0: [8086:9c31] type 00 class 0x0c0330
+<7>[    0.167731] pci 0000:00:14.0: reg 0x10: [mem 0xf7c20000-0xf7c2ffff 64bit]
+<7>[    0.167783] pci 0000:00:14.0: PME# supported from D3hot D3cold
+<6>[    0.167827] pci 0000:00:14.0: System wakeup disabled by ACPI
+<7>[    0.167855] pci 0000:00:16.0: [8086:9c3a] type 00 class 0x078000
+<7>[    0.167874] pci 0000:00:16.0: reg 0x10: [mem 0xf7c3e000-0xf7c3e01f 64bit]
+<7>[    0.167936] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+<7>[    0.168008] pci 0000:00:19.0: [8086:1559] type 00 class 0x020000
+<7>[    0.168023] pci 0000:00:19.0: reg 0x10: [mem 0xf7c00000-0xf7c1ffff]
+<7>[    0.168029] pci 0000:00:19.0: reg 0x14: [mem 0xf7c3c000-0xf7c3cfff]
+<7>[    0.168036] pci 0000:00:19.0: reg 0x18: [io  0xf080-0xf09f]
+<7>[    0.168088] pci 0000:00:19.0: PME# supported from D0 D3hot D3cold
+<6>[    0.168131] pci 0000:00:19.0: System wakeup disabled by ACPI
+<7>[    0.168158] pci 0000:00:1b.0: [8086:9c20] type 00 class 0x040300
+<7>[    0.168169] pci 0000:00:1b.0: reg 0x10: [mem 0xf7c30000-0xf7c33fff 64bit]
+<7>[    0.168216] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+<6>[    0.168259] pci 0000:00:1b.0: System wakeup disabled by ACPI
+<7>[    0.168288] pci 0000:00:1d.0: [8086:9c26] type 00 class 0x0c0320
+<7>[    0.168307] pci 0000:00:1d.0: reg 0x10: [mem 0xf7c3b000-0xf7c3b3ff]
+<7>[    0.168389] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+<6>[    0.168447] pci 0000:00:1d.0: System wakeup disabled by ACPI
+<7>[    0.168480] pci 0000:00:1f.0: [8086:9c43] type 00 class 0x060100
+<7>[    0.168642] pci 0000:00:1f.2: [8086:9c03] type 00 class 0x010601
+<7>[    0.168655] pci 0000:00:1f.2: reg 0x10: [io  0xf0d0-0xf0d7]
+<7>[    0.168661] pci 0000:00:1f.2: reg 0x14: [io  0xf0c0-0xf0c3]
+<7>[    0.168667] pci 0000:00:1f.2: reg 0x18: [io  0xf0b0-0xf0b7]
+<7>[    0.168673] pci 0000:00:1f.2: reg 0x1c: [io  0xf0a0-0xf0a3]
+<7>[    0.168679] pci 0000:00:1f.2: reg 0x20: [io  0xf060-0xf07f]
+<7>[    0.168685] pci 0000:00:1f.2: reg 0x24: [mem 0xf7c3a000-0xf7c3a7ff]
+<7>[    0.168717] pci 0000:00:1f.2: PME# supported from D3hot
+<7>[    0.168776] pci 0000:00:1f.3: [8086:9c22] type 00 class 0x0c0500
+<7>[    0.168789] pci 0000:00:1f.3: reg 0x10: [mem 0xf7c39000-0xf7c390ff 64bit]
+<7>[    0.168806] pci 0000:00:1f.3: reg 0x20: [io  0xf040-0xf05f]
+<6>[    0.169667] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+<6>[    0.169715] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+<6>[    0.169761] ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 *5 6 10 11 12 14 15)
+<6>[    0.169805] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 *10 11 12 14 15)
+<6>[    0.169849] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 *5 6 10 11 12 14 15)
+<6>[    0.169891] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+<6>[    0.169935] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 10 *11 12 14 15)
+<6>[    0.169979] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 *10 11 12 14 15)
+<4>[    0.170308] ACPI: Enabled 4 GPEs in block 00 to 7F
+<7>[    0.170315] ACPI: \_SB_.PCI0: notify handler is installed
+<7>[    0.170384] Found 1 acpi root devices
+<6>[    0.170462] vgaarb: setting as boot device: PCI:0000:00:02.0
+<6>[    0.170465] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+<6>[    0.170468] vgaarb: loaded
+<6>[    0.170469] vgaarb: bridge control possible 0000:00:02.0
+<5>[    0.170591] SCSI subsystem initialized
+<7>[    0.170632] libata version 3.00 loaded.
+<6>[    0.170661] ACPI: bus type USB registered
+<6>[    0.170676] usbcore: registered new interface driver usbfs
+<6>[    0.170683] usbcore: registered new interface driver hub
+<6>[    0.170706] usbcore: registered new device driver usb
+<6>[    0.170793] PCI: Using ACPI for IRQ routing
+<7>[    0.172139] PCI: pci_cache_line_size set to 64 bytes
+<7>[    0.172170] e820: reserve RAM buffer [mem 0x00058000-0x0005ffff]
+<7>[    0.172171] e820: reserve RAM buffer [mem 0x0009f000-0x0009ffff]
+<7>[    0.172173] e820: reserve RAM buffer [mem 0xc5d68000-0xc7ffffff]
+<7>[    0.172174] e820: reserve RAM buffer [mem 0xd9a74000-0xdbffffff]
+<7>[    0.172176] e820: reserve RAM buffer [mem 0xda000000-0xdbffffff]
+<7>[    0.172178] e820: reserve RAM buffer [mem 0x21fe00000-0x21fffffff]
+<6>[    0.172254] NetLabel: Initializing
+<6>[    0.172256] NetLabel:  domain hash size = 128
+<6>[    0.172258] NetLabel:  protocols = UNLABELED CIPSOv4
+<6>[    0.172270] NetLabel:  unlabeled traffic allowed by default
+<6>[    0.172320] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+<6>[    0.172328] hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+<6>[    0.174357] Switched to clocksource hpet
+<6>[    0.178153] AppArmor: AppArmor Filesystem Enabled
+<6>[    0.178175] pnp: PnP ACPI init
+<6>[    0.178186] ACPI: bus type PNP registered
+<6>[    0.178259] system 00:00: [mem 0xfed40000-0xfed44fff] has been reserved
+<7>[    0.178263] system 00:00: Plug and Play ACPI device, IDs PNP0c01 (active)
+<7>[    0.178274] pnp 00:01: [dma 4]
+<7>[    0.178286] pnp 00:01: Plug and Play ACPI device, IDs PNP0200 (active)
+<7>[    0.178299] pnp 00:02: Plug and Play ACPI device, IDs INT0800 (active)
+<7>[    0.178408] pnp 00:03: Plug and Play ACPI device, IDs PNP0103 (active)
+<6>[    0.178515] system 00:04: [io  0x0680-0x069f] has been reserved
+<6>[    0.178518] system 00:04: [io  0xffff] has been reserved
+<6>[    0.178521] system 00:04: [io  0xffff] has been reserved
+<6>[    0.178523] system 00:04: [io  0xffff] has been reserved
+<6>[    0.178525] system 00:04: [io  0x1c00-0x1cfe] has been reserved
+<6>[    0.178527] system 00:04: [io  0x1d00-0x1dfe] has been reserved
+<6>[    0.178529] system 00:04: [io  0x1e00-0x1efe] has been reserved
+<6>[    0.178531] system 00:04: [io  0x1f00-0x1ffe] has been reserved
+<6>[    0.178534] system 00:04: [io  0x1800-0x18fe] could not be reserved
+<6>[    0.178536] system 00:04: [io  0x164e-0x164f] has been reserved
+<7>[    0.178539] system 00:04: Plug and Play ACPI device, IDs PNP0c02 (active)
+<7>[    0.178565] pnp 00:05: Plug and Play ACPI device, IDs PNP0b00 (active)
+<6>[    0.178598] system 00:06: [io  0x1854-0x1857] has been reserved
+<7>[    0.178601] system 00:06: Plug and Play ACPI device, IDs INT3f0d PNP0c02 (active)
+<6>[    0.178678] system 00:07: [io  0x0a00-0x0a1f] has been reserved
+<6>[    0.178681] system 00:07: [io  0x0a00-0x0a0f] has been reserved
+<7>[    0.178683] system 00:07: Plug and Play ACPI device, IDs PNP0c02 (active)
+<7>[    0.178772] pnp 00:08: Plug and Play ACPI device, IDs NTN0530 (disabled)
+<6>[    0.178803] system 00:09: [io  0x04d0-0x04d1] has been reserved
+<7>[    0.178806] system 00:09: Plug and Play ACPI device, IDs PNP0c02 (active)
+<6>[    0.182468] system 00:0a: [mem 0xfe102000-0xfe102fff] has been reserved
+<6>[    0.182475] system 00:0a: [mem 0xfe104000-0xfe104fff] has been reserved
+<6>[    0.182480] system 00:0a: [mem 0xfe106000-0xfe106fff] has been reserved
+<6>[    0.182484] system 00:0a: [mem 0xfe108000-0xfe108fff] has been reserved
+<6>[    0.182488] system 00:0a: [mem 0xfe10a000-0xfe10afff] has been reserved
+<6>[    0.182492] system 00:0a: [mem 0xfe10c000-0xfe10cfff] has been reserved
+<6>[    0.182496] system 00:0a: [mem 0xfe10e000-0xfe10efff] has been reserved
+<6>[    0.182500] system 00:0a: [mem 0xfe112000-0xfe112fff] has been reserved
+<6>[    0.182504] system 00:0a: [mem 0xfe111000-0xfe111007] has been reserved
+<6>[    0.182508] system 00:0a: [mem 0xfe111014-0xfe111fff] has been reserved
+<7>[    0.182514] system 00:0a: Plug and Play ACPI device, IDs PNP0c02 (active)
+<6>[    0.183011] system 00:0b: [mem 0xfed1c000-0xfed1ffff] has been reserved
+<6>[    0.183016] system 00:0b: [mem 0xfed10000-0xfed17fff] has been reserved
+<6>[    0.183020] system 00:0b: [mem 0xfed18000-0xfed18fff] has been reserved
+<6>[    0.183024] system 00:0b: [mem 0xfed19000-0xfed19fff] has been reserved
+<6>[    0.183028] system 00:0b: [mem 0xf8000000-0xfbffffff] has been reserved
+<6>[    0.183032] system 00:0b: [mem 0xfed20000-0xfed3ffff] has been reserved
+<6>[    0.183036] system 00:0b: [mem 0xfed90000-0xfed93fff] could not be reserved
+<6>[    0.183041] system 00:0b: [mem 0xfed45000-0xfed8ffff] has been reserved
+<6>[    0.183045] system 00:0b: [mem 0xff000000-0xffffffff] has been reserved
+<6>[    0.183049] system 00:0b: [mem 0xfee00000-0xfeefffff] could not be reserved
+<6>[    0.183053] system 00:0b: [mem 0xf7fdf000-0xf7fdffff] has been reserved
+<6>[    0.183057] system 00:0b: [mem 0xf7fe0000-0xf7feffff] has been reserved
+<7>[    0.183062] system 00:0b: Plug and Play ACPI device, IDs PNP0c02 (active)
+<6>[    0.183380] pnp: PnP ACPI: found 12 devices
+<6>[    0.183383] ACPI: bus type PNP unregistered
+<7>[    0.189732] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+<7>[    0.189734] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+<7>[    0.189735] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+<7>[    0.189737] pci_bus 0000:00: resource 7 [mem 0x000d0000-0x000d3fff]
+<7>[    0.189738] pci_bus 0000:00: resource 8 [mem 0x000d4000-0x000d7fff]
+<7>[    0.189739] pci_bus 0000:00: resource 9 [mem 0x000d8000-0x000dbfff]
+<7>[    0.189741] pci_bus 0000:00: resource 10 [mem 0x000dc000-0x000dffff]
+<7>[    0.189742] pci_bus 0000:00: resource 11 [mem 0xdf200000-0xfeafffff]
+<6>[    0.189765] NET: Registered protocol family 2
+<6>[    0.189947] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.190089] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+<6>[    0.190254] TCP: Hash tables configured (established 65536 bind 65536)
+<6>[    0.190270] TCP: reno registered
+<6>[    0.190280] UDP hash table entries: 4096 (order: 5, 131072 bytes)
+<6>[    0.190309] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes)
+<6>[    0.190373] NET: Registered protocol family 1
+<7>[    0.190385] pci 0000:00:02.0: Video device with shadowed ROM
+<7>[    0.210478] PCI: CLS 64 bytes, default 64
+<6>[    0.210545] Trying to unpack rootfs image as initramfs...
+<6>[    0.500784] Freeing initrd memory: 19180K (ffff880035a7a000 - ffff880036d35000)
+<6>[    0.500796] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+<6>[    0.500799] software IO TLB [mem 0xc757b000-0xcb57b000] (64MB) mapped at [ffff8800c757b000-ffff8800cb57afff]
+<6>[    0.500954] microcode: CPU0 sig=0x40651, pf=0x40, revision=0x1c
+<6>[    0.500962] microcode: CPU1 sig=0x40651, pf=0x40, revision=0x1c
+<6>[    0.500970] microcode: CPU2 sig=0x40651, pf=0x40, revision=0x1c
+<6>[    0.500977] microcode: CPU3 sig=0x40651, pf=0x40, revision=0x1c
+<6>[    0.501024] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+<6>[    0.501027] Scanning for low memory corruption every 60 seconds
+<5>[    0.501227] Initialise system trusted keyring
+<6>[    0.501263] audit: initializing netlink socket (disabled)
+<5>[    0.501271] type=2000 audit(1453229197.496:1): initialized
+<6>[    0.526992] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+<6>[    0.527852] zbud: loaded
+<5>[    0.527978] VFS: Disk quotas dquot_6.5.2
+<4>[    0.528009] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+<6>[    0.528318] fuse init (API version 7.22)
+<6>[    0.528376] msgmni has been set to 15757
+<5>[    0.528415] Key type big_key registered
+<5>[    0.528679] Key type asymmetric registered
+<5>[    0.528682] Asymmetric key parser 'x509' registered
+<6>[    0.528706] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+<6>[    0.528735] io scheduler noop registered
+<6>[    0.528738] io scheduler deadline registered (default)
+<6>[    0.528756] io scheduler cfq registered
+<6>[    0.528806] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+<6>[    0.528817] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+<6>[    0.528848] efifb: probing for efifb
+<6>[    0.529192] efifb: framebuffer at 0xe0000000, mapped to 0xffffc90004e80000, using 3072k, total 3072k
+<6>[    0.529194] efifb: mode is 1024x768x32, linelength=4096, pages=1
+<6>[    0.529196] efifb: scrolling: redraw
+<6>[    0.529198] efifb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+<6>[    0.531060] Console: switching to colour frame buffer device 128x48
+<6>[    0.532863] fb0: EFI VGA frame buffer device
+<7>[    0.532889] intel_idle: MWAIT substates: 0x11142120
+<7>[    0.532890] intel_idle: v0.4 model 0x45
+<7>[    0.532891] intel_idle: lapic_timer_reliable_states 0xffffffff
+<6>[    0.533001] ipmi message handler version 39.2
+<6>[    0.533072] input: Power Button as /devices/LNXSYSTM:00/device:00/PNP0C0C:00/input/input0
+<6>[    0.533106] ACPI: Power Button [PWRB]
+<6>[    0.533145] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+<6>[    0.533175] ACPI: Power Button [PWRF]
+<6>[    0.533241] ACPI: Fan [FAN0] (off)
+<6>[    0.533274] ACPI: Fan [FAN1] (off)
+<6>[    0.533304] ACPI: Fan [FAN2] (off)
+<6>[    0.533333] ACPI: Fan [FAN3] (off)
+<6>[    0.533362] ACPI: Fan [FAN4] (off)
+<6>[    0.533686] thermal LNXTHERM:00: registered as thermal_zone0
+<6>[    0.533708] ACPI: Thermal Zone [TZ00] (28 C)
+<6>[    0.533881] thermal LNXTHERM:01: registered as thermal_zone1
+<6>[    0.533904] ACPI: Thermal Zone [TZ01] (30 C)
+<6>[    0.533941] GHES: HEST is not enabled!
+<6>[    0.534018] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+<6>[    0.554524] serial8250: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+<6>[    0.555624] Linux agpgart interface v0.103
+<6>[    0.556539] brd: module loaded
+<6>[    0.557143] loop: module loaded
+<6>[    0.557471] libphy: Fixed MDIO Bus: probed
+<6>[    0.557565] tun: Universal TUN/TAP device driver, 1.6
+<6>[    0.558247] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    0.559015] PPP generic driver version 2.4.2
+<6>[    0.559736] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    0.560440] ehci-pci: EHCI PCI platform driver
+<6>[    0.561246] ehci-pci 0000:00:1d.0: EHCI Host Controller
+<6>[    0.561952] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 1
+<6>[    0.562682] ehci-pci 0000:00:1d.0: debug port 2
+<7>[    0.567296] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+<6>[    0.567316] ehci-pci 0000:00:1d.0: irq 23, io mem 0xf7c3b000
+<6>[    0.578220] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+<6>[    0.579515] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    0.580359] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    0.580987] usb usb1: Product: EHCI Host Controller
+<6>[    0.581604] usb usb1: Manufacturer: Linux 3.13.0-74-generic ehci_hcd
+<6>[    0.582233] usb usb1: SerialNumber: 0000:00:1d.0
+<6>[    0.583007] hub 1-0:1.0: USB hub found
+<6>[    0.583638] hub 1-0:1.0: 2 ports detected
+<6>[    0.584336] ehci-platform: EHCI generic platform driver
+<6>[    0.584881] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+<6>[    0.585503] ohci-pci: OHCI PCI platform driver
+<6>[    0.586118] ohci-platform: OHCI generic platform driver
+<6>[    0.586743] uhci_hcd: USB Universal Host Controller Interface driver
+<6>[    0.587444] xhci_hcd 0000:00:14.0: xHCI Host Controller
+<6>[    0.588051] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 2
+<7>[    0.589728] xhci_hcd 0000:00:14.0: cache line size of 64 is not supported
+<7>[    0.589746] xhci_hcd 0000:00:14.0: irq 58 for MSI/MSI-X
+<6>[    0.589793] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[    0.590397] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    0.591008] usb usb2: Product: xHCI Host Controller
+<6>[    0.591619] usb usb2: Manufacturer: Linux 3.13.0-74-generic xhci_hcd
+<6>[    0.592226] usb usb2: SerialNumber: 0000:00:14.0
+<6>[    0.592978] hub 2-0:1.0: USB hub found
+<6>[    0.593574] hub 2-0:1.0: 9 ports detected
+<6>[    0.595937] xhci_hcd 0000:00:14.0: xHCI Host Controller
+<6>[    0.596450] xhci_hcd 0000:00:14.0: new USB bus registered, assigned bus number 3
+<6>[    0.597071] usb usb3: New USB device found, idVendor=1d6b, idProduct=0003
+<6>[    0.597685] usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[    0.598324] usb usb3: Product: xHCI Host Controller
+<6>[    0.598957] usb usb3: Manufacturer: Linux 3.13.0-74-generic xhci_hcd
+<6>[    0.599593] usb usb3: SerialNumber: 0000:00:14.0
+<6>[    0.600381] hub 3-0:1.0: USB hub found
+<6>[    0.601016] hub 3-0:1.0: 4 ports detected
+<6>[    0.610425] i8042: PNP: No PS/2 controller found. Probing ports directly.
+<6>[    1.497899] tsc: Refined TSC clocksource calibration: 1895.614 MHz
+<3>[    1.671449] i8042: No controller found
+<6>[    1.672181] mousedev: PS/2 mouse device common for all mice
+<6>[    1.672922] rtc_cmos 00:05: RTC can wake from S4
+<6>[    1.673665] rtc_cmos 00:05: rtc core: registered rtc_cmos as rtc0
+<6>[    1.674372] rtc_cmos 00:05: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+<6>[    1.675078] device-mapper: uevent: version 1.0.3
+<6>[    1.675795] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+<6>[    1.676459] ledtrig-cpu: registered to indicate activity on CPUs
+<6>[    1.677118] EFI Variables Facility v0.08 2004-May-17
+<6>[    1.682329] TCP: cubic registered
+<6>[    1.683034] NET: Registered protocol family 10
+<6>[    1.683787] NET: Registered protocol family 17
+<5>[    1.684431] Key type dns_resolver registered
+<5>[    1.685231] Loading compiled-in X.509 certificates
+<5>[    1.686592] Loaded X.509 cert 'Magrathea: Glacier signing key: 148a253ccef5e29b7f508a4cfe5dc10e721c821c'
+<6>[    1.687305] registered taskstats version 1
+<5>[    1.689423] Key type trusted registered
+<5>[    1.692507] Key type encrypted registered
+<6>[    1.693155] AppArmor: AppArmor sha1 policy hashing enabled
+<6>[    1.693907] IMA: No TPM chip found, activating TPM-bypass!
+<6>[    1.694778] regulator-dummy: disabling
+<6>[    1.695555]   Magic number: 0:542:797
+<6>[    1.696377] rtc_cmos 00:05: setting system clock to 2016-01-19 18:46:39 UTC (1453229199)
+<6>[    1.697652] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+<6>[    1.698351] EDD information not available.
+<7>[    1.699003] PM: Hibernation image not present or could not be loaded.
+<6>[    1.699681] Freeing unused kernel memory: 1336K (ffffffff81d20000 - ffffffff81e6e000)
+<6>[    1.700373] Write protecting the kernel read-only data: 12288k
+<6>[    1.701373] Freeing unused kernel memory: 780K (ffff88000273d000 - ffff880002800000)
+<6>[    1.703401] Freeing unused kernel memory: 680K (ffff880002b56000 - ffff880002c00000)
+<30>[    1.720530] systemd-udevd[113]: starting version 204
+<6>[    1.740001] pps_core: LinuxPPS API ver. 1 registered
+<6>[    1.741383] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+<7>[    1.744502] ahci 0000:00:1f.2: version 3.0
+<7>[    1.744647] ahci 0000:00:1f.2: irq 59 for MSI/MSI-X
+<6>[    1.744799] PTP clock support registered
+<6>[    1.752133] e1000e: Intel(R) PRO/1000 Network Driver - 2.3.2-k
+<6>[    1.753547] e1000e: Copyright(c) 1999 - 2013 Intel Corporation.
+<6>[    1.757867] ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 2 ports 6 Gbps 0x9 impl SATA mode
+<6>[    1.759201] ahci 0000:00:1f.2: flags: 64bit ncq pm led clo only pio slum part deso sadm sds apst 
+<6>[    1.761089] scsi0 : ahci
+<6>[    1.765189] scsi1 : ahci
+<6>[    1.766598] scsi2 : ahci
+<6>[    1.768307] scsi3 : ahci
+<6>[    1.769853] ata1: SATA max UDMA/133 abar m2048@0xf7c3a000 port 0xf7c3a100 irq 59
+<6>[    1.771281] ata2: DUMMY
+<6>[    1.772747] ata3: DUMMY
+<6>[    1.773483] ata4: SATA max UDMA/133 abar m2048@0xf7c3a000 port 0xf7c3a280 irq 59
+<6>[    1.778973] e1000e 0000:00:19.0: Interrupt Throttling Rate (ints/sec) set to dynamic conservative mode
+<7>[    1.779731] e1000e 0000:00:19.0: irq 60 for MSI/MSI-X
+<6>[    1.881786] usb 1-1: new high-speed USB device number 2 using ehci-pci
+<6>[    1.946993] e1000e 0000:00:19.0 eth0: registered PHC clock
+<6>[    1.947750] e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1) c0:3f:d5:64:d7:79
+<6>[    1.948490] e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
+<6>[    1.949254] e1000e 0000:00:19.0 eth0: MAC: 11, PHY: 12, PBA No: FFFFFF-0FF
+<30>[    1.962018] systemd-udevd[117]: renamed network interface eth0 to em1
+<6>[    2.014248] usb 1-1: New USB device found, idVendor=8087, idProduct=8000
+<6>[    2.015712] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+<6>[    2.016816] hub 1-1:1.0: USB hub found
+<6>[    2.018295] hub 1-1:1.0: 8 ports detected
+<6>[    2.093767] ata4: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+<6>[    2.095259] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+<4>[    2.096495] ata4.00: supports DRM functions and may not be fully accessible
+<6>[    2.097762] ata1.00: ATA-9: WDC WD10JPVX-00JC3T0, 01.01A01, max UDMA/133
+<6>[    2.098487] ata1.00: 1953525168 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+<6>[    2.100079] ata1.00: configured for UDMA/133
+<7>[    2.101734] ata4.00: disabling queued TRIM support
+<6>[    2.101748] ata4.00: ATA-9: Crucial_CT240M500SSD3, MU05, max UDMA/133
+<5>[    2.101851] scsi 0:0:0:0: Direct-Access     ATA      WDC WD10JPVX-00J 01.0 PQ: 0 ANSI: 5
+<5>[    2.102006] sd 0:0:0:0: [sda] 1953525168 512-byte logical blocks: (1.00 TB/931 GiB)
+<5>[    2.102008] sd 0:0:0:0: [sda] 4096-byte physical blocks
+<5>[    2.102046] sd 0:0:0:0: Attached scsi generic sg0 type 0
+<5>[    2.102066] sd 0:0:0:0: [sda] Write Protect is off
+<7>[    2.102069] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+<5>[    2.102099] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+<6>[    2.107029] ata4.00: 468862128 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+<4>[    2.111533] ata4.00: supports DRM functions and may not be fully accessible
+<7>[    2.115833] ata4.00: disabling queued TRIM support
+<6>[    2.119048] ata4.00: configured for UDMA/133
+<5>[    2.120651] scsi 3:0:0:0: Direct-Access     ATA      Crucial_CT240M50 MU05 PQ: 0 ANSI: 5
+<5>[    2.121526] sd 3:0:0:0: [sdb] 468862128 512-byte logical blocks: (240 GB/223 GiB)
+<5>[    2.121538] sd 3:0:0:0: Attached scsi generic sg1 type 0
+<5>[    2.123061] sd 3:0:0:0: [sdb] 4096-byte physical blocks
+<5>[    2.123822] sd 3:0:0:0: [sdb] Write Protect is off
+<7>[    2.124545] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+<5>[    2.124554] sd 3:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+<6>[    2.127290]  sdb: sdb1 sdb2 sdb3 sdb4 sdb5 sdb6
+<5>[    2.129358] sd 3:0:0:0: [sdb] Attached SCSI disk
+<6>[    2.149871]  sda: sda1 sda9
+<5>[    2.152012] sd 0:0:0:0: [sda] Attached SCSI disk
+<6>[    2.185643] usb 2-4: new high-speed USB device number 2 using xhci_hcd
+<6>[    2.202100] usb 2-4: New USB device found, idVendor=03f0, idProduct=b411
+<6>[    2.202929] usb 2-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>[    2.203744] usb 2-4: Product: Photosmart 5510d series
+<6>[    2.204568] usb 2-4: Manufacturer: HP
+<6>[    2.205396] usb 2-4: SerialNumber: CN1A9113S705RW
+<6>[    2.209018] usb-storage 2-4:1.2: USB Mass Storage device detected
+<6>[    2.209937] scsi4 : usb-storage 2-4:1.2
+<6>[    2.210830] usbcore: registered new interface driver usb-storage
+<4>[    2.245625] raid6: sse2x1    7664 MB/s
+<4>[    2.313591] raid6: sse2x2    9757 MB/s
+<4>[    2.381568] raid6: sse2x4   10747 MB/s
+<4>[    2.449538] raid6: avx2x1   14155 MB/s
+<4>[    2.517520] raid6: avx2x2   15067 MB/s
+<4>[    2.585492] raid6: avx2x4   13860 MB/s
+<4>[    2.586851] raid6: using algorithm avx2x2 (15067 MB/s)
+<4>[    2.588219] raid6: using avx2x2 recovery algorithm
+<6>[    2.589577] Switched to clocksource tsc
+<6>[    2.591690] xor: automatically using best checksumming function:
+<6>[    2.629471]    avx       : 22751.000 MB/sec
+<6>[    2.639995] bio: create slab <bio-1> at 1
+<6>[    2.641001] Btrfs loaded
+<6>[    2.692957] btrfs: device fsid 530ffabd-21ac-4b18-b72c-3f8439217358 devid 1 transid 749674 /dev/sdb4
+<6>[    2.700438] btrfs: device fsid 530ffabd-21ac-4b18-b72c-3f8439217358 devid 1 transid 749674 /dev/disk/by-uuid/530ffabd-21ac-4b18-b72c-3f8439217358
+<6>[    2.702564] btrfs: disk space caching is enabled
+<6>[    2.739584] Btrfs detected SSD devices, enabling SSD mode
+<5>[    2.810591] random: init urandom read with 78 bits of entropy available
+<12>[    2.838944] init: plymouth-upstart-bridge main process (227) terminated with status 1
+<12>[    2.840007] init: plymouth-upstart-bridge main process ended, respawning
+<12>[    2.846477] init: plymouth-upstart-bridge main process (239) terminated with status 1
+<12>[    2.847641] init: plymouth-upstart-bridge main process ended, respawning
+<12>[    2.854391] init: plymouth-upstart-bridge main process (244) terminated with status 1
+<4>[    2.855138] zavl: module license 'CDDL' taints kernel.
+<4>[    2.855138] Disabling lock debugging due to kernel taint
+<5>[    2.855151] zavl: module verification failed: signature and/or  required key missing - tainting kernel
+<12>[    2.857797] init: plymouth-upstart-bridge main process ended, respawning
+<5>[    2.873555] SPL: Loaded module v0.6.5.4-1~trusty
+<5>[    2.891233] ZFS: Loaded module v0.6.5.4-1~trusty, ZFS pool version 5000, ZFS filesystem version 5
+<5>[    3.198986] random: nonblocking pool is initialized
+<5>[    3.210932] scsi 4:0:0:0: Direct-Access     HP       Photosmart 5510d 1.00 PQ: 0 ANSI: 5
+<5>[    3.212550] sd 4:0:0:0: Attached scsi generic sg2 type 0
+<5>[    3.213022] sd 4:0:0:0: [sdc] Attached SCSI removable disk
+<5>[    3.398677] SPL: using hostid 0x007f0101
+<6>[    8.108613] Adding 8313852k swap on /dev/sdb3.  Priority:-1 extents:1 across:8313852k SSFS
+<6>[    8.122931] IPv6: ADDRCONF(NETDEV_UP): em1: link is not ready
+<30>[    8.157908] systemd-udevd[1600]: starting version 204
+<6>[    8.158994] btrfs: use lzo compression
+<6>[    8.158997] btrfs: disk space caching is enabled
+<7>[    8.165842] BTRFS debug (device sdb4): unlinked 1 orphans
+<6>[    8.202454] lp: driver loaded but no devices found
+<4>[    8.206303] ACPI Warning: 0x0000000000001828-0x000000000000182f SystemIO conflicts with Region \PMIO 1 (20131115/utaddress-251)
+<6>[    8.206310] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+<4>[    8.206316] ACPI Warning: 0x0000000000001c30-0x0000000000001c3f SystemIO conflicts with Region \GPRL 1 (20131115/utaddress-251)
+<4>[    8.206320] ACPI Warning: 0x0000000000001c30-0x0000000000001c3f SystemIO conflicts with Region \GPR_ 2 (20131115/utaddress-251)
+<6>[    8.206323] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+<4>[    8.206325] ACPI Warning: 0x0000000000001c00-0x0000000000001c2f SystemIO conflicts with Region \GPRL 1 (20131115/utaddress-251)
+<4>[    8.206328] ACPI Warning: 0x0000000000001c00-0x0000000000001c2f SystemIO conflicts with Region \GPR_ 2 (20131115/utaddress-251)
+<6>[    8.206332] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+<4>[    8.206334] lpc_ich: Resource conflict(s) found affecting gpio_ich
+<6>[    8.218558] [drm] Initialized drm 1.1.0 20060810
+<6>[    8.219588] EXT4-fs (sdb2): mounted filesystem with ordered data mode. Opts: (null)
+<7>[    8.219917] mei_me 0000:00:16.0: irq 61 for MSI/MSI-X
+<6>[    8.228554] ppdev: user-space parallel port driver
+<3>[    8.251101] nuvoton-cir 00:08: IR PNP Port not valid!
+<6>[    8.288050] [drm] Memory usable by graphics device = 2048M
+<7>[    8.288056] checking generic (e0000000 300000) vs hw (e0000000 10000000)
+<6>[    8.288058] fb: conflicting fb hw usage inteldrmfb vs EFI VGA - removing generic driver
+<6>[    8.234588] parport0: PC-style at 0x378 (0x778)
+<6>[    8.288077] Console: switching to colour dummy device 80x25
+<6>[    8.319819] btrfs: device fsid 530ffabd-21ac-4b18-b72c-3f8439217358 devid 1 transid 749674 /dev/sdb4
+<6>[    8.336380] btrfs: device fsid 530ffabd-21ac-4b18-b72c-3f8439217358 devid 1 transid 749674 /dev/sdb4
+<7>[    8.355488] i915 0000:00:02.0: irq 62 for MSI/MSI-X
+<6>[    8.355505] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+<6>[    8.355506] [drm] Driver supports precise vblank timestamp query.
+<6>[    8.355590] vgaarb: device changed decodes: PCI:0000:00:02.0,olddecodes=io+mem,decodes=io+mem:owns=io+mem
+<4>[    8.360187]  [PCSPP,TRISTATE]
+<6>[    8.360193] parport0: irq 0 detected
+<5>[    8.369085] type=1400 audit(1453229206.171:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=1720 comm="apparmor_parser"
+<5>[    8.369094] type=1400 audit(1453229206.171:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1720 comm="apparmor_parser"
+<5>[    8.369100] type=1400 audit(1453229206.171:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=1720 comm="apparmor_parser"
+<5>[    8.369646] type=1400 audit(1453229206.171:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=1720 comm="apparmor_parser"
+<5>[    8.369654] type=1400 audit(1453229206.171:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=1720 comm="apparmor_parser"
+<5>[    8.369942] type=1400 audit(1453229206.171:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=1720 comm="apparmor_parser"
+<6>[    8.391327] btrfs: device fsid 530ffabd-21ac-4b18-b72c-3f8439217358 devid 1 transid 749674 /dev/sdb4
+<6>[    8.401989] i915 0000:00:02.0: No connectors reported connected with modes
+<6>[    8.401994] [drm] Cannot find any crtc or sizes - going 1024x768
+<6>[    8.402952] fbcon: inteldrmfb (fb0) is primary device
+<6>[    8.403029] Console: switching to colour frame buffer device 128x48
+<6>[    8.406319] i915 0000:00:02.0: fb0: inteldrmfb frame buffer device
+<6>[    8.406322] i915 0000:00:02.0: registered panic notifier
+<6>[    8.412998] btrfs: device fsid 530ffabd-21ac-4b18-b72c-3f8439217358 devid 1 transid 749674 /dev/sdb4
+<4>[    8.433362] WARNING! power/level is deprecated; use power/control instead
+<6>[    8.456300] lp0: using parport0 (polling).
+<6>[    8.462861] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+<6>[    8.464104] acpi device:46: registered as cooling_device9
+<6>[    8.464199] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A08:00/LNXVIDEO:00/input/input3
+<6>[    8.464273] [drm] Initialized i915 1.6.0 20080730 for 0000:00:02.0 on minor 0
+<6>[    8.468644] snd_hda_intel 0000:00:03.0: enabling device (0000 -> 0002)
+<4>[    8.468776] HDA driver get symbol successfully from i915 module
+<7>[    8.468812] snd_hda_intel 0000:00:03.0: irq 63 for MSI/MSI-X
+<6>[    8.469155] snd_hda_intel 0000:00:1b.0: enabling device (0000 -> 0002)
+<7>[    8.469281] snd_hda_intel 0000:00:1b.0: irq 64 for MSI/MSI-X
+<6>[    8.488829] input: HDA Intel HDMI HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:03.0/sound/card0/input5
+<6>[    8.489025] input: HDA Intel HDMI HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:03.0/sound/card0/input4
+<4>[    8.489334] SKU: Nid=0x1d sku_cfg=0x40941905
+<4>[    8.489335] SKU: port_connectivity=0x1
+<4>[    8.489335] SKU: enable_pcbeep=0x1
+<4>[    8.489336] SKU: check_sum=0x00000004
+<4>[    8.489336] SKU: customization=0x00000019
+<4>[    8.489337] SKU: external_amp=0x0
+<4>[    8.489337] SKU: platform_type=0x1
+<4>[    8.489338] SKU: swap=0x0
+<4>[    8.489338] SKU: override=0x1
+<4>[    8.489498] autoconfig: line_outs=1 (0x21/0x0/0x0/0x0/0x0) type:hp
+<4>[    8.489499]    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+<4>[    8.489500]    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+<4>[    8.489500]    mono: mono_out=0x0
+<4>[    8.489501]    inputs:
+<4>[    8.489502]      Mic=0x19
+<4>[    8.489503] realtek: No valid SSID, checking pincfg 0x40941905 for NID 0x1d
+<4>[    8.489504] realtek: Enabling init ASM_ID=0x1905 CODEC_ID=10ec0283
+<6>[    8.501228] input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card1/input7
+<6>[    8.501311] input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1b.0/sound/card1/input6
+<5>[    8.518539] FS-Cache: Loaded
+<5>[    8.535721] FS-Cache: Netfs 'cifs' registered for caching
+<5>[    8.535817] Key type cifs.spnego registered
+<5>[    8.535827] Key type cifs.idmap registered
+<3>[    8.546362] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.546494] CIFS VFS: cifs_mount failed w/return code = -101
+<3>[    8.549589] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.550596] CIFS VFS: cifs_mount failed w/return code = -101
+<3>[    8.552811] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.552938] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.552940] CIFS VFS: cifs_mount failed w/return code = -101
+<3>[    8.555959] CIFS VFS: cifs_mount failed w/return code = -101
+<6>[    8.570756] usblp 2-4:1.1: usblp0: USB Bidirectional printer dev 2 if 1 alt 0 proto 2 vid 0x03F0 pid 0xB411
+<6>[    8.570786] usbcore: registered new interface driver usblp
+<6>[    8.623717] intel_rapl: domain uncore energy ctr 19620:19620 not working, skip
+<3>[    8.676667] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.677495] CIFS VFS: cifs_mount failed w/return code = -101
+<3>[    8.683413] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.684137] CIFS VFS: cifs_mount failed w/return code = -101
+<3>[    8.685525] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.685905] CIFS VFS: cifs_mount failed w/return code = -101
+<3>[    8.687095] CIFS VFS: Error connecting to socket. Aborting operation.
+<3>[    8.687484] CIFS VFS: cifs_mount failed w/return code = -101
+<5>[    8.757698] type=1400 audit(1453229206.559:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2034 comm="apparmor_parser"
+<5>[    8.757707] type=1400 audit(1453229206.559:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=2034 comm="apparmor_parser"
+<5>[    8.758232] type=1400 audit(1453229206.559:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2034 comm="apparmor_parser"
+<12>[    8.828778] init: cups main process (2045) killed by HUP signal
+<12>[    8.828791] init: cups main process ended, respawning
+<12>[    8.869169] init: Failed to spawn smbd main process: unable to execute: No such file or directory
+<12>[    8.870109] init: Failed to spawn samba-ad-dc main process: unable to execute: No such file or directory
+<5>[    8.903858] Bridge firewalling registered
+<6>[    8.906139] device em1 entered promiscuous mode
+<7>[    9.012161] e1000e 0000:00:19.0: irq 60 for MSI/MSI-X
+<7>[    9.115302] e1000e 0000:00:19.0: irq 60 for MSI/MSI-X
+<6>[    9.115386] IPv6: ADDRCONF(NETDEV_UP): em1: link is not ready
+<6>[    9.117741] IPv6: ADDRCONF(NETDEV_UP): br0: link is not ready
+<6>[    9.815085] [drm] Enabling RC6 states: RC6 on, RC6p off, RC6pp off
+<6>[   12.607594] e1000e: em1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: Rx/Tx
+<6>[   12.607632] IPv6: ADDRCONF(NETDEV_CHANGE): em1: link becomes ready
+<6>[   12.607664] br0: port 1(em1) entered forwarding state
+<6>[   12.607671] br0: port 1(em1) entered forwarding state
+<6>[   12.607711] IPv6: ADDRCONF(NETDEV_CHANGE): br0: link becomes ready
+<12>[   18.760384] init: plexmediaserver main process (2327) terminated with status 2
+<12>[   18.760391] init: plexmediaserver main process ended, respawning
+<12>[   18.780014] init: failsafe main process (2113) killed by TERM signal
+<12>[   18.783224] init: plexmediaserver main process (2349) terminated with status 2
+<12>[   18.783236] init: plexmediaserver main process ended, respawning
+<12>[   18.806714] init: plexmediaserver main process (2387) terminated with status 2
+<12>[   18.806726] init: plexmediaserver main process ended, respawning
+<12>[   18.820156] init: Failed to spawn nmbd main process: unable to execute: No such file or directory
+<12>[   18.821886] init: plexmediaserver main process (2391) terminated with status 2
+<12>[   18.821897] init: plexmediaserver main process ended, respawning
+<12>[   18.834799] init: plexmediaserver main process (2395) terminated with status 2
+<12>[   18.834812] init: plexmediaserver main process ended, respawning
+<12>[   18.845903] init: plexmediaserver main process (2403) terminated with status 2
+<12>[   18.845914] init: plexmediaserver main process ended, respawning
+<12>[   18.857832] init: plexmediaserver main process (2407) terminated with status 2
+<12>[   18.857844] init: plexmediaserver main process ended, respawning
+<12>[   18.872823] init: plexmediaserver main process (2410) terminated with status 2
+<12>[   18.872833] init: plexmediaserver main process ended, respawning
+<12>[   18.882677] init: plexmediaserver main process (2426) terminated with status 2
+<12>[   18.882691] init: plexmediaserver main process ended, respawning
+<12>[   18.888603] init: plexmediaserver main process (2439) terminated with status 2
+<12>[   18.888616] init: plexmediaserver main process ended, respawning
+<12>[   18.895163] init: plexmediaserver main process (2449) terminated with status 2
+<12>[   18.895171] init: plexmediaserver respawning too fast, stopped
+<5>[   18.902146] type=1400 audit(1453229216.707:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=2469 comm="apparmor_parser"
+<5>[   18.903341] type=1400 audit(1453229216.707:12): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=2467 comm="apparmor_parser"
+<5>[   18.903350] type=1400 audit(1453229216.707:13): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=2467 comm="apparmor_parser"
+<5>[   18.903356] type=1400 audit(1453229216.707:14): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=2467 comm="apparmor_parser"
+<5>[   18.905086] type=1400 audit(1453229216.711:15): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2470 comm="apparmor_parser"
+<5>[   18.905092] type=1400 audit(1453229216.711:16): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2470 comm="apparmor_parser"
+<5>[   18.905423] type=1400 audit(1453229216.711:17): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2470 comm="apparmor_parser"
+<5>[   18.905665] type=1400 audit(1453229216.711:18): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=2466 comm="apparmor_parser"
+<5>[   18.905673] type=1400 audit(1453229216.711:19): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=2466 comm="apparmor_parser"
+<5>[   18.905678] type=1400 audit(1453229216.711:20): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=2466 comm="apparmor_parser"
+<6>[   19.491551] ip_tables: (C) 2000-2006 Netfilter Core Team
+<12>[   19.626285] init: plymouth-upstart-bridge main process ended, respawning
+<4>[   38.885502] audit_printk_skb: 138 callbacks suppressed
+<5>[   38.885505] type=1400 audit(1453229228.317:67): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2883 comm="apparmor_parser"
+<5>[   38.885510] type=1400 audit(1453229228.317:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2883 comm="apparmor_parser"
+<5>[   38.885801] type=1400 audit(1453229228.317:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2883 comm="apparmor_parser"
+<6>[   52.746868] device vethY0DRBS entered promiscuous mode
+<6>[   52.746933] IPv6: ADDRCONF(NETDEV_UP): vethY0DRBS: link is not ready
+<6>[   52.746936] br0: port 2(vethY0DRBS) entered forwarding state
+<6>[   52.746939] br0: port 2(vethY0DRBS) entered forwarding state
+<6>[   52.748777] br0: port 2(vethY0DRBS) entered disabled state
+<6>[   52.807628] IPv6: ADDRCONF(NETDEV_CHANGE): vethY0DRBS: link becomes ready
+<6>[   52.807663] br0: port 2(vethY0DRBS) entered forwarding state
+<6>[   52.807673] br0: port 2(vethY0DRBS) entered forwarding state
+<6>[   54.270461] device vethY7TTSQ entered promiscuous mode
+<6>[   54.270605] IPv6: ADDRCONF(NETDEV_UP): vethY7TTSQ: link is not ready
+<6>[   54.270610] br0: port 3(vethY7TTSQ) entered forwarding state
+<6>[   54.270616] br0: port 3(vethY7TTSQ) entered forwarding state
+<6>[   54.335066] IPv6: ADDRCONF(NETDEV_CHANGE): vethY7TTSQ: link becomes ready
+<6>[   56.022967] device vethBHV083 entered promiscuous mode
+<6>[   56.023105] IPv6: ADDRCONF(NETDEV_UP): vethBHV083: link is not ready
+<6>[   56.082469] IPv6: ADDRCONF(NETDEV_CHANGE): vethBHV083: link becomes ready
+<6>[   56.082510] br0: port 4(vethBHV083) entered forwarding state
+<6>[   56.082520] br0: port 4(vethBHV083) entered forwarding state
+<6>[   57.517635] device vethD7WYHM entered promiscuous mode
+<6>[   57.517725] IPv6: ADDRCONF(NETDEV_UP): vethD7WYHM: link is not ready
+<6>[   57.517730] br0: port 5(vethD7WYHM) entered forwarding state
+<6>[   57.517734] br0: port 5(vethD7WYHM) entered forwarding state
+<6>[   57.641819] IPv6: ADDRCONF(NETDEV_CHANGE): vethD7WYHM: link becomes ready
+<6>[   59.637564] device vethU2QXHA entered promiscuous mode
+<6>[   59.637672] IPv6: ADDRCONF(NETDEV_UP): vethU2QXHA: link is not ready
+<6>[   59.637678] br0: port 6(vethU2QXHA) entered forwarding state
+<6>[   59.637684] br0: port 6(vethU2QXHA) entered forwarding state
+<6>[   59.637929] br0: port 6(vethU2QXHA) entered disabled state
+<6>[   59.960920] IPv6: ADDRCONF(NETDEV_CHANGE): vethU2QXHA: link becomes ready
+<6>[   59.960951] br0: port 6(vethU2QXHA) entered forwarding state
+<6>[   59.960958] br0: port 6(vethU2QXHA) entered forwarding state
+<6>[   61.634716] device vethOHX040 entered promiscuous mode
+<6>[   61.634859] IPv6: ADDRCONF(NETDEV_UP): vethOHX040: link is not ready
+<6>[   61.634865] br0: port 7(vethOHX040) entered forwarding state
+<6>[   61.634871] br0: port 7(vethOHX040) entered forwarding state
+<6>[   61.636228] br0: port 7(vethOHX040) entered disabled state
+<6>[   61.748386] IPv6: ADDRCONF(NETDEV_CHANGE): vethOHX040: link becomes ready
+<6>[   61.748420] br0: port 7(vethOHX040) entered forwarding state
+<6>[   61.748427] br0: port 7(vethOHX040) entered forwarding state
+<6>[   63.715955] device vethJWP07T entered promiscuous mode
+<6>[   63.716110] IPv6: ADDRCONF(NETDEV_UP): vethJWP07T: link is not ready
+<6>[   63.967578] IPv6: ADDRCONF(NETDEV_CHANGE): vethJWP07T: link becomes ready
+<6>[   63.967632] br0: port 8(vethJWP07T) entered forwarding state
+<6>[   63.967642] br0: port 8(vethJWP07T) entered forwarding state
+<4>[38565.624022] perf samples too long (2504 > 2500), lowering kernel.perf_event_max_sample_rate to 50000
+<6>[38787.084838] SGI XFS with ACLs, security attributes, realtime, large block/inode numbers, no debug enabled
+<6>[38787.106670] JFS: nTxBlock = 8192, nTxLock = 65536
+<6>[38787.120262] NTFS driver 2.1.30 [Flags: R/O MODULE].
+<6>[38787.144287] QNX4 filesystem 0.2.3 registered.
+<6>[46916.830142] HDMI: ELD buf size is 0, force 128
+<6>[46916.830161] HDMI: invalid ELD data byte 0
+<6>[46916.830206] HDMI: ELD buf size is 0, force 128
+<6>[46916.830229] HDMI: invalid ELD data byte 0
+<6>[127476.870174] HDMI: ELD buf size is 0, force 128
+<6>[127476.870196] HDMI: invalid ELD data byte 0
+<6>[127476.870234] HDMI: ELD buf size is 0, force 128
+<6>[127476.870259] HDMI: invalid ELD data byte 0
+<6>[127481.732419] HDMI: ELD buf size is 0, force 128
+<6>[127481.732441] HDMI: invalid ELD data byte 0
+<6>[127481.732480] HDMI: ELD buf size is 0, force 128
+<6>[127481.732506] HDMI: invalid ELD data byte 0
+<4>[138438.642399] perf samples too long (5006 > 5000), lowering kernel.perf_event_max_sample_rate to 25000
+<6>[138611.387075] HDMI: ELD buf size is 0, force 128
+<6>[138611.387105] HDMI: invalid ELD data byte 0
+<6>[138611.387164] HDMI: ELD buf size is 0, force 128
+<6>[138611.387179] HDMI: invalid ELD data byte 0
+<6>[138616.305301] HDMI: ELD buf size is 0, force 128
+<6>[138616.305321] HDMI: invalid ELD data byte 0
+<6>[138616.305360] HDMI: ELD buf size is 0, force 128
+<6>[138616.305386] HDMI: invalid ELD data byte 0
+<3>[139315.020614] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[139315.020711] Raw EDID:
+<3>[139315.020740]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[139315.020801]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[139315.020862]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[139315.020922]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[139315.020983]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[139315.021044]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[139315.021106]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[139315.021167]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[141801.898660] HDMI: ELD buf size is 0, force 128
+<6>[141801.898684] HDMI: invalid ELD data byte 0
+<6>[141801.898727] HDMI: ELD buf size is 0, force 128
+<6>[141801.898748] HDMI: invalid ELD data byte 0
+<6>[141806.341288] HDMI: ELD buf size is 0, force 128
+<6>[141806.341331] HDMI: invalid ELD data byte 0
+<6>[141806.341370] HDMI: ELD buf size is 0, force 128
+<6>[141806.341395] HDMI: invalid ELD data byte 0
+<3>[144372.895192] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[144372.895290] Raw EDID:
+<3>[144372.895321]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[144372.895384]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[144372.895465]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[144372.895560]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[144372.895623]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[144372.895686]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[144372.895749]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[144372.895811]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[210096.249014] HDMI: ELD buf size is 0, force 128
+<6>[210096.249045] HDMI: invalid ELD data byte 0
+<6>[210096.249094] HDMI: ELD buf size is 0, force 128
+<6>[210096.249109] HDMI: invalid ELD data byte 0
+<6>[210100.691323] HDMI: ELD buf size is 0, force 128
+<6>[210100.691340] HDMI: invalid ELD data byte 0
+<6>[210100.691375] HDMI: ELD buf size is 0, force 128
+<6>[210100.691399] HDMI: invalid ELD data byte 0
+<6>[312896.793013] HDMI: ELD buf size is 0, force 128
+<6>[312896.793056] HDMI: invalid ELD data byte 0
+<6>[312896.793095] HDMI: ELD buf size is 0, force 128
+<6>[312896.793120] HDMI: invalid ELD data byte 0
+<6>[312901.675184] HDMI: ELD buf size is 0, force 128
+<6>[312901.675213] HDMI: invalid ELD data byte 0
+<6>[312901.675248] HDMI: ELD buf size is 0, force 128
+<6>[312901.675271] HDMI: invalid ELD data byte 0
+<3>[313567.998788] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[313567.998887] Raw EDID:
+<3>[313567.998917]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[313567.998979]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[313567.999142]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[313567.999276]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[313567.999396]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[313567.999495]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[313567.999590]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[313567.999652]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[391203.891656] HDMI: ELD buf size is 0, force 128
+<6>[391203.891673] HDMI: invalid ELD data byte 0
+<6>[391203.891719] HDMI: ELD buf size is 0, force 128
+<6>[391203.891741] HDMI: invalid ELD data byte 0
+<6>[391208.762003] HDMI: ELD buf size is 0, force 128
+<6>[391208.762045] HDMI: invalid ELD data byte 0
+<6>[391208.762084] HDMI: ELD buf size is 0, force 128
+<6>[391208.762109] HDMI: invalid ELD data byte 0
+<3>[392267.931187] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[392267.931284] Raw EDID:
+<3>[392267.931314]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[392267.931376]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[392267.931438]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[392267.931498]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[392267.931559]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[392267.931620]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[392267.931682]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[392267.931743]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[420380.667579] HDMI: ELD buf size is 0, force 128
+<6>[420380.667620] HDMI: invalid ELD data byte 0
+<6>[420380.667659] HDMI: ELD buf size is 0, force 128
+<6>[420380.667684] HDMI: invalid ELD data byte 0
+<6>[420385.601804] HDMI: ELD buf size is 0, force 128
+<6>[420385.601844] HDMI: invalid ELD data byte 0
+<6>[420385.601902] HDMI: ELD buf size is 0, force 128
+<6>[420385.601918] HDMI: invalid ELD data byte 0
+<3>[420764.388311] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[420764.388408] Raw EDID:
+<3>[420764.388437]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[420764.388500]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[420764.388561]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[420764.389920]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[420764.391473]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[420764.392661]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[420764.393816]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[420764.394889]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[479816.617587] HDMI: ELD buf size is 0, force 128
+<6>[479816.617604] HDMI: invalid ELD data byte 0
+<6>[479816.617639] HDMI: ELD buf size is 0, force 128
+<6>[479816.617662] HDMI: invalid ELD data byte 0
+<6>[479821.147970] HDMI: ELD buf size is 0, force 128
+<6>[479821.147987] HDMI: invalid ELD data byte 0
+<6>[479821.148033] HDMI: ELD buf size is 0, force 128
+<6>[479821.148046] HDMI: invalid ELD data byte 0
+<3>[480952.397059] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 210
+<3>[480952.398159] Raw EDID:
+<3>[480952.399241]  	00 ff ff ff ff ff ff 00 4f ff ff ff ff ff ff ff
+<3>[480952.400408]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[480952.401654]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[480952.403062]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[480952.404230]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[480952.405507]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[480952.406674]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[480952.407712]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[495405.747444] HDMI: ELD buf size is 0, force 128
+<6>[495405.747474] HDMI: invalid ELD data byte 0
+<6>[495405.747524] HDMI: ELD buf size is 0, force 128
+<6>[495405.747539] HDMI: invalid ELD data byte 0
+<6>[495410.737636] HDMI: ELD buf size is 0, force 128
+<6>[495410.737678] HDMI: invalid ELD data byte 0
+<6>[495410.737718] HDMI: ELD buf size is 0, force 128
+<6>[495410.737742] HDMI: invalid ELD data byte 0
+<3>[495711.392751] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[495711.393982] Raw EDID:
+<3>[495711.395255]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[495711.396424]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[495711.397647]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[495711.398967]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[495711.400144]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[495711.401373]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[495711.402560]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[495711.403606]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[500123.065762] HDMI: ELD buf size is 0, force 128
+<6>[500123.065792] HDMI: invalid ELD data byte 0
+<6>[500123.065851] HDMI: ELD buf size is 0, force 128
+<6>[500123.065866] HDMI: invalid ELD data byte 0
+<6>[500128.000005] HDMI: ELD buf size is 0, force 128
+<6>[500128.000047] HDMI: invalid ELD data byte 0
+<6>[500128.000086] HDMI: ELD buf size is 0, force 128
+<6>[500128.000111] HDMI: invalid ELD data byte 0
+<6>[500151.235616] HDMI: ELD buf size is 0, force 128
+<6>[500151.235638] HDMI: invalid ELD data byte 0
+<6>[500151.235677] HDMI: ELD buf size is 0, force 128
+<6>[500151.235702] HDMI: invalid ELD data byte 0
+<3>[501073.998566] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[501073.999817] Raw EDID:
+<3>[501074.001005]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[501074.002188]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[501074.003422]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[501074.004661]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[501074.005879]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[501074.007069]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[501074.008248]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[501074.009375]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[502651.475825] HDMI: ELD buf size is 0, force 128
+<6>[502651.475856] HDMI: invalid ELD data byte 0
+<6>[502651.475906] HDMI: ELD buf size is 0, force 128
+<6>[502651.475921] HDMI: invalid ELD data byte 0
+<6>[502656.338111] HDMI: ELD buf size is 0, force 128
+<6>[502656.338143] HDMI: invalid ELD data byte 0
+<6>[502656.338192] HDMI: ELD buf size is 0, force 128
+<6>[502656.338207] HDMI: invalid ELD data byte 0
+<6>[503128.344225] HDMI: ELD buf size is 0, force 128
+<6>[503128.344256] HDMI: invalid ELD data byte 0
+<6>[503128.344305] HDMI: ELD buf size is 0, force 128
+<6>[503128.344320] HDMI: invalid ELD data byte 0
+<6>[504163.303767] HDMI: ELD buf size is 0, force 128
+<6>[504163.303797] HDMI: invalid ELD data byte 0
+<6>[504163.303846] HDMI: ELD buf size is 0, force 128
+<6>[504163.303862] HDMI: invalid ELD data byte 0
+<6>[504211.530284] HDMI: ELD buf size is 0, force 128
+<6>[504211.530311] HDMI: invalid ELD data byte 0
+<6>[504211.530346] HDMI: ELD buf size is 0, force 128
+<6>[504211.530368] HDMI: invalid ELD data byte 0
+<3>[528924.240486] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[528924.241622] Raw EDID:
+<3>[528924.242743]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[528924.243938]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[528924.245204]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[528924.246537]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[528924.247774]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[528924.249083]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[528924.250412]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[528924.251485]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[565763.342941] HDMI: ELD buf size is 0, force 128
+<6>[565763.342958] HDMI: invalid ELD data byte 0
+<6>[565763.342993] HDMI: ELD buf size is 0, force 128
+<6>[565763.343016] HDMI: invalid ELD data byte 0
+<6>[565768.221277] HDMI: ELD buf size is 0, force 128
+<6>[565768.221307] HDMI: invalid ELD data byte 0
+<6>[565768.221366] HDMI: ELD buf size is 0, force 128
+<6>[565768.221381] HDMI: invalid ELD data byte 0
+<6>[565817.299653] HDMI: ELD buf size is 0, force 128
+<6>[565817.299693] HDMI: invalid ELD data byte 0
+<6>[565817.299752] HDMI: ELD buf size is 0, force 128
+<6>[565817.299770] HDMI: invalid ELD data byte 0
+<6>[566099.869932] HDMI: ELD buf size is 0, force 128
+<6>[566099.869963] HDMI: invalid ELD data byte 0
+<6>[566099.870022] HDMI: ELD buf size is 0, force 128
+<6>[566099.870037] HDMI: invalid ELD data byte 0
+<3>[567805.096181] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[567805.097327] Raw EDID:
+<3>[567805.098500]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[567805.099906]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[567805.101159]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[567805.102381]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[567805.103524]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[567805.104766]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[567805.106029]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[567805.107111]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[575548.945423] HDMI: ELD buf size is 0, force 128
+<6>[575548.945465] HDMI: invalid ELD data byte 0
+<6>[575548.945504] HDMI: ELD buf size is 0, force 128
+<6>[575548.945528] HDMI: invalid ELD data byte 0
+<6>[575553.823638] HDMI: ELD buf size is 0, force 128
+<6>[575553.823681] HDMI: invalid ELD data byte 0
+<6>[575553.823720] HDMI: ELD buf size is 0, force 128
+<6>[575553.823745] HDMI: invalid ELD data byte 0
+<3>[576110.908718] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[576110.909866] Raw EDID:
+<3>[576110.911061]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[576110.912370]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[576110.913581]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[576110.914837]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[576110.916112]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[576110.917322]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[576110.918461]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[576110.919580]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[592187.373426] HDMI: ELD buf size is 0, force 128
+<6>[592187.373455] HDMI: invalid ELD data byte 0
+<6>[592187.373490] HDMI: ELD buf size is 0, force 128
+<6>[592187.373513] HDMI: invalid ELD data byte 0
+<6>[592192.039858] HDMI: ELD buf size is 0, force 128
+<6>[592192.039889] HDMI: invalid ELD data byte 0
+<6>[592192.039938] HDMI: ELD buf size is 0, force 128
+<6>[592192.039953] HDMI: invalid ELD data byte 0
+<3>[593130.020960] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[593130.022183] Raw EDID:
+<3>[593130.023346]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[593130.024583]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[593130.025791]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[593130.027070]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[593130.028329]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[593130.029535]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[593130.030713]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[593130.031831]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[610793.997118] HDMI: ELD buf size is 0, force 128
+<6>[610793.997142] HDMI: invalid ELD data byte 0
+<6>[610793.997175] HDMI: ELD buf size is 0, force 128
+<6>[610793.997197] HDMI: invalid ELD data byte 0
+<6>[610798.543709] HDMI: ELD buf size is 0, force 128
+<6>[610798.543751] HDMI: invalid ELD data byte 0
+<6>[610798.543790] HDMI: ELD buf size is 0, force 128
+<6>[610798.543815] HDMI: invalid ELD data byte 0
+<3>[614185.652943] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 226
+<3>[614185.653651] Raw EDID:
+<3>[614185.654360]  	00 ff ff ff ff ff ff 00 4c 2d 9f 02 00 00 3f ff
+<3>[614185.654731]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[614185.655107]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[614185.655483]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[614185.655858]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[614185.656233]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[614185.656631]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[614185.657064]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[645049.813246] HDMI: ELD buf size is 0, force 128
+<6>[645049.813265] HDMI: invalid ELD data byte 0
+<6>[645049.813314] HDMI: ELD buf size is 0, force 128
+<6>[645049.813336] HDMI: invalid ELD data byte 0
+<3>[645480.577977] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[645480.579135] Raw EDID:
+<3>[645480.580275]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[645480.581488]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[645480.582765]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[645480.584241]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[645480.585460]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[645480.586734]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[645480.587956]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[645480.589040]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[652031.656679] HDMI: ELD buf size is 0, force 128
+<6>[652031.656710] HDMI: invalid ELD data byte 0
+<6>[652031.656768] HDMI: ELD buf size is 0, force 128
+<6>[652031.656783] HDMI: invalid ELD data byte 0
+<6>[652036.223014] HDMI: ELD buf size is 0, force 128
+<6>[652036.223056] HDMI: invalid ELD data byte 0
+<6>[652036.223095] HDMI: ELD buf size is 0, force 128
+<6>[652036.223119] HDMI: invalid ELD data byte 0
+<3>[652688.304174] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 226
+<3>[652688.305377] Raw EDID:
+<3>[652688.306517]  	00 ff ff ff ff ff ff 00 5f ff ff ff ff ff ff ff
+<3>[652688.307725]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[652688.309010]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[652688.310447]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[652688.311699]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[652688.312980]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[652688.314286]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[652688.315370]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[828199.021259] HDMI: ELD buf size is 0, force 128
+<6>[828199.021276] HDMI: invalid ELD data byte 0
+<6>[828199.021322] HDMI: ELD buf size is 0, force 128
+<6>[828199.021344] HDMI: invalid ELD data byte 0
+<6>[828203.679689] HDMI: ELD buf size is 0, force 128
+<6>[828203.679720] HDMI: invalid ELD data byte 0
+<6>[828203.679768] HDMI: ELD buf size is 0, force 128
+<6>[828203.679784] HDMI: invalid ELD data byte 0
+<3>[831063.286372] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 2
+<3>[831063.287084] Raw EDID:
+<3>[831063.287595]  	00 ff ff ff ff ff ff 00 7f ff ff ff ff ff ff ff
+<3>[831063.287967]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[831063.288341]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[831063.288715]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[831063.289091]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[831063.289465]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[831063.289817]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[831063.290191]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[845161.192837] HDMI: ELD buf size is 0, force 128
+<6>[845161.192855] HDMI: invalid ELD data byte 0
+<6>[845161.192901] HDMI: ELD buf size is 0, force 128
+<6>[845161.192924] HDMI: invalid ELD data byte 0
+<6>[845166.075118] HDMI: ELD buf size is 0, force 128
+<6>[845166.075145] HDMI: invalid ELD data byte 0
+<6>[845166.075180] HDMI: ELD buf size is 0, force 128
+<6>[845166.075204] HDMI: invalid ELD data byte 0
+<3>[845460.967615] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[845460.968842] Raw EDID:
+<3>[845460.970200]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[845460.971423]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[845460.972634]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[845460.973915]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[845460.975275]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[845460.976489]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[845460.977681]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[845460.978872]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[902809.354458] HDMI: ELD buf size is 0, force 128
+<6>[902809.354480] HDMI: invalid ELD data byte 0
+<6>[902809.354520] HDMI: ELD buf size is 0, force 128
+<6>[902809.354545] HDMI: invalid ELD data byte 0
+<6>[902814.312586] HDMI: ELD buf size is 0, force 128
+<6>[902814.312603] HDMI: invalid ELD data byte 0
+<6>[902814.312649] HDMI: ELD buf size is 0, force 128
+<6>[902814.312672] HDMI: invalid ELD data byte 0
+<6>[989277.456218] HDMI: ELD buf size is 0, force 128
+<6>[989277.456249] HDMI: invalid ELD data byte 0
+<6>[989277.456298] HDMI: ELD buf size is 0, force 128
+<6>[989277.456313] HDMI: invalid ELD data byte 0
+<6>[989282.342475] HDMI: ELD buf size is 0, force 128
+<6>[989282.342505] HDMI: invalid ELD data byte 0
+<6>[989282.342555] HDMI: ELD buf size is 0, force 128
+<6>[989282.342570] HDMI: invalid ELD data byte 0
+<3>[990348.026466] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[990348.027663] Raw EDID:
+<3>[990348.028897]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[990348.029963]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[990348.031205]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[990348.032507]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[990348.033741]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[990348.034987]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[990348.036207]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[990348.037276]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1079970.529370] HDMI: ELD buf size is 0, force 128
+<6>[1079970.529389] HDMI: invalid ELD data byte 0
+<6>[1079970.529435] HDMI: ELD buf size is 0, force 128
+<6>[1079970.529458] HDMI: invalid ELD data byte 0
+<6>[1079975.403682] HDMI: ELD buf size is 0, force 128
+<6>[1079975.403723] HDMI: invalid ELD data byte 0
+<6>[1079975.403781] HDMI: ELD buf size is 0, force 128
+<6>[1079975.403796] HDMI: invalid ELD data byte 0
+<3>[1080315.836792] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 177
+<3>[1080315.837937] Raw EDID:
+<3>[1080315.839064]  	00 ff ff ff ff ff ff 00 4c 2d 9f 02 00 0f ff ff
+<3>[1080315.840263]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1080315.841558]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1080315.842905]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1080315.844120]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1080315.845387]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1080315.846608]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1080315.847690]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1087304.586104] HDMI: ELD buf size is 0, force 128
+<6>[1087304.586146] HDMI: invalid ELD data byte 0
+<6>[1087304.586204] HDMI: ELD buf size is 0, force 128
+<6>[1087304.586219] HDMI: invalid ELD data byte 0
+<6>[1087309.452318] HDMI: ELD buf size is 0, force 128
+<6>[1087309.452341] HDMI: invalid ELD data byte 0
+<6>[1087309.452380] HDMI: ELD buf size is 0, force 128
+<6>[1087309.452405] HDMI: invalid ELD data byte 0
+<3>[1088184.451243] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 193
+<3>[1088184.452399] Raw EDID:
+<3>[1088184.453609]  	00 ff ff ff ff ff ff 00 4c 2d 9f 02 00 1f ff ff
+<3>[1088184.455108]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1088184.456332]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1088184.457602]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1088184.458865]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1088184.460087]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1088184.461280]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1088184.462433]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1102836.548397] HDMI: ELD buf size is 0, force 128
+<6>[1102836.548420] HDMI: invalid ELD data byte 0
+<6>[1102836.548460] HDMI: ELD buf size is 0, force 128
+<6>[1102836.548485] HDMI: invalid ELD data byte 0
+<6>[1102841.502529] HDMI: ELD buf size is 0, force 128
+<6>[1102841.502546] HDMI: invalid ELD data byte 0
+<6>[1102841.502591] HDMI: ELD buf size is 0, force 128
+<6>[1102841.502614] HDMI: invalid ELD data byte 0
+<6>[1102871.395782] HDMI: ELD buf size is 0, force 128
+<6>[1102871.395799] HDMI: invalid ELD data byte 0
+<6>[1102871.395844] HDMI: ELD buf size is 0, force 128
+<6>[1102871.395856] HDMI: invalid ELD data byte 0
+<6>[1103409.418247] HDMI: ELD buf size is 0, force 128
+<6>[1103409.418290] HDMI: invalid ELD data byte 0
+<6>[1103409.418329] HDMI: ELD buf size is 0, force 128
+<6>[1103409.418354] HDMI: invalid ELD data byte 0
+<6>[1103476.614082] HDMI: ELD buf size is 0, force 128
+<6>[1103476.614113] HDMI: invalid ELD data byte 0
+<6>[1103476.614162] HDMI: ELD buf size is 0, force 128
+<6>[1103476.614177] HDMI: invalid ELD data byte 0
+<6>[1104604.400210] HDMI: ELD buf size is 0, force 128
+<6>[1104604.400232] HDMI: invalid ELD data byte 0
+<6>[1104604.400271] HDMI: ELD buf size is 0, force 128
+<6>[1104604.400296] HDMI: invalid ELD data byte 0
+<6>[1104667.633455] HDMI: ELD buf size is 0, force 128
+<6>[1104667.633486] HDMI: invalid ELD data byte 0
+<6>[1104667.633535] HDMI: ELD buf size is 0, force 128
+<6>[1104667.633550] HDMI: invalid ELD data byte 0
+<3>[1105963.436988] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1105963.438155] Raw EDID:
+<3>[1105963.439374]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1105963.440633]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1105963.441935]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1105963.443204]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1105963.444507]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1105963.445735]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1105963.446931]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1105963.448238]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1124728.777700] HDMI: ELD buf size is 0, force 128
+<6>[1124728.777718] HDMI: invalid ELD data byte 0
+<6>[1124728.777763] HDMI: ELD buf size is 0, force 128
+<6>[1124728.777786] HDMI: invalid ELD data byte 0
+<6>[1124733.420125] HDMI: ELD buf size is 0, force 128
+<6>[1124733.420155] HDMI: invalid ELD data byte 0
+<6>[1124733.420214] HDMI: ELD buf size is 0, force 128
+<6>[1124733.420229] HDMI: invalid ELD data byte 0
+<6>[1163574.913716] HDMI: ELD buf size is 0, force 128
+<6>[1163574.913733] HDMI: invalid ELD data byte 0
+<6>[1163574.913778] HDMI: ELD buf size is 0, force 128
+<6>[1163574.913790] HDMI: invalid ELD data byte 0
+<6>[1163579.588109] HDMI: ELD buf size is 0, force 128
+<6>[1163579.588151] HDMI: invalid ELD data byte 0
+<6>[1163579.588190] HDMI: ELD buf size is 0, force 128
+<6>[1163579.588215] HDMI: invalid ELD data byte 0
+<6>[1163599.700888] HDMI: ELD buf size is 0, force 128
+<6>[1163599.700932] HDMI: invalid ELD data byte 0
+<6>[1163599.700971] HDMI: ELD buf size is 0, force 128
+<6>[1163599.700996] HDMI: invalid ELD data byte 0
+<3>[1166961.951548] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1166961.952720] Raw EDID:
+<3>[1166961.953869]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1166961.955162]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1166961.956433]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1166961.957656]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1166961.958920]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1166961.960258]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1166961.961413]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1166961.962559]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1173991.988658] HDMI: ELD buf size is 0, force 128
+<6>[1173991.988683] HDMI: invalid ELD data byte 0
+<6>[1173991.988715] HDMI: ELD buf size is 0, force 128
+<6>[1173991.988738] HDMI: invalid ELD data byte 0
+<6>[1173996.883047] HDMI: ELD buf size is 0, force 128
+<6>[1173996.883089] HDMI: invalid ELD data byte 0
+<6>[1173996.883147] HDMI: ELD buf size is 0, force 128
+<6>[1173996.883162] HDMI: invalid ELD data byte 0
+<3>[1175410.631701] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1175410.632870] Raw EDID:
+<3>[1175410.634089]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1175410.635407]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1175410.636643]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1175410.637877]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1175410.639182]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1175410.640725]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1175410.641882]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1175410.643056]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1178876.426968] HDMI: ELD buf size is 0, force 128
+<6>[1178876.426989] HDMI: invalid ELD data byte 0
+<6>[1178876.427035] HDMI: ELD buf size is 0, force 128
+<6>[1178876.427058] HDMI: invalid ELD data byte 0
+<6>[1178880.877344] HDMI: ELD buf size is 0, force 128
+<6>[1178880.877362] HDMI: invalid ELD data byte 0
+<6>[1178880.877408] HDMI: ELD buf size is 0, force 128
+<6>[1178880.877431] HDMI: invalid ELD data byte 0
+<6>[1193317.905865] HDMI: ELD buf size is 0, force 128
+<6>[1193317.905907] HDMI: invalid ELD data byte 0
+<6>[1193317.905966] HDMI: ELD buf size is 0, force 128
+<6>[1193317.905990] HDMI: invalid ELD data byte 0
+<6>[1193322.816089] HDMI: ELD buf size is 0, force 128
+<6>[1193322.816109] HDMI: invalid ELD data byte 0
+<6>[1193322.816148] HDMI: ELD buf size is 0, force 128
+<6>[1193322.816174] HDMI: invalid ELD data byte 0
+<6>[1193335.439561] HDMI: ELD buf size is 0, force 128
+<6>[1193335.439592] HDMI: invalid ELD data byte 0
+<6>[1193335.439641] HDMI: ELD buf size is 0, force 128
+<6>[1193335.439656] HDMI: invalid ELD data byte 0
+<3>[1195238.462891] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 232
+<3>[1195238.464060] Raw EDID:
+<3>[1195238.465197]  	00 ff ff ff ff ff ff 00 65 ff ff ff ff ff ff ff
+<3>[1195238.466470]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1195238.467844]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1195238.469097]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1195238.470355]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1195238.471677]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1195238.472827]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1195238.473911]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1215509.251457] HDMI: ELD buf size is 0, force 128
+<6>[1215509.251474] HDMI: invalid ELD data byte 0
+<6>[1215509.251520] HDMI: ELD buf size is 0, force 128
+<6>[1215509.251543] HDMI: invalid ELD data byte 0
+<6>[1215513.893843] HDMI: ELD buf size is 0, force 128
+<6>[1215513.893861] HDMI: invalid ELD data byte 0
+<6>[1215513.893907] HDMI: ELD buf size is 0, force 128
+<6>[1215513.893930] HDMI: invalid ELD data byte 0
+<3>[1218722.604739] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1218722.605891] Raw EDID:
+<3>[1218722.607086]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1218722.608463]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1218722.609671]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1218722.610924]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1218722.612175]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1218722.613383]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1218722.614519]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1218722.615633]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1256096.756820] HDMI: ELD buf size is 0, force 128
+<6>[1256096.756837] HDMI: invalid ELD data byte 0
+<6>[1256096.756883] HDMI: ELD buf size is 0, force 128
+<6>[1256096.756905] HDMI: invalid ELD data byte 0
+<6>[1256101.423237] HDMI: ELD buf size is 0, force 128
+<6>[1256101.423268] HDMI: invalid ELD data byte 0
+<6>[1256101.423326] HDMI: ELD buf size is 0, force 128
+<6>[1256101.423342] HDMI: invalid ELD data byte 0
+<6>[1294658.975092] HDMI: ELD buf size is 0, force 128
+<6>[1294658.975112] HDMI: invalid ELD data byte 0
+<6>[1294658.975151] HDMI: ELD buf size is 0, force 128
+<6>[1294658.975176] HDMI: invalid ELD data byte 0
+<6>[1294663.841254] HDMI: ELD buf size is 0, force 128
+<6>[1294663.841274] HDMI: invalid ELD data byte 0
+<6>[1294663.841311] HDMI: ELD buf size is 0, force 128
+<6>[1294663.841335] HDMI: invalid ELD data byte 0
+<6>[1343344.789901] HDMI: ELD buf size is 0, force 128
+<6>[1343344.789919] HDMI: invalid ELD data byte 0
+<6>[1343344.789965] HDMI: ELD buf size is 0, force 128
+<6>[1343344.789978] HDMI: invalid ELD data byte 0
+<6>[1343349.700211] HDMI: ELD buf size is 0, force 128
+<6>[1343349.700254] HDMI: invalid ELD data byte 0
+<6>[1343349.700294] HDMI: ELD buf size is 0, force 128
+<6>[1343349.700318] HDMI: invalid ELD data byte 0
+<3>[1345798.043747] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 207
+<3>[1345798.044893] Raw EDID:
+<3>[1345798.046025]  	00 ff ff ff ff ff ff 00 4c ff ff ff ff ff ff ff
+<3>[1345798.047291]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1345798.048654]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1345798.049739]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1345798.051002]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1345798.052416]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1345798.053561]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1345798.054643]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1362462.993672] HDMI: ELD buf size is 0, force 128
+<6>[1362462.993711] HDMI: invalid ELD data byte 0
+<6>[1362462.993747] HDMI: ELD buf size is 0, force 128
+<6>[1362462.993771] HDMI: invalid ELD data byte 0
+<6>[1362467.452100] HDMI: ELD buf size is 0, force 128
+<6>[1362467.452142] HDMI: invalid ELD data byte 0
+<6>[1362467.452181] HDMI: ELD buf size is 0, force 128
+<6>[1362467.452206] HDMI: invalid ELD data byte 0
+<3>[1363576.655803] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 163
+<3>[1363576.657033] Raw EDID:
+<3>[1363576.658420]  	00 ff ff ff ff ff ff 00 4c 2d 9f 02 00 01 ff ff
+<3>[1363576.659636]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1363576.660909]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1363576.662247]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1363576.663470]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1363576.664728]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1363576.665949]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1363576.667039]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1370414.927851] HDMI: ELD buf size is 0, force 128
+<6>[1370414.927868] HDMI: invalid ELD data byte 0
+<6>[1370414.927903] HDMI: ELD buf size is 0, force 128
+<6>[1370414.927927] HDMI: invalid ELD data byte 0
+<6>[1370419.810170] HDMI: ELD buf size is 0, force 128
+<6>[1370419.810190] HDMI: invalid ELD data byte 0
+<6>[1370419.810229] HDMI: ELD buf size is 0, force 128
+<6>[1370419.810254] HDMI: invalid ELD data byte 0
+<3>[1370783.431508] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 226
+<3>[1370783.432674] Raw EDID:
+<3>[1370783.433818]  	00 ff ff ff ff ff ff 00 5f ff ff ff ff ff ff ff
+<3>[1370783.435117]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1370783.436246]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1370783.437466]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1370783.438686]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1370783.439936]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1370783.441195]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1370783.442283]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1432166.584697] HDMI: ELD buf size is 0, force 128
+<6>[1432166.584729] HDMI: invalid ELD data byte 0
+<6>[1432166.584777] HDMI: ELD buf size is 0, force 128
+<6>[1432166.584793] HDMI: invalid ELD data byte 0
+<6>[1432171.138962] HDMI: ELD buf size is 0, force 128
+<6>[1432171.139005] HDMI: invalid ELD data byte 0
+<6>[1432171.139045] HDMI: ELD buf size is 0, force 128
+<6>[1432171.139070] HDMI: invalid ELD data byte 0
+<3>[1432804.955695] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 2
+<3>[1432804.956868] Raw EDID:
+<3>[1432804.958005]  	00 ff ff ff ff ff ff 00 7f ff ff ff ff ff ff ff
+<3>[1432804.959282]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1432804.960675]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1432804.961900]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1432804.963170]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1432804.964461]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1432804.965609]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1432804.966738]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1439247.368514] HDMI: ELD buf size is 0, force 128
+<6>[1439247.368554] HDMI: invalid ELD data byte 0
+<6>[1439247.368591] HDMI: ELD buf size is 0, force 128
+<6>[1439247.368615] HDMI: invalid ELD data byte 0
+<6>[1439252.334549] HDMI: ELD buf size is 0, force 128
+<6>[1439252.334567] HDMI: invalid ELD data byte 0
+<6>[1439252.334613] HDMI: ELD buf size is 0, force 128
+<6>[1439252.334636] HDMI: invalid ELD data byte 0
+<3>[1439816.846034] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 177
+<3>[1439816.847258] Raw EDID:
+<3>[1439816.848488]  	00 ff ff ff ff ff ff 00 4c 2d 9f 02 00 0f ff ff
+<3>[1439816.849697]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1439816.850930]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1439816.852196]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1439816.853546]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1439816.854769]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1439816.855970]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1439816.857102]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1464138.030733] HDMI: ELD buf size is 0, force 128
+<6>[1464138.030763] HDMI: invalid ELD data byte 0
+<6>[1464138.030822] HDMI: ELD buf size is 0, force 128
+<6>[1464138.030837] HDMI: invalid ELD data byte 0
+<6>[1464142.908976] HDMI: ELD buf size is 0, force 128
+<6>[1464142.909018] HDMI: invalid ELD data byte 0
+<6>[1464142.909057] HDMI: ELD buf size is 0, force 128
+<6>[1464142.909082] HDMI: invalid ELD data byte 0
+<7>[1482443.442612] icmp6_send: no reply to icmp error
+<7>[1482446.473531] icmp6_send: no reply to icmp error
+<6>[1524331.964064] HDMI: ELD buf size is 0, force 128
+<6>[1524331.964105] HDMI: invalid ELD data byte 0
+<6>[1524331.964162] HDMI: ELD buf size is 0, force 128
+<6>[1524331.964186] HDMI: invalid ELD data byte 0
+<6>[1524336.846295] HDMI: ELD buf size is 0, force 128
+<6>[1524336.846317] HDMI: invalid ELD data byte 0
+<6>[1524336.846357] HDMI: ELD buf size is 0, force 128
+<6>[1524336.846382] HDMI: invalid ELD data byte 0
+<6>[1550588.670666] HDMI: ELD buf size is 0, force 128
+<6>[1550588.670683] HDMI: invalid ELD data byte 0
+<6>[1550588.670719] HDMI: ELD buf size is 0, force 128
+<6>[1550588.670742] HDMI: invalid ELD data byte 0
+<6>[1550593.548992] HDMI: ELD buf size is 0, force 128
+<6>[1550593.549033] HDMI: invalid ELD data byte 0
+<6>[1550593.549091] HDMI: ELD buf size is 0, force 128
+<6>[1550593.549107] HDMI: invalid ELD data byte 0
+<3>[1551713.499055] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 169
+<3>[1551713.500218] Raw EDID:
+<3>[1551713.501363]  	00 ff ff ff ff ff ff 00 4c 2d 9f 02 00 07 ff ff
+<3>[1551713.502658]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1551713.504248]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1551713.505350]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1551713.506659]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1551713.508365]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1551713.509579]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1551713.510837]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1595463.940976] HDMI: ELD buf size is 0, force 128
+<6>[1595463.940999] HDMI: invalid ELD data byte 0
+<6>[1595463.941038] HDMI: ELD buf size is 0, force 128
+<6>[1595463.941063] HDMI: invalid ELD data byte 0
+<6>[1595468.863122] HDMI: ELD buf size is 0, force 128
+<6>[1595468.863139] HDMI: invalid ELD data byte 0
+<6>[1595468.863174] HDMI: ELD buf size is 0, force 128
+<6>[1595468.863197] HDMI: invalid ELD data byte 0
+<3>[1596378.948468] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1596378.949635] Raw EDID:
+<3>[1596378.950783]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1596378.952072]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1596378.953429]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1596378.954654]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1596378.955930]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1596378.957226]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1596378.958379]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1596378.959515]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1622194.217257] HDMI: ELD buf size is 0, force 128
+<6>[1622194.217277] HDMI: invalid ELD data byte 0
+<6>[1622194.217315] HDMI: ELD buf size is 0, force 128
+<6>[1622194.217340] HDMI: invalid ELD data byte 0
+<6>[1622198.767612] HDMI: ELD buf size is 0, force 128
+<6>[1622198.767655] HDMI: invalid ELD data byte 0
+<6>[1622198.767694] HDMI: ELD buf size is 0, force 128
+<6>[1622198.767719] HDMI: invalid ELD data byte 0
+<6>[1628312.971165] HDMI: ELD buf size is 0, force 128
+<6>[1628312.971185] HDMI: invalid ELD data byte 0
+<6>[1628312.971225] HDMI: ELD buf size is 0, force 128
+<6>[1628312.971250] HDMI: invalid ELD data byte 0
+<6>[1628317.953351] HDMI: ELD buf size is 0, force 128
+<6>[1628317.953367] HDMI: invalid ELD data byte 0
+<6>[1628317.953402] HDMI: ELD buf size is 0, force 128
+<6>[1628317.953426] HDMI: invalid ELD data byte 0
+<6>[1628362.913291] HDMI: ELD buf size is 0, force 128
+<6>[1628362.913322] HDMI: invalid ELD data byte 0
+<6>[1628362.913371] HDMI: ELD buf size is 0, force 128
+<6>[1628362.913387] HDMI: invalid ELD data byte 0
+<6>[1645462.645463] usb 2-4: USB disconnect, device number 2
+<6>[1645462.646033] usblp0: removed
+<6>[1645476.797982] usb 2-4: new high-speed USB device number 3 using xhci_hcd
+<6>[1645476.814695] usb 2-4: New USB device found, idVendor=03f0, idProduct=b411
+<6>[1645476.814701] usb 2-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>[1645476.814704] usb 2-4: Product: Photosmart 5510d series
+<6>[1645476.814706] usb 2-4: Manufacturer: HP
+<6>[1645476.814709] usb 2-4: SerialNumber: CN1A9113S705RW
+<6>[1645476.816118] usblp 2-4:1.1: usblp0: USB Bidirectional printer dev 3 if 1 alt 0 proto 2 vid 0x03F0 pid 0xB411
+<6>[1645476.816186] usb-storage 2-4:1.2: USB Mass Storage device detected
+<6>[1645476.817162] scsi5 : usb-storage 2-4:1.2
+<5>[1645477.814112] scsi 5:0:0:0: Direct-Access     HP       Photosmart 5510d 1.00 PQ: 0 ANSI: 5
+<5>[1645477.815077] sd 5:0:0:0: Attached scsi generic sg2 type 0
+<5>[1645477.815964] sd 5:0:0:0: [sdc] Attached SCSI removable disk
+<3>[1681817.323614] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1681817.324781] Raw EDID:
+<3>[1681817.325930]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1681817.327151]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1681817.328433]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1681817.329848]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1681817.331076]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1681817.332355]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1681817.333595]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1681817.334724]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1681828.771866] HDMI: ELD buf size is 0, force 128
+<6>[1681828.771907] HDMI: invalid ELD data byte 0
+<6>[1681828.771966] HDMI: ELD buf size is 0, force 128
+<6>[1681828.771991] HDMI: invalid ELD data byte 0
+<6>[1681833.694046] HDMI: ELD buf size is 0, force 128
+<6>[1681833.694062] HDMI: invalid ELD data byte 0
+<6>[1681833.694107] HDMI: ELD buf size is 0, force 128
+<6>[1681833.694120] HDMI: invalid ELD data byte 0
+<3>[1682320.740501] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1682320.741669] Raw EDID:
+<3>[1682320.742904]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1682320.744276]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1682320.745501]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1682320.746786]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1682320.748076]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1682320.749301]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1682320.750507]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1682320.751666]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<7>[1693224.396511] vboxdrv: Found 4 processor cores
+<6>[1693224.414743] vboxdrv: TSC mode is Invariant, tentative frequency 1895612625 Hz
+<7>[1693224.414748] vboxdrv: Successfully loaded version 5.0.14 (interface 0x00240000)
+<4>[1693224.622251] VBoxNetFlt: Successfully started.
+<4>[1693224.626353] VBoxNetAdp: Successfully started.
+<4>[1693224.628325] VBoxPciLinuxInit
+<6>[1693224.631309] vboxpci: IOMMU not found (not registered)
+<6>[1694606.245429] HDMI: ELD buf size is 0, force 128
+<6>[1694606.245446] HDMI: invalid ELD data byte 0
+<6>[1694606.245492] HDMI: ELD buf size is 0, force 128
+<6>[1694606.245514] HDMI: invalid ELD data byte 0
+<6>[1694610.919741] HDMI: ELD buf size is 0, force 128
+<6>[1694610.919758] HDMI: invalid ELD data byte 0
+<6>[1694610.919804] HDMI: ELD buf size is 0, force 128
+<6>[1694610.919827] HDMI: invalid ELD data byte 0
+<6>[1700360.102732] HDMI: ELD buf size is 0, force 128
+<6>[1700360.102749] HDMI: invalid ELD data byte 0
+<6>[1700360.102784] HDMI: ELD buf size is 0, force 128
+<6>[1700360.102807] HDMI: invalid ELD data byte 0
+<6>[1700365.028949] HDMI: ELD buf size is 0, force 128
+<6>[1700365.028967] HDMI: invalid ELD data byte 0
+<6>[1700365.029012] HDMI: ELD buf size is 0, force 128
+<6>[1700365.029035] HDMI: invalid ELD data byte 0
+<3>[1700799.243411] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1700799.244264] Raw EDID:
+<3>[1700799.245229]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1700799.246175]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1700799.247060]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1700799.247945]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1700799.248864]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1700799.249805]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1700799.250637]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1700799.251424]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1701674.513743] HDMI: ELD buf size is 0, force 128
+<6>[1701674.513773] HDMI: invalid ELD data byte 0
+<6>[1701674.513832] HDMI: ELD buf size is 0, force 128
+<6>[1701674.513847] HDMI: invalid ELD data byte 0
+<6>[1701679.484035] HDMI: ELD buf size is 0, force 128
+<6>[1701679.484055] HDMI: invalid ELD data byte 0
+<6>[1701679.484102] HDMI: ELD buf size is 0, force 128
+<6>[1701679.484116] HDMI: invalid ELD data byte 0
+<3>[1702310.957927] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1702310.959088] Raw EDID:
+<3>[1702310.960289]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1702310.961541]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1702310.962793]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1702310.963996]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1702310.965234]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1702310.966556]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1702310.967691]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1702310.968801]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1714104.776277] HDMI: ELD buf size is 0, force 128
+<6>[1714104.776294] HDMI: invalid ELD data byte 0
+<6>[1714104.776340] HDMI: ELD buf size is 0, force 128
+<6>[1714104.776362] HDMI: invalid ELD data byte 0
+<6>[1714109.214671] HDMI: ELD buf size is 0, force 128
+<6>[1714109.214689] HDMI: invalid ELD data byte 0
+<6>[1714109.214735] HDMI: ELD buf size is 0, force 128
+<6>[1714109.214758] HDMI: invalid ELD data byte 0
+<6>[1714152.287290] HDMI: ELD buf size is 0, force 128
+<6>[1714152.287310] HDMI: invalid ELD data byte 0
+<6>[1714152.287360] HDMI: ELD buf size is 0, force 128
+<6>[1714152.287375] HDMI: invalid ELD data byte 0
+<6>[1716620.223008] HDMI: ELD buf size is 0, force 128
+<6>[1716620.223026] HDMI: invalid ELD data byte 0
+<6>[1716620.223071] HDMI: ELD buf size is 0, force 128
+<6>[1716620.223094] HDMI: invalid ELD data byte 0
+<3>[1718720.928263] [drm:drm_edid_block_valid] *ERROR* EDID checksum is invalid, remainder is 130
+<3>[1718720.929477] Raw EDID:
+<3>[1718720.930620]  	00 ff ff ff ff ff ff 00 ff ff ff ff ff ff ff ff
+<3>[1718720.931888]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1718720.933122]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1718720.934322]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1718720.935574]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1718720.936884]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1718720.938045]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<3>[1718720.939156]  	ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+<6>[1731444.960962] usb 2-4: USB disconnect, device number 3
+<6>[1731444.961300] usblp0: removed
+<6>[1731447.294703] usb 2-4: new high-speed USB device number 4 using xhci_hcd
+<6>[1731447.311248] usb 2-4: New USB device found, idVendor=03f0, idProduct=b411
+<6>[1731447.311251] usb 2-4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>[1731447.311253] usb 2-4: Product: Photosmart 5510d series
+<6>[1731447.311255] usb 2-4: Manufacturer: HP
+<6>[1731447.311256] usb 2-4: SerialNumber: CN1A9113S705RW
+<6>[1731447.312244] usblp 2-4:1.1: usblp0: USB Bidirectional printer dev 4 if 1 alt 0 proto 2 vid 0x03F0 pid 0xB411
+<6>[1731447.312315] usb-storage 2-4:1.2: USB Mass Storage device detected
+<6>[1731447.312624] scsi6 : usb-storage 2-4:1.2
+<5>[1731448.310653] scsi 6:0:0:0: Direct-Access     HP       Photosmart 5510d 1.00 PQ: 0 ANSI: 5
+<5>[1731448.311059] sd 6:0:0:0: Attached scsi generic sg2 type 0
+<5>[1731448.314203] sd 6:0:0:0: [sdc] Attached SCSI removable disk
+<6>[1731707.673477] usblp0: removed
+<7>[1731707.673689] Did not find alt setting 1 for intf 0, config 1
+<7>[1731843.290901] Did not find alt setting 1 for intf 0, config 1
+<7>[1731959.924517] Did not find alt setting 1 for intf 0, config 1
+<7>[1732071.290973] Did not find alt setting 1 for intf 0, config 1
+<7>[1732151.706553] Did not find alt setting 1 for intf 0, config 1
+<7>[1732266.984731] Did not find alt setting 1 for intf 0, config 1
+<7>[1732331.321407] Did not find alt setting 1 for intf 0, config 1
+<7>[1732384.254695] Did not find alt setting 1 for intf 0, config 1
+<7>[1732521.605695] Did not find alt setting 1 for intf 0, config 1
+<7>[1732656.520807] Did not find alt setting 1 for intf 0, config 1
+<7>[1732715.829774] Did not find alt setting 1 for intf 0, config 1
+<7>[1732764.449685] Did not find alt setting 1 for intf 0, config 1
+<7>[1732839.334890] Did not find alt setting 1 for intf 0, config 1
+<7>[1732866.902815] Did not find alt setting 1 for intf 0, config 1
+<7>[1732904.687601] Did not find alt setting 1 for intf 0, config 1
+<7>[1732958.755506] Did not find alt setting 1 for intf 0, config 1
+<7>[1733031.963125] Did not find alt setting 1 for intf 0, config 1
+<7>[1733084.826045] Did not find alt setting 1 for intf 0, config 1
+<7>[1733240.735654] Did not find alt setting 1 for intf 0, config 1
+<7>[1733279.876280] Did not find alt setting 1 for intf 0, config 1
+<7>[1733303.195596] Did not find alt setting 1 for intf 0, config 1
+<7>[1733376.178363] Did not find alt setting 1 for intf 0, config 1
+<7>[1733400.677486] Did not find alt setting 1 for intf 0, config 1
+<7>[1733443.389901] Did not find alt setting 1 for intf 0, config 1
