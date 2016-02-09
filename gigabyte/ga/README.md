@@ -1,0 +1,1 @@
+Gigabyte GA-* boards
