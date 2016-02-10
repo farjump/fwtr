@@ -312,7 +312,7 @@
 			Arb:	Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
 			Ctrl:	Enable+ ID=0 ArbSelect=Fixed TC/VC=ff
 			Status:	NegoPending- InProgress-
-	Capabilities: [160 v1] Device Serial Number f4-02-00-00-36-4c-e0-00
+	Capabilities: [160 v1] Device Serial Number 00-00-00-00-00-00-00-00
 	Kernel driver in use: r8169
 
 02:00.0 Network controller [0280]: Qualcomm Atheros AR9485 Wireless Network Adapter [168c:0032] (rev 01)
