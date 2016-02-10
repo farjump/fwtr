@@ -428,7 +428,7 @@
 		CESta:	RxErr- BadTLP- BadDLLP+ Rollover- Timeout- NonFatalErr-
 		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
 		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
-	Capabilities: [180 v1] Device Serial Number ff-0e-2f-0d-28-d2-44-ff
+	Capabilities: [180 v1] Device Serial Number 00-00-00-00-00-00-00-00
 	Kernel driver in use: alx
 	Kernel modules: alx
 
@@ -470,7 +470,7 @@
 		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
 		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
 		AERCap:	First Error Pointer: 00, GenCap- CGenEn- ChkCap- ChkEn-
-	Capabilities: [140 v1] Device Serial Number ac-7b-a1-ff-ff-1d-de-22
+	Capabilities: [140 v1] Device Serial Number 00-00-00-00-00-00-00-00
 	Capabilities: [14c v1] Latency Tolerance Reporting
 		Max snoop latency: 71680ns
 		Max no snoop latency: 71680ns
