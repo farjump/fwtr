@@ -1,1 +1,0 @@
-Lenovo IdeaPad Laptops
