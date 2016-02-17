@@ -106,6 +106,10 @@ function to_vendor_id(vendor)
   vendor = tolower(vendor);
 
   switch (vendor) {
+    # Apple Inc.
+    case /apple/:
+      return "apple";
+
     # Phoenix Technologies Ltd.
     case /phoenix/:
       return "phoenix"
