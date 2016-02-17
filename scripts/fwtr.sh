@@ -19,7 +19,7 @@ fwtr_sanitize_path_() {
   gawk '{                     \
           l = tolower($0);    \
           gsub(/ /, "-", l);  \
-          gsub(/\//, "_", l); \
+          gsub(/[\/,]/, "_", l); \
           print l;            \
         }' <<EOF
 $@
