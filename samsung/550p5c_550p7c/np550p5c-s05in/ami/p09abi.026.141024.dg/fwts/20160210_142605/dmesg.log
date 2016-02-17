@@ -3,7 +3,7 @@
 <6>[    0.000000] Initializing cgroup subsys cpu
 <6>[    0.000000] Initializing cgroup subsys cpuacct
 <5>[    0.000000] Linux version 4.4.1 (sam@wolf) (gcc version 4.9.2 (Debian 4.9.2-10) ) #1 SMP Thu Feb 4 09:14:50 IST 2016
-<6>[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.4.1 root=UUID=ee1df19f-5782-42d2-94ca-ffad19b2801e ro quiet splash scsi_mod.use_blk_mq=1 rcutree.rcu_idle_gp_delay=1
+<6>[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-4.4.1 root=UUID= ro quiet splash scsi_mod.use_blk_mq=1 rcutree.rcu_idle_gp_delay=1
 <6>[    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
 <6>[    0.000000] x86/fpu: Supporting XSAVE feature 0x01: 'x87 floating point registers'
 <6>[    0.000000] x86/fpu: Supporting XSAVE feature 0x02: 'SSE registers'
@@ -160,7 +160,7 @@
 <7>[    0.000000] pcpu-alloc: [0] 0 1 2 3 4 5 6 7 
 <6>[    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 2035956
 <6>[    0.000000] Policy zone: Normal
-<5>[    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-4.4.1 root=UUID=ee1df19f-5782-42d2-94ca-ffad19b2801e ro quiet splash scsi_mod.use_blk_mq=1 rcutree.rcu_idle_gp_delay=1
+<5>[    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-4.4.1 root=UUID= ro quiet splash scsi_mod.use_blk_mq=1 rcutree.rcu_idle_gp_delay=1
 <6>[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
 <7>[    0.000000] Calgary: detecting Calgary via BIOS EBDA area
 <7>[    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!

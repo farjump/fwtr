@@ -26,7 +26,7 @@ Kernel Version: Linux version 4.4.1 (sam@wolf) (gcc version 4.9.2 (Debian
 
 Test 3 of 4: Gather kernel boot command line.
 Kernel boot command line: BOOT_IMAGE=/vmlinuz-4.4.1
-root=UUID=ee1df19f-5782-42d2-94ca-ffad19b2801e ro quiet splash
+root=UUID= ro quiet splash
 scsi_mod.use_blk_mq=1 rcutree.rcu_idle_gp_delay=1
 
 Test 4 of 4: Gather ACPI driver version.
@@ -53,7 +53,7 @@ Chassis Version   : N/A
 Chassic Asset Tag : No Asset Tag
 Product Name      : 550P5C/550P7C
 Product Serial #  : ***REMOVED***
-Product UUID      : 29ACAB80-3DF5-11E2-84EE-886D66FD2200
+Product UUID      : 
 Product Version   : P09ABI
 System Vendor     : SAMSUNG ELECTRONICS CO., LTD.
 
@@ -1736,7 +1736,7 @@ Assembler remark in line 8349
 Line | AML source
 --------------------------------------------------------------------------------
 08346|                         {
-08347|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+08347|                             If (LEqual (Arg0, ToUUID ("")))
 08348|                             {
 08349|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -1755,7 +1755,7 @@ Assembler remark in line 8428
 Line | AML source
 --------------------------------------------------------------------------------
 08425|                         {
-08426|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+08426|                             If (LEqual (Arg0, ToUUID ("")))
 08427|                             {
 08428|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -1774,7 +1774,7 @@ Assembler remark in line 8507
 Line | AML source
 --------------------------------------------------------------------------------
 08504|                         {
-08505|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+08505|                             If (LEqual (Arg0, ToUUID ("")))
 08506|                             {
 08507|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -1793,7 +1793,7 @@ Assembler remark in line 8586
 Line | AML source
 --------------------------------------------------------------------------------
 08583|                         {
-08584|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+08584|                             If (LEqual (Arg0, ToUUID ("")))
 08585|                             {
 08586|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -1830,7 +1830,7 @@ Assembler remark in line 8904
 Line | AML source
 --------------------------------------------------------------------------------
 08901|                         {
-08902|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+08902|                             If (LEqual (Arg0, ToUUID ("")))
 08903|                             {
 08904|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -1849,7 +1849,7 @@ Assembler remark in line 8983
 Line | AML source
 --------------------------------------------------------------------------------
 08980|                         {
-08981|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+08981|                             If (LEqual (Arg0, ToUUID ("")))
 08982|                             {
 08983|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -1868,7 +1868,7 @@ Assembler remark in line 9062
 Line | AML source
 --------------------------------------------------------------------------------
 09059|                         {
-09060|                             If (LEqual (Arg0, ToUUID ("a5fc708f-8775-4ba6-bd0c-ba90a1ec72f8")))
+09060|                             If (LEqual (Arg0, ToUUID ("")))
 09061|                             {
 09062|                                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                                         ^
@@ -2632,7 +2632,7 @@ causing a failure.
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 177
 Line | AML source
 --------------------------------------------------------------------------------
-00174|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00174|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00175|         }
 00176| 
 00177|         Method (COSC, 4, NotSerialized)
@@ -2646,7 +2646,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 177
 Line | AML source
 --------------------------------------------------------------------------------
-00174|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00174|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00175|         }
 00176| 
 00177|         Method (COSC, 4, NotSerialized)
@@ -3156,7 +3156,7 @@ Line | AML source
 00500|             Name (BUFF, Zero)
      |                     ^
      | Remark 2089: Object is not referenced    (Name is within method [HDSM])
-00501|             If (LEqual (Arg0, ToUUID ("a486d8f8-0bda-471b-a72b-6042a6b5bee0")))
+00501|             If (LEqual (Arg0, ToUUID ("")))
 00502|             {
 00503|                 Store (One, OPCI) /* \_SB_.PCI0.GFX0.HDSM.OPCI */
 ================================================================================
