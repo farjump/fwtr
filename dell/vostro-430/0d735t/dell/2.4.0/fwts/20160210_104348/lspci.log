@@ -417,7 +417,7 @@
 			Arb:	Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
 			Ctrl:	Enable+ ID=0 ArbSelect=Fixed TC/VC=ff
 			Status:	NegoPending- InProgress-
-	Capabilities: [160 v1] Device Serial Number 00-25-64-ff-fe-8c-5a-d2
+	Capabilities: [160 v1] Device Serial Number 
 	Capabilities: [16c v1] Power Budgeting <?>
 	Kernel driver in use: tg3
 

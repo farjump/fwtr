@@ -1344,7 +1344,7 @@ Line | AML source
      |                   ^
      | Remark 2120: Control Method should be made Serialized    (due to creation of named objects within)
 00037|         {
-00038|             If (LEqual (Arg0, ToUUID ("bdfaef30-aebb-11de-8a39-0800200c9a66")))
+00038|             If (LEqual (Arg0, ToUUID ("")))
 00039|             {
 ================================================================================
 
@@ -1358,7 +1358,7 @@ Assembler remark in line 40
 Line | AML source
 --------------------------------------------------------------------------------
 00037|         {
-00038|             If (LEqual (Arg0, ToUUID ("bdfaef30-aebb-11de-8a39-0800200c9a66")))
+00038|             If (LEqual (Arg0, ToUUID ("")))
 00039|             {
 00040|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                         ^
@@ -1740,7 +1740,7 @@ causing a failure.
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 148
 Line | AML source
 --------------------------------------------------------------------------------
-00145|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00145|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00146|         }
 00147| 
 00148|         Method (COSC, 4, NotSerialized)
@@ -1754,7 +1754,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 148
 Line | AML source
 --------------------------------------------------------------------------------
-00145|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00145|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00146|         }
 00147| 
 00148|         Method (COSC, 4, NotSerialized)

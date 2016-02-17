@@ -2990,7 +2990,7 @@ causing a failure.
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 95
 Line | AML source
 --------------------------------------------------------------------------------
-00092|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00092|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00093|         }
 00094| 
 00095|         Method (COSC, 4, NotSerialized)
@@ -3004,7 +3004,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 95
 Line | AML source
 --------------------------------------------------------------------------------
-00092|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00092|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00093|         }
 00094| 
 00095|         Method (COSC, 4, NotSerialized)
