@@ -45,17 +45,17 @@ BIOS Vendor       : LENOVO
 BIOS Version      : 8DET70WW (1.40 )
 BIOS Release Date : 05/14/2015
 Board Name        : 42912WA
-Board Serial #    : 1ZK6E1BF2R1
+Board Serial #    : 
 Board Version     : Not Available
 Board Asset Tag   : Not Available
-Chassis Serial #  : R9KBADM
+Chassis Serial #  : 
 Chassis Type      : 10
 Chassis Vendor    : LENOVO
 Chassis Version   : Not Available
 Chassic Asset Tag : No Asset Information
 Product Name      : 42912WA
-Product Serial #  : R9KBADM
-Product UUID      : 8107D330-2451-CB11-9DEE-AB3ACD6428A7
+Product Serial #  : 
+Product UUID      : 
 Product Version   : ThinkPad X220
 System Vendor     : LENOVO
 
@@ -1985,7 +1985,7 @@ Line | AML source
      |                               ^
      | Warning 3115: Not all control paths return a value    (_DSM)
 06765|                     {
-06766|                         If (\CMPB (Arg0, ToUUID ("a486d8f8-0bda-471b-a72b-6042a6b5bee0")))
+06766|                         If (\CMPB (Arg0, ToUUID ("")))
 06767|                         {
 ================================================================================
 
@@ -2006,7 +2006,7 @@ Line | AML source
      |                               ^
      | Warning 3107: Reserved method must return a value    (Integer/String/Buffer/Package/Reference required for _DSM)
 06765|                     {
-06766|                         If (\CMPB (Arg0, ToUUID ("a486d8f8-0bda-471b-a72b-6042a6b5bee0")))
+06766|                         If (\CMPB (Arg0, ToUUID ("")))
 06767|                         {
 ================================================================================
 
@@ -3635,7 +3635,7 @@ causing a failure.
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 95
 Line | AML source
 --------------------------------------------------------------------------------
-00092|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00092|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00093|         }
 00094| 
 00095|         Method (COSC, 4, NotSerialized)
@@ -3649,7 +3649,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 95
 Line | AML source
 --------------------------------------------------------------------------------
-00092|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00092|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00093|         }
 00094| 
 00095|         Method (COSC, 4, NotSerialized)

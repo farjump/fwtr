@@ -351,7 +351,7 @@
 			Arb:	Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
 			Ctrl:	Enable+ ID=0 ArbSelect=Fixed TC/VC=ff
 			Status:	NegoPending- InProgress-
-	Capabilities: [160 v1] Device Serial Number ef-7e-5d-ff-ff-ce-2c-b0
+	Capabilities: [160 v1] Device Serial Number 
 	Capabilities: [16c v1] Power Budgeting <?>
 	Kernel driver in use: bcma-pci-bridge
 
