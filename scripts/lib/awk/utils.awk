@@ -27,7 +27,7 @@ function sanitize_text(text) {
   # set of results we have so far.
   gsub(/[^[\x00-\x7F]]|[\(\)]/, "", text);
   gsub(/[[:space:]]{2,}/, " ", text);
-  return text;
+  return trim(text);
 }
 
 #
