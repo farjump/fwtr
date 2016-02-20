@@ -133,6 +133,10 @@ function to_vendor_id(vendor)
     case /samsung/:
       return "samsung";
 
+    # ASUSTeK Computer Inc.
+    case /asus/:
+      return "asus";
+
     # failsafe attempt:
     # vendor names with a single word sould be usable as they are.
     # matches things like: ibm, asus, intel, lenovo, dell...
