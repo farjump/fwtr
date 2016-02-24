@@ -1,0 +1,1 @@
+Asus K56CA
