@@ -8308,7 +8308,7 @@ Line | AML source
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 1481
 Line | AML source
 --------------------------------------------------------------------------------
-01478|             OSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2)
+01478|             OSC (ToUUID (""), REVS, SIZE, Local2)
 01479|         }
 01480| 
 01481|         Method (OSC, 4, NotSerialized)
@@ -8322,7 +8322,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 1481
 Line | AML source
 --------------------------------------------------------------------------------
-01478|             OSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2)
+01478|             OSC (ToUUID (""), REVS, SIZE, Local2)
 01479|         }
 01480| 
 01481|         Method (OSC, 4, NotSerialized)

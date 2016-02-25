@@ -4651,7 +4651,7 @@ Line | AML source
      |                         ^
      | Remark 2011: Use of compiler reserved name    (_T_1)
 00247|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
-00248|                 If (LEqual (Arg0, ToUUID ("bdfaef30-aebb-11de-8a39-0800200c9a66")))
+00248|                 If (LEqual (Arg0, ToUUID ("")))
 00249|                 {
 ================================================================================
 
@@ -4669,7 +4669,7 @@ Line | AML source
 00247|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                         ^
      | Remark 2011: Use of compiler reserved name    (_T_0)
-00248|                 If (LEqual (Arg0, ToUUID ("bdfaef30-aebb-11de-8a39-0800200c9a66")))
+00248|                 If (LEqual (Arg0, ToUUID ("")))
 00249|                 {
 00250|                     While (One)
 ================================================================================
@@ -5412,7 +5412,7 @@ causing a failure.
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 133
 Line | AML source
 --------------------------------------------------------------------------------
-00130|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00130|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00131|         }
 00132| 
 00133|         Method (COSC, 4, NotSerialized)
@@ -5426,7 +5426,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 133
 Line | AML source
 --------------------------------------------------------------------------------
-00130|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00130|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00131|         }
 00132| 
 00133|         Method (COSC, 4, NotSerialized)

@@ -365,7 +365,7 @@
 			Arb:	Fixed- WRR32- WRR64- WRR128- TWRR128- WRR256-
 			Ctrl:	Enable+ ID=0 ArbSelect=Fixed TC/VC=ff
 			Status:	NegoPending- InProgress-
-	Capabilities: [160 v1] Device Serial Number 01-91-81-fe-ff-4c-e0-00
+	Capabilities: [160 v1] Device Serial Number 
 	Kernel driver in use: rtl8192ce
 
 03:00.0 Ethernet controller [0200]: Qualcomm Atheros AR8152 v1.1 Fast Ethernet [1969:2060] (rev c1)
@@ -402,7 +402,7 @@
 		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
 		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
 		AERCap:	First Error Pointer: 14, GenCap+ CGenEn- ChkCap+ ChkEn-
-	Capabilities: [180 v1] Device Serial Number ff-21-8c-f5-60-eb-69-ff
+	Capabilities: [180 v1] Device Serial Number 
 	Kernel driver in use: atl1c
 
 ff:00.0 Host bridge [0600]: Intel Corporation Core Processor QuickPath Architecture Generic Non-core Registers [8086:2c62] (rev 02)
