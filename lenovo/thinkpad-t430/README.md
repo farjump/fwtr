@@ -1,0 +1,1 @@
+Lenovo ThinkPad T430
