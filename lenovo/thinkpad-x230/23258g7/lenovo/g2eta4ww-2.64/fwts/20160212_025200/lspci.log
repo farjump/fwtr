@@ -351,5 +351,5 @@
 		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
 		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
 		AERCap:	First Error Pointer: 00, GenCap- CGenEn- ChkCap- ChkEn-
-	Capabilities: [140 v1] Device Serial Number 60-67-20-ff-ff-c7-a4-50
+	Capabilities: [140 v1] Device Serial Number 
 
