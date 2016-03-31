@@ -47,18 +47,20 @@ Test.
 
 ### Live Image
 
-The easiest way to run it is using [the live image](https://wiki.ubuntu.com/FirmwareTestSuite/FirmwareTestSuiteLive).
-It does everything for you: from running the tools according to the test suites you selected, to saving the results
-in the key. You can then send the result with a pull request ;)
+The preferred way to run **fwts** is using [the live image](https://wiki.ubuntu.com/FirmwareTestSuite/FirmwareTestSuiteLive). You need to follow the instructions there in order to create a USB stick with **fwts**, then boot your computer with it in order to automatically run the data collection.
+
+Once the data collection is completed, reboot into Ubuntu (or any other operating system) and you can view the collected data on the USB stick.
+
+Afterwards, you can submit the data using a *pull request* or by contacting the author to do this for you.
 
 ### Command line
 
 Install or compile [FWTS] from the [sources](http://kernel.ubuntu.com/git/hwe/fwts.git).
-
-In the following example, we ask fwts to run every non-interactive tests available (--batch), dump firmware log files (-d), log the results in HTML (--log-type), and recreate new logs (-f).
+In the following example, we instal fwts, then run every non-interactive tests available (--batch), dump firmware log files (-d), log the results in HTML (--log-type), and recreate new logs (-f).
 
 Usage example:
 ```sh
+$ sudo apt-get install fwts
 $ mkdir my-test && cd my-test
 $ sudo fwts -d -f --log-type plaintext,html --batch
 $ ls
