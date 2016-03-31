@@ -55,13 +55,12 @@ in the key. You can then send the result with a pull request ;)
 
 Install or compile [FWTS] from the [sources](http://kernel.ubuntu.com/git/hwe/fwts.git).
 
+In the following example, we ask fwts to run every non-interactive tests available (--batch), dump firmware log files (-d), log the results in HTML (--log-type), and recreate new logs (-f).
+
 Usage example:
 ```sh
-# root privileges required
 $ mkdir my-test && cd my-test
-$ fwts -d -f --log-type plaintext,html --batch
-# ask fwts to run every non-interactive tests available (--batch), dump firmware log files (-d),
-# log the results in HTML (--log-type), and recreate new logs (-f).
+$ sudo fwts -d -f --log-type plaintext,html --batch
 $ ls
 results.html acpi.log lspcidump.log dmesg.log ...
 ```
