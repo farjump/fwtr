@@ -6,7 +6,7 @@ set -e
 # current working directory
 cwd=${0%/*}
 
-source $cwd/lib/sh/utils.sh
+. $cwd/lib/sh/utils.sh
 
 #
 # Transform the text to a path following fwtr naming rule:
@@ -286,14 +286,14 @@ fwtr_add() {
     log_info 'fwtr add: please review previous logs before continuing.'
     log_info 'fwtr add: options are available in order to correct wrong informations by forcing values.'
     log_info 'fwtr add: continue? (C-c or C-d to exit)'
-    read # set -e assumed
+    read c # set -e assumed
 
     log_info 'fwtr add: this shell program is about to be launched:'
     prog="`fwtr_add_text_ $src $dst`"
     echo "$prog"
     log_info
     log_info 'fwtr add: continue? (C-c or C-d to exit)'
-    read # set -e assumed
+    read c # set -e assumed
 
     [ -z "$dry_run" ] && eval "$prog"
 
