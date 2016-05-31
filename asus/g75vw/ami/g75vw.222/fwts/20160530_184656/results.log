@@ -46,7 +46,7 @@ BIOS Vendor       : American Megatrends Inc.
 BIOS Version      : G75VW.222
 BIOS Release Date : 11/06/2012
 Board Name        : G75VW
-Board Serial #    : BSN12345678901234567
+Board Serial #    : 
 Board Version     : 1.0
 Board Asset Tag   : ATN12345678901234567
 Chassis Serial #  : ###############
@@ -4522,7 +4522,7 @@ Line | AML source
      |                         ^
      | Remark 2011: Use of compiler reserved name    (_T_1)
 00246|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
-00247|                 If (LEqual (Arg0, ToUUID ("bdfaef30-aebb-11de-8a39-0800200c9a66")))
+00247|                 If (LEqual (Arg0, ToUUID ("")))
 00248|                 {
 ================================================================================
 
@@ -4540,7 +4540,7 @@ Line | AML source
 00246|                 Name (_T_0, Zero)  // _T_x: Emitted by ASL Compiler
      |                         ^
      | Remark 2011: Use of compiler reserved name    (_T_0)
-00247|                 If (LEqual (Arg0, ToUUID ("bdfaef30-aebb-11de-8a39-0800200c9a66")))
+00247|                 If (LEqual (Arg0, ToUUID ("")))
 00248|                 {
 00249|                     While (One)
 ================================================================================
@@ -5268,7 +5268,7 @@ causing a failure.
 FAILED [LOW] AMLAsmUnknown: Test 1, Assembler remark in line 132
 Line | AML source
 --------------------------------------------------------------------------------
-00129|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00129|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00130|         }
 00131| 
 00132|         Method (COSC, 4, NotSerialized)
@@ -5282,7 +5282,7 @@ FAILED [LOW] AMLAsmASL_MSG_SERIALIZED_REQUIRED: Test 1, Assembler remark in line
 132
 Line | AML source
 --------------------------------------------------------------------------------
-00129|             Return (COSC (ToUUID ("4077a616-290c-47be-9ebd-d87058713953"), REVS, SIZE, Local2))
+00129|             Return (COSC (ToUUID (""), REVS, SIZE, Local2))
 00130|         }
 00131| 
 00132|         Method (COSC, 4, NotSerialized)
